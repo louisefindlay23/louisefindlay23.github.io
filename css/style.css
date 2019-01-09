@@ -36,27 +36,36 @@ p {
 }
 
 #bio {
+	display: flex;
+	flex-flow: row wrap;
 	width: 100%;
 	height: auto;
 	overflow: auto;
 	background-color: #ffaa00;
 }
 
-.half {
-	width: 50%;
+.image {
+	width: 30%;
+	height: auto;
+	overflow: auto;
+	float: left;
+}
+
+.text {
+	width: 70%;
 	height: auto;
 	overflow: auto;
 	float: left;
 }
 
 #bio img {
-	width: 40%;
+	width: 60%;
 	height: auto;
 	overflow: auto;
-	margin: 5% 0 0 25%;
+	margin: 10% 0 0 20%;
 	border-radius: 50%;
 }
 
 #bio p {
-	padding: 2% 5%;
+	padding: 2%;
 }

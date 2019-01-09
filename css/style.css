@@ -21,10 +21,42 @@ h2 {
 	color: #ffaa00;
 }
 
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 14pt;
+	color: #ffffff;
+}
+
 .flexcontainer {
 	display: flex;
 	width: 80%;
 	height: auto;
 	padding: 2% 10%;
 	justify-content: space-between;
+}
+
+#bio {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	background-color: #ffaa00;
+}
+
+.half {
+	width: 50%;
+	height: auto;
+	overflow: auto;
+	float: left;
+}
+
+#bio img {
+	width: 40%;
+	height: auto;
+	overflow: auto;
+	margin: 5% 0 0 25%;
+	border-radius: 50%;
+}
+
+#bio p {
+	padding: 2% 5%;
 }

@@ -35,13 +35,23 @@ p {
 	justify-content: space-between;
 }
 
-#bio {
-	display: flex;
-	flex-flow: row wrap;
+.home-content {
 	width: 100%;
 	height: auto;
 	overflow: auto;
 	background-color: #ffaa00;
+}
+
+.home-content img {
+	width: 60%;
+	height: auto;
+	overflow: auto;
+	margin: 10% 0 0 20%;
+	border-radius: 50%;
+}
+
+.home-content p {
+	padding: 2%;
 }
 
 .image {
@@ -58,14 +68,27 @@ p {
 	float: left;
 }
 
-#bio img {
-	width: 60%;
-	height: auto;
-	overflow: auto;
-	margin: 10% 0 0 20%;
-	border-radius: 50%;
+#web {
+	background-color: #ffffff;
 }
 
-#bio p {
-	padding: 2%;
+#web .image {
+	margin-top: 2%;
+}
+
+#web .image, #web .text, #web p, #brand .image, #brand .text, #brand p {
+	float: right;
+	color: #ffaa00;
+}
+
+#author {
+	background-color: #ffaa00;
+}
+
+#brand {
+	background-color: #ffffff;
+}
+
+#brand .image {
+	margin-top: 2%;
 }

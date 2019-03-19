@@ -5,9 +5,11 @@ body {
 	height: auto;
 	padding: 0;
 	margin: 0;
+	overflow: auto;
+	max-width: 1920px;
 }
 
-h1 {
+h1, h2 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 50pt;
 	text-align: center;
@@ -15,86 +17,60 @@ h1 {
 }
 
 h2 {
-	font-family: "Montserrat", sans-serif;
 	font-size: 25pt;
-	text-align: center;
-	color: #ffaa00;
 }
 
 p {
 	font-family: "Lato", sans-serif;
 	font-size: 14pt;
-	color: #ffffff;
+	color: #ffaa00;
 }
 
 a {
 	text-decoration: none;
+	cursor: pointer;
+}
+
+img {
+	border-radius: 50%;
+}
+
+h1:hover, a:hover, a img:hover {
+	opacity: 0.75;
+}
+
+section img {
+	width: 50%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+section p {
+	margin-left: 25%;
+}
+
+.orange {
+	background-color: #ffaa00;
+}
+
+.orange p {
+	color: #ffffff;
+	margin-left: 0;
 }
 
 .flexcontainer {
 	display: flex;
-	width: 80%;
-	height: auto;
-	padding: 2% 10%;
-	justify-content: space-between;
-}
-
-.home-content {
 	width: 100%;
+	flex-flow: row wrap;
 	height: auto;
-	overflow: auto;
-	background-color: #ffaa00;
+	padding: 2% 0;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.home-content img {
-	width: 60%;
-	height: auto;
-	overflow: auto;
-	margin: 10% 0 0 20%;
-	border-radius: 50%;
-}
-
-.home-content p {
-	padding: 2%;
-}
-
-.image {
-	width: 30%;
-	height: auto;
-	overflow: auto;
-	float: left;
-}
-
-.text {
-	width: 70%;
-	height: auto;
-	overflow: auto;
-	float: left;
-}
-
-#web {
-	background-color: #ffffff;
-}
-
-#web .image {
-	margin-top: 2%;
-}
-
-#web .image, #web .text, #web p, #brand .image, #brand .text, #brand p {
-	float: right;
-	color: #ffaa00;
-}
-
-#author {
-	background-color: #ffaa00;
-}
-
-#brand {
-	background-color: #ffffff;
-}
-
-#brand .image {
-	margin-top: 2%;
+.flex-item {
+	width: 50%;
 }
 
 footer {
@@ -103,27 +79,15 @@ footer {
 	height: auto;
 	overflow: auto;
 	background-color: #ffaa00;
-	align-items: center;
 }
 
 footer h2 {
 	color: #ffffff;
 }
 
-footer .flexcontainer {
-	width: 25%;
-	float: left;
-	align-items: center;
-}
-
 i {
 	font-size: 50pt;
 	color: #ffffff;
-	cursor: pointer;
-}
-
-i:hover {
-	opacity: 0.75;
 }
 
 #silvernote {

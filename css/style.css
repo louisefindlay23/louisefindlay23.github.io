@@ -71,6 +71,30 @@ section p, section blockquote {
 	margin-right: 5%;
 }
 
+#about {
+	background: #C79C79;
+}
+
+#lfdesign {
+	background: #EA6001;
+}
+
+#books {
+	background: #7C808B;
+}
+
+.srp {
+	background: #2C5F3D;
+}
+
+#nescol {
+	background: #4D3B6B;
+}
+
+#worldskills {
+	background: #2B2627;
+}
+
 #silvernote {
 	background: #272727;
 }
@@ -85,6 +109,18 @@ section p, section blockquote {
 
 #julie {
 	background: #B79D3B;
+}
+
+#dreamless {
+	background: #847391;
+}
+
+#dragon {
+	background: #04637A;
+}
+
+#cyrenians {
+	background: #0876BD;
 }
 
 .flexcontainer {

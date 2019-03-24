@@ -9,11 +9,15 @@ body {
 	max-width: 1920px;
 }
 
+html {
+	background: #ffaa00;
+}
+
 h1, h2 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 50pt;
 	text-align: center;
-	color: #ffaa00;
+	color: #fff;
 }
 
 h2 {
@@ -23,7 +27,7 @@ h2 {
 p, blockquote {
 	font-family: "Lato", sans-serif;
 	font-size: 14pt;
-	color: #ffaa00;
+	color: #ffffff;
 }
 
 blockquote {
@@ -62,10 +66,25 @@ section p, section blockquote {
 	background-color: #ffaa00;
 }
 
-.orange p, .orange blockquote {
-	color: #ffffff;
+.left p, .left blockquote {
 	margin-left: 0;
 	margin-right: 5%;
+}
+
+#silvernote {
+	background: #272727;
+}
+
+#bbc {
+	background: #A60253;
+}
+
+#surface {
+	background: #666666;
+}
+
+#julie {
+	background: #B79D3B;
 }
 
 .flexcontainer {

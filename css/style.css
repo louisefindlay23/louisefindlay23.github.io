@@ -24,7 +24,7 @@ h2 {
 	font-size: 25pt;
 }
 
-p, blockquote {
+p, blockquote, cite {
 	font-family: "Lato", sans-serif;
 	font-size: 14pt;
 	color: #ffffff;
@@ -32,6 +32,15 @@ p, blockquote {
 
 blockquote {
 	font-style: italic;
+}
+
+cite {
+	font-style: normal;
+}
+
+.fa-circle {
+	font-size: 50px;
+	padding: 0 2%;
 }
 
 a {
@@ -62,6 +71,10 @@ section p, section blockquote {
 	margin-left: 25%;
 }
 
+.testimonial blockquote, cite {
+	margin-left: 5%;
+}
+
 .orange {
 	background-color: #ffaa00;
 }
@@ -87,7 +100,7 @@ section p, section blockquote {
 	background: #2C5F3D;
 }
 
-#nescol {
+.nescol {
 	background: #4D3B6B;
 }
 
@@ -133,8 +146,16 @@ section p, section blockquote {
 	align-items: center;
 }
 
+.dots.flexcontainer {
+	justify-content: center;
+}
+
 .flex-item {
 	width: 50%;
+}
+
+.testimonial .flex-item {
+	width: 100%;
 }
 
 footer {

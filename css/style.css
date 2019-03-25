@@ -43,7 +43,7 @@ cite {
 	padding: 0 2%;
 }
 
-a {
+a, .fa-chevron-left:hover, .fa-chevron-right:hover, .fa-circle {
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -76,7 +76,7 @@ section p, section blockquote {
 }
 
 .orange {
-	background-color: #ffaa00;
+	color: #ffaa00;
 }
 
 .left p, .left blockquote {
@@ -108,11 +108,15 @@ section p, section blockquote {
 	background: #2B2627;
 }
 
-#silvernote {
+#silvernoteblack {
 	background: #272727;
 }
 
-#bbc {
+#silvernotegrey {
+	background: #101010;
+}
+
+.bbc {
 	background: #A60253;
 }
 
@@ -166,9 +170,8 @@ section p, section blockquote {
 	margin-left: 50%;
 }
 
-.fa-circle:hover, .fa-chevron-left:hover, .fa-chevron-right:hover {
+.fa-chevron-left:hover, .fa-chevron-right:hover {
 	color: #ffaa00;
-	cursor: pointer;
 }
 
 footer {

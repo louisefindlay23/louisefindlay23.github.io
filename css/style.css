@@ -155,7 +155,20 @@ section p, section blockquote {
 }
 
 .testimonial .flex-item {
-	width: 100%;
+	width: 80%;
+}
+
+.arrow.flex-item {
+	width: 10%;
+}
+
+.fa-chevron-left {
+	margin-left: 50%;
+}
+
+.fa-circle:hover, .fa-chevron-left:hover, .fa-chevron-right:hover {
+	color: #ffaa00;
+	cursor: pointer;
 }
 
 footer {

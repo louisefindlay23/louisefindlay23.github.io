@@ -128,11 +128,19 @@ section p, section blockquote {
 	background: #B79D3B;
 }
 
+#lavender {
+	background: #6A5087;
+}
+
+#gold {
+	background: #908135;
+}
+
 #dreamless {
 	background: #847391;
 }
 
-#dragon {
+.dragon {
 	background: #04637A;
 }
 

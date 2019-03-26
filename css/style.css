@@ -108,6 +108,10 @@ section p, section blockquote {
 	background: #2B2627;
 }
 
+#worldskillsimg {
+	border: 10px solid #ffffff;
+}
+
 #silvernoteblack {
 	background: #272727;
 }

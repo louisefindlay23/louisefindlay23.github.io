@@ -205,3 +205,17 @@ i {
 	font-size: 50pt;
 	color: #ffffff;
 }
+
+@media only screen and (max-width: 1024px) {
+	
+	/* iPad (Landscape) */
+	
+	.medium {
+		display: none;
+	}
+	
+	section p, section blockquote {
+		margin-left: 10%;
+	}
+	
+}

@@ -80,7 +80,7 @@ section p, section blockquote {
 
 .left p, .left blockquote {
 	margin-left: 0;
-	margin-right: 5%;
+	margin-right: 25%;
 }
 
 #about {
@@ -206,16 +206,66 @@ i {
 	color: #ffffff;
 }
 
-@media only screen and (max-width: 1024px) {
+.small {
+	display: none;
+}
+
+@media only screen and (max-width: 1200px) {
 	
 	/* iPad (Landscape) */
 	
-	.medium {
+	.hidemedium {
 		display: none;
 	}
 	
+	#dreamless img, .dragon img {
+		width: 50%;
+	}
+	
+	#julie p {
+	margin-left: 5%;
+}
+	
+	#surface p, #cyrenians p {
+	margin-left: 0;
+	margin-right: 5%;
+}
+	
+}
+	
+@media only screen and (max-width: 950px) {
+	
+	/* Maximise text space */
+	
+	.flex-item {
+		width: 100%;
+	}
+	
+	section img {
+		margin-top: 2.5%;
+		margin-bottom: 2.5%;
+	}
+	
 	section p, section blockquote {
-		margin-left: 10%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+	
+	.left p, .left blockquote {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+	
+	.hidemedium {
+		display: block;
+	}
+	
+	span.hidemedium, .medium {
+		display: none;
+	}
+	
+	.small {
+		display: block;
 	}
 	
 }

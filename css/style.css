@@ -177,6 +177,10 @@ section p, section blockquote {
 	width: 10%;
 }
 
+.hidden {
+	visibility: hidden;
+}
+
 .fa-chevron-left {
 	margin-left: 50%;
 }

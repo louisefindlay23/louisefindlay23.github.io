@@ -210,7 +210,7 @@ i {
 	display: none;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
 	
 	/* iPad (Landscape) */
 	
@@ -222,10 +222,6 @@ i {
 		width: 50%;
 	}
 	
-	#julie p {
-	margin-left: 5%;
-}
-	
 	#surface p, #cyrenians p {
 	margin-left: 0;
 	margin-right: 5%;
@@ -233,7 +229,7 @@ i {
 	
 }
 	
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1000px) {
 	
 	/* Maximise text space */
 	
@@ -247,13 +243,13 @@ i {
 	}
 	
 	section p, section blockquote {
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 	
 	.left p, .left blockquote {
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 	
 	.hidemedium {

@@ -19,7 +19,7 @@ $(document).ready(function() {
 	
 	$(".webslide2").click(function(){
 		
-    	$(".nescol.testimonial, .bbc.testimonial").hide();
+        $(".nescol.testimonial, .bbc.testimonial").hide();
 		$("#silvernotegrey.testimonial").show();
 		$(".dots .webslide1, .dots .webslide3").removeClass("orange");
 		$(".dots .webslide2").addClass("orange");
@@ -29,7 +29,7 @@ $(document).ready(function() {
 	
 	$(".webslide3").click(function(){
 		
-    	$(".nescol.testimonial, #silvernotegrey.testimonial").hide();
+        $(".nescol.testimonial, #silvernotegrey.testimonial").hide();
 		$(".bbc.testimonial").show();
 		$(".dots .webslide1, .dots .webslide2").removeClass("orange");
 		$(".dots .webslide3").addClass("orange");
@@ -39,7 +39,7 @@ $(document).ready(function() {
 	
 	$(".authorslide1").click(function(){
 		
-    	$("#gold.testimonial, .dragon.testimonial").hide();
+        $("#gold.testimonial, .dragon.testimonial").hide();
 		$("#lavender.testimonial").show();
 		$(".dots .authorslide2, .dots .authorslide3").removeClass("orange");
 		$(".dots .authorslide1").addClass("orange");
@@ -49,7 +49,7 @@ $(document).ready(function() {
 	
 	$(".authorslide2").click(function(){
 		
-    	$("#lavender.testimonial, .dragon.testimonial").hide();
+        $("#lavender.testimonial, .dragon.testimonial").hide();
 		$("#gold.testimonial").show();
 		$(".dots .authorslide1, .dots .authorslide3").removeClass("orange");
 		$(".dots .authorslide2").addClass("orange");
@@ -59,7 +59,7 @@ $(document).ready(function() {
 	
 	$(".authorslide3").click(function(){
 		
-    	$("#lavender.testimonial, #gold.testimonial").hide();
+        $("#lavender.testimonial, #gold.testimonial").hide();
 		$(".dragon.testimonial").show();
 		$(".dots .authorslide1, .dots .authorslide2").removeClass("orange");
 		$(".dots .authorslide3").addClass("orange");

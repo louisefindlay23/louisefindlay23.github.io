@@ -9,8 +9,9 @@ $(document).ready(function() {
 	
 	$(".webslide1").click(function(){
 		
-		$("#silvernotegrey.testimonial, .bbc.testimonial").hide();
+        $(".testimonial blockquote, .testimonial cite").fadeOut();
 		$(".nescol.testimonial").show();
+        $(".testimonial blockquote, .testimonial cite").fadeIn();
 		$(".dots .webslide2, .dots .webslide3").removeClass("orange");
 		$(".dots .webslide1").addClass("orange");
 		$(".fa-chevron-left").addClass("hidden");
@@ -19,8 +20,7 @@ $(document).ready(function() {
 	
 	$(".webslide2").click(function(){
 		
-        $(".nescol.testimonial, .bbc.testimonial").hide();
-		$("#silvernotegrey.testimonial").show();
+		$(".nescol.testimonial").addClass("#silvernote");
 		$(".dots .webslide1, .dots .webslide3").removeClass("orange");
 		$(".dots .webslide2").addClass("orange");
 		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");

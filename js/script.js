@@ -23,8 +23,7 @@ $(document).ready(function() {
 		$("#silvernotegrey.testimonial").show();
 		$(".dots .webslide1, .dots .webslide3").removeClass("orange");
 		$(".dots .webslide2").addClass("orange");
-		$(".fa-chevron-left").removeClass("hidden");
-		$(".fa-chevron-right").removeClass("hidden");
+		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
 });
 	
 	$(".webslide3").click(function(){
@@ -53,8 +52,7 @@ $(document).ready(function() {
 		$("#gold.testimonial").show();
 		$(".dots .authorslide1, .dots .authorslide3").removeClass("orange");
 		$(".dots .authorslide2").addClass("orange");
-		$(".fa-chevron-left").removeClass("hidden");
-		$(".fa-chevron-right").removeClass("hidden");
+		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
 	});
 	
 	$(".authorslide3").click(function(){

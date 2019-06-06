@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 	
-    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial").hide();
+    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial").hide();
 	
 	$(".fa-chevron-left").addClass("hidden");
 	
@@ -11,6 +11,7 @@ $(document).ready(function() {
 		
         $(".testimonial blockquote, .testimonial cite").fadeOut();
 		$(".nescol.testimonial").show();
+        $(".bbc.testimonial, #silvernotegrey.testimonial").hide();
         $(".testimonial blockquote, .testimonial cite").fadeIn();
 		$(".dots .webslide2, .dots .webslide3").removeClass("orange");
 		$(".dots .webslide1").addClass("orange");
@@ -20,7 +21,8 @@ $(document).ready(function() {
 	
 	$(".webslide2").click(function(){
 		
-		$(".nescol.testimonial").addClass("#silvernote");
+		$(".nescol.testimonial, .bbc.testimonial").hide();
+        $("#silvernotegrey.testimonial").show();
 		$(".dots .webslide1, .dots .webslide3").removeClass("orange");
 		$(".dots .webslide2").addClass("orange");
 		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
@@ -63,5 +65,24 @@ $(document).ready(function() {
 		$(".dots .authorslide3").addClass("orange");
 		$(".fa-chevron-right").addClass("hidden");
 		$(".fa-chevron-left").removeClass("hidden");
+	});
+    
+    $(".brandingslide1").click(function(){
+		
+        $("#julie.testimonial").hide();
+		$(".srp.testimonial").show();
+		$(".dots .brandingslide2").removeClass("orange");
+		$(".dots .brandingslide1").addClass("orange");
+		$(".fa-chevron-left").addClass("hidden");
+		$(".fa-chevron-right").removeClass("hidden");
+	});
+	
+	$(".brandingslide2").click(function(){
+		
+        $(".srp.testimonial").hide();
+		$("#julie.testimonial").show();
+		$(".dots .brandingslide1").removeClass("orange");
+		$(".dots .brandingslide2").addClass("orange");
+		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
 	});
 });

@@ -9,10 +9,8 @@ $(document).ready(function() {
 	
 	$(".webslide1").click(function(){
 		
-        $(".testimonial blockquote, .testimonial cite").fadeOut();
 		$(".nescol.testimonial").show();
         $(".bbc.testimonial, #silvernotegrey.testimonial").hide();
-        $(".testimonial blockquote, .testimonial cite").fadeIn();
 		$(".dots .webslide2, .dots .webslide3").removeClass("orange");
 		$(".dots .webslide1").addClass("orange");
 		$(".fa-chevron-left").addClass("hidden");

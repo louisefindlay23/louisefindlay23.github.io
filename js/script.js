@@ -3,9 +3,11 @@
 
 $(document).ready(function() {
 	
-    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial").hide();
+    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, .projectpage").hide();
 	
 	$(".fa-chevron-left").addClass("hidden");
+	
+	// Testimonial Controls
 	
 	$(".webslide1").click(function(){
 		
@@ -85,4 +87,12 @@ $(document).ready(function() {
 		$(".fa-chevron-left").removeClass("hidden");
 		
 	});
+	
+	// Project Pages navigation
+	
+	$("#silvernoteblack img").click(function(){
+		
+		$(".testimonial, .bbc, .left").hide();
+        $(".projectpage").show();
+});
 });

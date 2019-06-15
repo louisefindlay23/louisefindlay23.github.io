@@ -81,6 +81,8 @@ $(document).ready(function() {
 		$("#julie.testimonial").show();
 		$(".dots .brandingslide1").removeClass("orange");
 		$(".dots .brandingslide2").addClass("orange");
-		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
+		$(".fa-chevron-right").addClass("hidden");
+		$(".fa-chevron-left").removeClass("hidden");
+		
 	});
 });

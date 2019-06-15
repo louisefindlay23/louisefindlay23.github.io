@@ -6,7 +6,7 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow: auto;
-	max-width: 1920px;
+	width: 100%;
 }
 
 html {
@@ -61,7 +61,6 @@ h1:hover, a:hover, a img:hover {
 }
 
 section img {
-	width: 50%;
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -81,7 +80,7 @@ section p, section blockquote {
 
 .left p, .left blockquote {
 	margin-left: 0;
-	margin-right: 5%;
+	margin-right: 25%;
 }
 
 #about {
@@ -178,6 +177,10 @@ section p, section blockquote {
 	width: 10%;
 }
 
+.hidden {
+	visibility: hidden;
+}
+
 .fa-chevron-left {
 	margin-left: 50%;
 }
@@ -201,4 +204,64 @@ footer h2 {
 i {
 	font-size: 50pt;
 	color: #ffffff;
+}
+
+.small {
+	display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+	
+	/* iPad (Landscape) */
+	
+	.hidemedium {
+		display: none;
+	}
+	
+	#dreamless img, .dragon img {
+		width: 50%;
+	}
+	
+	#surface p, #cyrenians p {
+	margin-left: 0;
+	margin-right: 5%;
+}
+	
+}
+	
+@media only screen and (max-width: 1000px) {
+	
+	/* Maximise text space */
+	
+	.flex-item {
+		width: 100%;
+	}
+	
+	section img {
+		margin-top: 2.5%;
+		margin-bottom: 2.5%;
+	}
+	
+	section p, section blockquote {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+	
+	.left p, .left blockquote {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+	
+	.hidemedium {
+		display: block;
+	}
+	
+	span.hidemedium, .medium {
+		display: none;
+	}
+	
+	.small {
+		display: block;
+	}
+	
 }

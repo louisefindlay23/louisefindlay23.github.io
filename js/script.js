@@ -87,12 +87,4 @@ $(document).ready(function() {
 		$(".fa-chevron-left").removeClass("hidden");
 		
 	});
-	
-	// Project Pages navigation
-	
-	$("#silvernoteblack img").click(function(){
-		
-		$(".testimonial, .bbc, .left").hide();
-        $(".projectpage").show();
-});
 });

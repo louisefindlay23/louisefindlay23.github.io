@@ -173,6 +173,10 @@ section p, section blockquote {
 	width: 80%;
 }
 
+.testimonial img {
+	width: 100%;
+}
+
 .arrow.flex-item {
 	width: 10%;
 }

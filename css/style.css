@@ -13,7 +13,7 @@ html {
 	background: #ffaa00;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 50pt;
 	text-align: center;
@@ -22,6 +22,10 @@ h1, h2 {
 
 h2 {
 	font-size: 25pt;
+}
+
+h3 {
+	font-size: 20pt;
 }
 
 p, blockquote, cite {
@@ -111,7 +115,7 @@ section p, section blockquote {
 	border: 10px solid #ffffff;
 }
 
-#silvernoteblack {
+#silvernoteblack, #sn-test1, #sn-test2 {
 	background: #272727;
 }
 
@@ -174,7 +178,7 @@ section p, section blockquote {
 }
 
 .testimonial img {
-	width: 100%;
+	width: 80%;
 }
 
 .arrow.flex-item {
@@ -212,6 +216,10 @@ i {
 
 .small {
 	display: none;
+}
+
+#top {
+	padding-top: 5%;
 }
 
 @media only screen and (max-width: 1300px) {

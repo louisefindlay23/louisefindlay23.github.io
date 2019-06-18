@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 	
-    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, .projectpage").hide();
+    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, #sn-test2").hide();
 	
 	$(".fa-chevron-left").addClass("hidden");
 	
@@ -86,5 +86,25 @@ $(document).ready(function() {
 		$(".fa-chevron-right").addClass("hidden");
 		$(".fa-chevron-left").removeClass("hidden");
 		
+	});
+	
+	$(".silvernoteslide1").click(function(){
+		
+        $("#sn-test2").hide();
+		$("#sn-test1").show();
+		$(".dots .silvernoteslide2").removeClass("orange");
+		$(".dots .silvernoteslide1").addClass("orange");
+		$(".fa-chevron-left").addClass("hidden");
+		$(".fa-chevron-right").removeClass("hidden");
+	});
+	
+	$(".silvernoteslide2").click(function(){
+		
+        $("#sn-test1").hide();
+		$("#sn-test2").show();
+		$(".dots .silvernoteslide1").removeClass("orange");
+		$(".dots .silvernoteslide2").addClass("orange");
+		$(".fa-chevron-right").addClass("hidden");
+		$(".fa-chevron-left").removeClass("hidden");
 	});
 });

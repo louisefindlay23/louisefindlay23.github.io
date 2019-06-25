@@ -226,6 +226,10 @@ i {
     padding-bottom: 0;
 }
 
+.no-margin {
+    margin: 0;
+}
+
 .subpage p {
     margin-left: 10%;
 }

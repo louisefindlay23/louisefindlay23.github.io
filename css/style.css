@@ -218,8 +218,16 @@ i {
 	display: none;
 }
 
-#top {
-	padding-top: 5%;
+.no-top {
+    padding-top: 0;
+}
+
+.no-bottom {
+    padding-bottom: 0;
+}
+
+.subpage p {
+    margin-left: 10%;
 }
 
 @media only screen and (max-width: 1300px) {

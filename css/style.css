@@ -115,11 +115,11 @@ section p, section blockquote {
 	border: 10px solid #ffffff;
 }
 
-#silvernoteblack, #sn-test1, #sn-test2 {
+#silvernoteblack, #snbck2 {
 	background: #272727;
 }
 
-#silvernotegrey {
+#silvernotegrey, #sn-test1, #sn-test2 {
 	background: #101010;
 }
 
@@ -178,7 +178,7 @@ section p, section blockquote {
 }
 
 .testimonial img {
-	width: 80%;
+	width: 60%;
 }
 
 .arrow.flex-item {

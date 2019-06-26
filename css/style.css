@@ -115,21 +115,31 @@ section p, section blockquote {
 	border: 10px solid #ffffff;
 }
 
+/* Black */
+
+#silvernotegrey, #sn-test1, #sn-test2, #bbc-test1, #bbc-test2, #bbc-test3, #bbcbck2 {
+	background: #101010;
+}
+
+/* Dark Grey */
+
 #silvernoteblack, #snbck2 {
 	background: #272727;
 }
 
-#silvernotegrey, #sn-test1, #sn-test2 {
-	background: #101010;
+/* Light Grey */
+
+#surface {
+	background: #666666;
 }
+
+/* Hot Pink */
 
 .bbc {
 	background: #A60253;
 }
 
-#surface {
-	background: #666666;
-}
+/* Aubergine Pink */
 
 #julie {
 	background: #B79D3B;
@@ -143,13 +153,19 @@ section p, section blockquote {
 	background: #908135;
 }
 
+/* More purple lavendar */
+
 #dreamless {
 	background: #847391;
 }
 
+/* Deep medium blue */
+
 .dragon {
 	background: #04637A;
 }
+
+/* Light blue */
 
 #cyrenians {
 	background: #0876BD;

@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 	
-    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, #sn-test2").hide();
+    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, #sn-test2, #bbc-test2, #bbc-test3").hide();
 	
 	$(".fa-chevron-left").addClass("hidden");
 	
@@ -106,5 +106,34 @@ $(document).ready(function() {
 		$(".dots .silvernoteslide2").addClass("orange");
 		$(".fa-chevron-right").addClass("hidden");
 		$(".fa-chevron-left").removeClass("hidden");
+	});
+    
+    $(".bbcslide1").click(function(){
+		
+        $("#bbc-test2, #bbc-test3").hide();
+		$("#bbc-test1").show();
+		$(".dots .bbcslide2, .dots .bbcslide3").removeClass("orange");
+		$(".dots .bbcslide1").addClass("orange");
+		$(".fa-chevron-left").addClass("hidden");
+		$(".fa-chevron-right").removeClass("hidden");
+	});
+	
+	$(".bbcslide2").click(function(){
+		
+        $("#bbc-test1, #bbc-test3").hide();
+		$("#bbc-test2").show();
+		$(".dots .bbcslide1, .dots .bbcslide3").removeClass("orange");
+		$(".dots .bbcslide2").addClass("orange");
+		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
+	});
+    
+    $(".bbcslide3").click(function(){
+		
+        $("#bbc-test1, #bbc-test2").hide();
+		$("#bbc-test3").show();
+		$(".dots .bbcslide1, .dots .bbcslide2").removeClass("orange");
+		$(".dots .bbcslide3").addClass("orange");
+		$(".fa-chevron-left").removeClass("hidden");
+		$(".fa-chevron-right").addClass("hidden");
 	});
 });

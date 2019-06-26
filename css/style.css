@@ -99,9 +99,19 @@ section p, section blockquote {
 	background: #7C808B;
 }
 
+/* Light Green */
+
+.lightgreen {
+    background: #489963 !important;
+}
+
+/* Green */
+
 .srp {
 	background: #2C5F3D;
 }
+
+/* Purple */
 
 .nescol {
 	background: #4D3B6B;
@@ -145,8 +155,20 @@ section p, section blockquote {
 
 /* Aubergine Pink */
 
+.aubergine {
+    background: #482e3b !important;
+}
+
+/* Gold */
+
 #julie {
 	background: #B79D3B;
+}
+
+/* Light Pink */
+
+.lightpink {
+    background: #d47da7;
 }
 
 #lavender {
@@ -161,6 +183,12 @@ section p, section blockquote {
 
 #dreamless {
 	background: #847391;
+}
+
+/* Medium blue */
+
+.mediumblue {
+    background: #058dad !important;
 }
 
 /* Deep medium blue */

@@ -139,7 +139,7 @@ section p, section blockquote {
 
 /* Light Grey */
 
-#surface {
+#surface, #lightgrey {
 	background: #666666;
 }
 

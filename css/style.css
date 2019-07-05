@@ -64,7 +64,7 @@ h1:hover, a:hover, a img:hover {
 	opacity: 0.75;
 }
 
-section img {
+section img, section iframe {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -171,18 +171,23 @@ section p, section blockquote {
     background: #d47da7;
 }
 
-#lavender {
-	background: #6A5087;
-}
 
 #gold {
 	background: #908135;
 }
 
+#yellow {
+    background: #BC8022;
+}
+
 /* More purple lavendar */
 
-#dreamless {
+#dreamless, .purple {
 	background: #847391;
+}
+
+#lavender, #dreamless-test1, #dreamless-test2, #dreamless-test3 {
+	background: #6A5087;
 }
 
 /* Medium blue */
@@ -285,6 +290,11 @@ i {
 .projectimg {
     width: 60%;
     padding-top: 10%;
+}
+
+iframe {
+    width: 60%;
+    height: 500px;
 }
 
 @media only screen and (max-width: 1300px) {

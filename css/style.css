@@ -147,10 +147,20 @@ section p, section blockquote {
     background: #858585;
 }
 
+#lightgrey3 {
+	background: #bababa;
+}
+
 /* Hot Pink */
 
 .bbc {
 	background: #A60253;
+}
+
+/* Medium Pink */
+
+.mediumpink {
+	background: #e75480;
 }
 
 /* Aubergine Pink */

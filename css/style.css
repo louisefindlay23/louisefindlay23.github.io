@@ -190,7 +190,7 @@ section p, section blockquote {
     background: #BC8022;
 }
 
-/* More purple lavendar */
+/* More purple lavender */
 
 #dreamless, .purple {
 	background: #847391;
@@ -198,6 +198,14 @@ section p, section blockquote {
 
 #lavender, #dreamless-test1, #dreamless-test2, #dreamless-test3 {
 	background: #6A5087;
+}
+
+#lightpurple {
+	background: #8264a3;
+}
+
+#lilac {
+	background: #a578b3;
 }
 
 /* Medium blue */

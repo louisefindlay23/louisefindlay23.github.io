@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 	
-    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, #sn-test2, #bbc-test2, #bbc-test3, #dreamless-test2, #dreamless-test3").hide();
+    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, #sn-test2, #sn-test3, #bbc-test2, #bbc-test3, #dreamless-test2, #dreamless-test3").hide();
 	
 	$(".fa-chevron-left").addClass("hidden");
 	
@@ -90,9 +90,9 @@ $(document).ready(function() {
 	
 	$(".silvernoteslide1").click(function(){
 		
-        $("#sn-test2").hide();
+        $("#sn-test2, #sn-test3").hide();
 		$("#sn-test1").show();
-		$(".dots .silvernoteslide2").removeClass("orange");
+		$(".dots .silvernoteslide2, .dots .silvernoteslide3").removeClass("orange");
 		$(".dots .silvernoteslide1").addClass("orange");
 		$(".fa-chevron-left").addClass("hidden");
 		$(".fa-chevron-right").removeClass("hidden");
@@ -100,11 +100,19 @@ $(document).ready(function() {
 	
 	$(".silvernoteslide2").click(function(){
 		
-        $("#sn-test1").hide();
+        $("#sn-test1, #sn-test3").hide();
 		$("#sn-test2").show();
-		$(".dots .silvernoteslide1").removeClass("orange");
+		$(".dots .silvernoteslide1, .dots .silvernoteslide3").removeClass("orange");
 		$(".dots .silvernoteslide2").addClass("orange");
-		$(".fa-chevron-right").addClass("hidden");
+		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
+	});
+	
+	$(".silvernoteslide3").click(function(){
+		
+        $("#sn-test1, #sn-test2").hide();
+		$("#sn-test3").show();
+		$(".dots .silvernoteslide1, .dots .silvernoteslide2").removeClass("orange");
+		$(".dots .silvernoteslide3").addClass("orange");
 		$(".fa-chevron-left").removeClass("hidden");
 	});
     

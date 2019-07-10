@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 	
-    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, #sn-test2, #sn-test3, #bbc-test2, #bbc-test3, #dreamless-test2, #dreamless-test3").hide();
+    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, #sn-test2, #sn-test3, #bbc-test2, #bbc-test3, #surface-test2, #surface-test3, #dreamless-test2, #dreamless-test3").hide();
 	
 	$(".fa-chevron-left").addClass("hidden");
 	
@@ -141,6 +141,35 @@ $(document).ready(function() {
 		$("#bbc-test3").show();
 		$(".dots .bbcslide1, .dots .bbcslide2").removeClass("orange");
 		$(".dots .bbcslide3").addClass("orange");
+		$(".fa-chevron-left").removeClass("hidden");
+		$(".fa-chevron-right").addClass("hidden");
+	});
+	
+	$(".surfaceslide1").click(function(){
+		
+        $("#surface-test2, #surface-test3").hide();
+		$("#surface-test1").show();
+		$(".dots .surfaceslide2, .dots .surfaceslide3").removeClass("orange");
+		$(".dots .surfaceslide1").addClass("orange");
+		$(".fa-chevron-left").addClass("hidden");
+		$(".fa-chevron-right").removeClass("hidden");
+	});
+	
+	$(".surfaceslide2").click(function(){
+		
+        $("#surface-test1, #surface-test3").hide();
+		$("#surface-test2").show();
+		$(".dots .surfaceslide1, .dots .surfaceslide3").removeClass("orange");
+		$(".dots .surfaceslide2").addClass("orange");
+		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
+	});
+    
+    $(".surfaceslide3").click(function(){
+		
+        $("#surface-test1, #surface-test2").hide();
+		$("#surface-test3").show();
+		$(".dots .surfaceslide1, .dots .surfaceslide2").removeClass("orange");
+		$(".dots .surfaceslide3").addClass("orange");
 		$(".fa-chevron-left").removeClass("hidden");
 		$(".fa-chevron-right").addClass("hidden");
 	});

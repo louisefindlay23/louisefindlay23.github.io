@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 	
-    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, #sn-test2, #sn-test3, #bbc-test2, #bbc-test3, #surface-test2, #surface-test3, #dreamless-test2, #dreamless-test3").hide();
+    $("#silvernotegrey.testimonial, .bbc.testimonial, .dragon.testimonial, #gold.testimonial, #julie.testimonial, #sn-test2, #sn-test3, #bbc-test2, #bbc-test3, #surface-test2, #surface-test3, #dreamless-test2, #dragon-test3, #dragon-test2, #dreamless-test3").hide();
 	
 	$(".fa-chevron-left").addClass("hidden");
 	

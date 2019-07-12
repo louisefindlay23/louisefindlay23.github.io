@@ -216,7 +216,7 @@ section p, section blockquote {
 
 /* Deep medium blue */
 
-.dragon {
+.dragon, #dragon-test1, #dragon-test2, #dragon-test3 {
 	background: #04637A;
 }
 

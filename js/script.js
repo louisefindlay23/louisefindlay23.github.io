@@ -231,4 +231,33 @@ $(document).ready(function() {
 		$(".fa-chevron-left").removeClass("hidden");
 		$(".fa-chevron-right").addClass("hidden");
 	});
+	
+	$(".cyreniansslide1").click(function(){
+		
+        $("#cyrenians-test2, #cyrenians-test3").hide();
+		$("#cyrenians-test1").show();
+		$(".dots .cyreniansslide2, .dots .cyreniansslide3").removeClass("orange");
+		$(".dots .cyreniansslide1").addClass("orange");
+		$(".fa-chevron-left").addClass("hidden");
+		$(".fa-chevron-right").removeClass("hidden");
+	});
+	
+	$(".cyreniansslide2").click(function(){
+		
+        $("#cyrenians-test1, #cyrenians-test3").hide();
+		$("#cyrenians-test2").show();
+		$(".dots .cyreniansslide1, .dots .cyreniansslide3").removeClass("orange");
+		$(".dots .cyreniansslide2").addClass("orange");
+		$(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
+	});
+    
+    $(".cyreniansslide3").click(function(){
+		
+        $("#cyrenians-test1, #cyrenians-test2").hide();
+		$("#cyrenians-test3").show();
+		$(".dots .cyreniansslide1, .dots .cyreniansslide2").removeClass("orange");
+		$(".dots .cyreniansslide3").addClass("orange");
+		$(".fa-chevron-left").removeClass("hidden");
+		$(".fa-chevron-right").addClass("hidden");
+	});
 });

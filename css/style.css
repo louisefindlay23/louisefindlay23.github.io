@@ -222,8 +222,14 @@ section p, section blockquote {
 
 /* Light blue */
 
-#cyrenians {
+#cyrenians, #cyrenians-test1, #cyrenians-test2, #cyrenians-test3 {
 	background: #0876BD;
+}
+
+/* Very light blue */
+
+#lightblue {
+    background: #05c1ed;
 }
 
 .flexcontainer {

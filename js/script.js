@@ -273,7 +273,7 @@ $(document).ready(function() {
 	
 	$(".srpslide2").click(function(){
 		
-        $("srp-test1, #srp-test3").hide();
+        $("#srp-test1, #srp-test3").hide();
 		$("#srp-test2").show();
 		$(".dots .srpslide1, .dots .srpslide3").removeClass("orange");
 		$(".dots .srpslide2").addClass("orange");

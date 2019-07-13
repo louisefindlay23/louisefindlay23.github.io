@@ -105,9 +105,15 @@ section p, section blockquote {
     background: #489963 !important;
 }
 
+/* Forest Green */
+
+#forestgreen {
+    background: #228B22;
+}
+
 /* Green */
 
-.srp {
+.srp, #srp-test1, #srp-test2, #srp-test3 {
 	background: #2C5F3D;
 }
 
@@ -313,6 +319,10 @@ i {
 
 .projectimg {
     width: 60%;
+    padding-top: 10%;
+}
+
+.top {
     padding-top: 10%;
 }
 

@@ -13,7 +13,7 @@ html {
 	background: #ffaa00;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 50pt;
 	text-align: center;
@@ -22,6 +22,10 @@ h1, h2 {
 
 h2 {
 	font-size: 25pt;
+}
+
+h3 {
+	font-size: 20pt;
 }
 
 p, blockquote, cite {
@@ -60,7 +64,7 @@ h1:hover, a:hover, a img:hover {
 	opacity: 0.75;
 }
 
-section img {
+section img, section iframe {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -95,9 +99,25 @@ section p, section blockquote {
 	background: #7C808B;
 }
 
-.srp {
+/* Light Green */
+
+.lightgreen {
+    background: #489963 !important;
+}
+
+/* Forest Green */
+
+#forestgreen {
+    background: #228B22;
+}
+
+/* Green */
+
+.srp, #srp-test1, #srp-test2, #srp-test3 {
 	background: #2C5F3D;
 }
+
+/* Purple */
 
 .nescol {
 	background: #4D3B6B;
@@ -111,44 +131,111 @@ section p, section blockquote {
 	border: 10px solid #ffffff;
 }
 
-#silvernoteblack {
+/* Black */
+
+#silvernotegrey, #sn-test1, #sn-test2, #sn-test3, #bbc-test1, #bbc-test2, #bbc-test3, #bbcbck2 {
+	background: #101010;
+}
+
+/* Dark Grey */
+
+#silvernoteblack, #snbck2 {
 	background: #272727;
 }
 
-#silvernotegrey {
-	background: #101010;
+/* Light Grey */
+
+#surface, #lightgrey, #surface-test1, #surface-test2, #surface-test3 {
+	background: #666666;
 }
+
+#lightgrey2 {
+    background: #858585;
+}
+
+#lightgrey3 {
+	background: #bababa;
+}
+
+/* Hot Pink */
 
 .bbc {
 	background: #A60253;
 }
 
-#surface {
-	background: #666666;
+/* Medium Pink */
+
+.mediumpink {
+	background: #9c3a57;
 }
+
+/* Aubergine Pink */
+
+.aubergine {
+    background: #482e3b !important;
+}
+
+/* Gold */
 
 #julie {
 	background: #B79D3B;
 }
 
-#lavender {
-	background: #6A5087;
+/* Light Pink */
+
+.lightpink {
+    background: #d47da7;
 }
+
 
 #gold {
 	background: #908135;
 }
 
-#dreamless {
+#yellow {
+    background: #BC8022;
+}
+
+/* More purple lavender */
+
+#dreamless, .purple {
 	background: #847391;
 }
 
-.dragon {
+#lavender, #dreamless-test1, #dreamless-test2, #dreamless-test3 {
+	background: #6A5087;
+}
+
+#lightpurple {
+	background: #8264a3;
+}
+
+#lilac {
+	background: #a578b3;
+}
+
+/* Medium blue */
+
+.mediumblue {
+    background: #058dad !important;
+}
+
+/* Deep medium blue */
+
+.dragon, #dragon-test1, #dragon-test2, #dragon-test3 {
 	background: #04637A;
 }
 
-#cyrenians {
+/* Light blue */
+
+#cyrenians, #cyrenians-test1, #cyrenians-test2, #cyrenians-test3 {
 	background: #0876BD;
+}
+
+/* Very light blue */
+
+#lightblue {
+    background: #05c1ed;
 }
 
 .flexcontainer {
@@ -171,6 +258,10 @@ section p, section blockquote {
 
 .testimonial .flex-item {
 	width: 80%;
+}
+
+.testimonial img {
+	width: 60%;
 }
 
 .arrow.flex-item {
@@ -208,6 +299,36 @@ i {
 
 .small {
 	display: none;
+}
+
+.no-top {
+    padding-top: 0;
+}
+
+.no-bottom {
+    padding-bottom: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.subpage p {
+    margin-left: 10%;
+}
+
+.projectimg {
+    width: 60%;
+    padding-top: 10%;
+}
+
+.top {
+    padding-top: 10%;
+}
+
+iframe {
+    width: 60%;
+    height: 500px;
 }
 
 @media only screen and (max-width: 1300px) {

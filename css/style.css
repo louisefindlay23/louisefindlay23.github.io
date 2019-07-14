@@ -264,6 +264,14 @@ section p, section blockquote {
 	width: 60%;
 }
 
+#cyrenians-test1 img, #cyrenians-test2 img, #srp-test3 img {
+    width: 40%;
+}
+
+#srp-test1 img, #srp-test2 img {
+    width: 35%;
+}
+
 .arrow.flex-item {
 	width: 10%;
 }

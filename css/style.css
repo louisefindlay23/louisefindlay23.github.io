@@ -290,7 +290,7 @@ section p, section blockquote {
 
 footer {
 	width: 100%;
-	display: flex;
+	display: block;
 	height: auto;
 	overflow: auto;
 	background-color: #ffaa00;
@@ -340,6 +340,10 @@ iframe {
 }
 
 .hidemultiple {
+    display: none;
+}
+
+.phone {
     display: none;
 }
 
@@ -437,6 +441,42 @@ iframe {
     
 }
     
-    @media only screen and (max-width: 600px) {
-	
+@media only screen and (max-width: 600px) {
+    
+    .hidephone {
+        display: none;
+    }
+    
+    .phone {
+        display: block;
+    }
+    
+    .projectimg {
+        width: 60%;
+    }
+    
+    #smallimg {
+        width: 30%;
+    }
+    
+    .fa-circle {
+        padding: 0 5%;
+    }
+    
+    .fa-chevron-left {
+        margin-left: 25%;
+    }
+    
+    .dots.flexcontainer {
+        padding: 4% 0;
+    }
+    
+    .social.flex-item {
+        width: 33%;
+    }
+    
+    #social {
+        margin-left: 10%;
+    }
+    
 }

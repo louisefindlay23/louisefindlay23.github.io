@@ -339,6 +339,10 @@ iframe {
     height: 500px;
 }
 
+.hidemultiple {
+    display: none;
+}
+
 @media only screen and (max-width: 1300px) {
 	
 	/* iPad (Landscape) */
@@ -355,12 +359,19 @@ iframe {
 	margin-left: 0;
 	margin-right: 5%;
 }
+    .projectimg {
+        width: 80%;
+    }
 	
 }
 	
 @media only screen and (max-width: 1000px) {
 	
-	/* Maximise text space */
+	/* Full width */
+    
+    .flexcontainer {
+        padding: 2% 0 2% 0;
+    }
 	
 	.flex-item {
 		width: 100%;
@@ -370,13 +381,28 @@ iframe {
 		margin-top: 2.5%;
 		margin-bottom: 2.5%;
 	}
+    
+    .projectimg {
+        width: 40%;
+        padding-top: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .iconrow {
+        padding-top: 5%;
+    }
+    
+    .linkrow {
+        width: 50%;
+    }
 	
 	section p, section blockquote {
 	margin-left: 5%;
 	margin-right: 5%;
 }
 	
-	.left p, .left blockquote {
+	.left p, .left blockquote, #surface p, #cyrenians p {
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -392,5 +418,25 @@ iframe {
 	.small {
 		display: block;
 	}
+    
+    .hidemultiple {
+        display: block;
+    }
+    
+    .hidesingle {
+        display: none;
+    }
+    
+    #smallimg {
+        width: 20%;
+    }
+    
+    #dreamless img, .dragon img {
+        width: 30%;
+    }
+    
+}
+    
+    @media only screen and (max-width: 600px) {
 	
 }

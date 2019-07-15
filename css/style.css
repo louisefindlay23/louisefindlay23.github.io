@@ -54,6 +54,7 @@ a, .fa-chevron-left:hover, .fa-chevron-right:hover, .fa-circle {
 
 img {
 	border-radius: 50%;
+    max-width: 90%;
 }
 
 .normal {

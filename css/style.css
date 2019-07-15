@@ -339,6 +339,10 @@ iframe {
     height: 500px;
 }
 
+.hidemultiple {
+    display: none;
+}
+
 @media only screen and (max-width: 1300px) {
 	
 	/* iPad (Landscape) */
@@ -363,7 +367,7 @@ iframe {
 	
 @media only screen and (max-width: 1000px) {
 	
-	/* Maximise text space */
+	/* Full width */
     
     .flexcontainer {
         padding: 2% 0 2% 0;
@@ -414,6 +418,14 @@ iframe {
 	.small {
 		display: block;
 	}
+    
+    .hidemultiple {
+        display: block;
+    }
+    
+    .hidesingle {
+        display: none;
+    }
     
     #smallimg {
         width: 20%;

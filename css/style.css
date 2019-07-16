@@ -301,6 +301,19 @@ footer h2 {
 	color: #ffffff;
 }
 
+.container {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+.container i {
+    margin: 2% 10%;
+    max-width: 100%;
+}
+
 i {
 	font-size: 50pt;
 	color: #ffffff;
@@ -344,7 +357,7 @@ iframe {
     display: none;
 }
 
-.phone {
+footer.phone {
     display: none;
 }
 
@@ -440,17 +453,22 @@ iframe {
         width: 30%;
     }
     
-}
-    
-@media only screen and (max-width: 600px) {
-    
-    .hidephone {
+    footer.hidephone {
         display: none;
     }
     
-    .phone {
+    footer.phone {
         display: block;
     }
+    
+    .social.flex-item {
+        width: 33%;
+        text-align: center;
+    }
+    
+}
+    
+@media only screen and (max-width: 600px) {
     
     .projectimg {
         width: 60%;
@@ -470,14 +488,6 @@ iframe {
     
     .dots.flexcontainer {
         padding: 4% 0;
-    }
-    
-    .social.flex-item {
-        width: 33%;
-    }
-    
-    #social {
-        margin-left: 10%;
     }
     
 }

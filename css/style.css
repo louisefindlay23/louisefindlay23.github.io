@@ -54,6 +54,7 @@ a, .fa-chevron-left:hover, .fa-chevron-right:hover, .fa-circle {
 
 img {
 	border-radius: 50%;
+    max-width: 90%;
 }
 
 .normal {
@@ -273,7 +274,7 @@ section p, section blockquote {
 }
 
 .arrow.flex-item {
-	width: 10%;
+	width: 10% !important;
 }
 
 .hidden {
@@ -300,6 +301,19 @@ footer h2 {
 	color: #ffffff;
 }
 
+.container {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+.container i {
+    margin: 2% 10%;
+    max-width: 90%;
+}
+
 i {
 	font-size: 50pt;
 	color: #ffffff;
@@ -310,11 +324,11 @@ i {
 }
 
 .no-top {
-    padding-top: 0;
+    padding-top: 0 !important;
 }
 
 .no-bottom {
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
 }
 
 .no-margin {
@@ -343,7 +357,7 @@ iframe {
     display: none;
 }
 
-.phone {
+footer.phone {
     display: none;
 }
 
@@ -365,6 +379,10 @@ iframe {
 }
     .projectimg {
         width: 80%;
+    }
+    
+    .srplogo {
+        width: 30%;
     }
 	
 }
@@ -439,17 +457,30 @@ iframe {
         width: 30%;
     }
     
-}
-    
-@media only screen and (max-width: 600px) {
-    
     .hidephone {
         display: none;
     }
     
-    .phone {
+    footer.hidephone {
+        display: none;
+    }
+    
+    footer.phone {
         display: block;
     }
+    
+    .social.flex-item {
+        width: 33%;
+        text-align: center;
+    }
+    
+    .srplogo {
+        width: 20%;
+    }
+    
+}
+    
+@media only screen and (max-width: 600px) {
     
     .projectimg {
         width: 60%;
@@ -471,12 +502,70 @@ iframe {
         padding: 4% 0;
     }
     
-    .social.flex-item {
-        width: 33%;
+    .srplogo {
+        width: 30%;
     }
     
-    #social {
-        margin-left: 10%;
+}
+
+@media only screen and (max-width: 450px) {
+    
+    section img {
+        width: 50%;
+    }
+    
+    .srplogo {
+        width: 40%;
+    }
+    
+    .testimonial img {
+        width: 90%;
+    }
+    
+    .testimonial blockquote, cite {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .testimonial .flex-item {
+        width: 80%;
+    }
+    
+    .fa-chevron-left, .fa-chevron-right {
+        display: none;
+    }
+    
+    #smallimg {
+        width: 50%;
+    }
+    
+    #surface img {
+        width: 90%;
+    }
+    
+    #dreamless img, .dragon img {
+        width: 50%;
+    }
+    
+    .no-margin {
+        width: auto;
+    }
+    
+    .hidesmallphone {
+        display: none;
+    }
+    
+    .flexcontainer {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .projectimg {
+        width: 80%;
+    }
+    
+    #lightpurple .projectimg, .mediumblue .projectimg, #cyrenians img, #cyrenians-test1 img, #cyrenians-test2 img, #srp-test3 img, #srp-test1 img, #srp-test2 img {
+        width: 90%;
     }
     
 }

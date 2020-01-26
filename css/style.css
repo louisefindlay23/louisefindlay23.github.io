@@ -155,6 +155,10 @@ cite {
     background: #000000;
 }
 
+.pureblack {
+    background: #000000 !important;
+}
+
 /* Black */
 
 #silvernotegrey,

@@ -217,8 +217,9 @@ cite {
 
 /* Gold */
 
-#julie {
-    background: #B79D3B;
+#julie,
+.julie {
+    background: #B79D3B !important;
 }
 
 /* Light Pink */

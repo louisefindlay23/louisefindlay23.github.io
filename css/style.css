@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+:root {
+    --dragon-tempest: #04637A;
+}
+
 body {
     height: auto;
     padding: 0;
@@ -268,10 +272,11 @@ cite {
 /* Deep medium blue */
 
 .dragon,
+.dragon-color,
 #dragon-test1,
 #dragon-test2,
 #dragon-test3 {
-    background: #04637A;
+    background: var(--dragon-tempest);
 }
 
 /* Light blue */

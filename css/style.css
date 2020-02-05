@@ -10,17 +10,22 @@
     --lf-design: #EA6001;
     --books: #7C808B;
     --nescol: #4D3B6B;
+    --worldskills: #2B2627;
 
     --arteriale: #000000;
     --surface: #666666;
-    --silvernote: #101010;
+    --silvernote: #272727;
+    --bbc: #A60253;
 
     --dragon-tempest: #04637A;
     --dreamless-roads: #6A5087;
+    --dreamless-roads2: #847391;
     --rogue-odyssey: #908135;
 
     --hair-by-julie: #482e3b;
+    --hair-by-julie2: #B79D3B;
     --srp: #2C5F3D;
+    --srp2: #489963;
 }
 
 /* Element styling */
@@ -139,189 +144,63 @@ cite {
     background: var(--books);
 }
 
-/* Light Green */
-
-.lightgreen {
-    background: #489963 !important;
+.julie-color {
+    background: var(--hair-by-julie);
 }
 
-/* Forest Green */
-
-.forestgreen {
-    background: #228B22;
+.julie-color2 {
+    background: var(--hair-by-julie2);
 }
 
-/* Green */
-
-.srp,
-.srp-color,
-#srp-test1,
-#srp-test2,
-#srp-test3 {
+.srp-color {
     background: var(--srp);
 }
 
-/* Purple */
+.srp-color2 {
+    background: var(--srp2);
+}
 
-.nescol,
 .nescol-color {
     background: var(--nescol);
 }
 
-#worldskills {
-    background: #2B2627;
+.worldskills-color {
+    background: var(--worldskills);
 }
 
 #worldskillsimg {
     border: 10px solid #ffffff;
 }
 
-/* Pure Black */
-
-#arteriale,
-.arteriale-color,
-.arteriale {
+.arteriale-color {
     background: var(--arteriale);
 }
 
-.pureblack {
-    background: #000000 !important;
-}
-
-/* Black */
-
-#silvernotegrey,
-#sn-test1,
-#sn-test2,
-#sn-test3,
-#bbc-test1,
-#bbc-test2,
-#bbc-test3,
-#bbcbck2,
 .silvernote-color {
     background: #101010;
 }
 
-/* Dark Grey */
-
-#silvernoteblack,
-#snbck2 {
-    background: #272727;
-}
-
-/* Light Grey */
-
-#surface,
-#lightgrey,
-#surface-test1,
-#surface-test2,
-#surface-test3,
 .surface-color {
     background: var(--surface);
 }
 
-#lightgrey2 {
-    background: #858585;
-}
-
-#lightgrey3 {
-    background: #bababa;
-}
-
-/* Hot Pink */
-
-.bbc {
-    background: #A60253;
-}
-
-/* Medium Pink */
-
-.mediumpink {
-    background: #9c3a57;
-}
-
-/* Aubergine Pink */
-
-.julie-color,
-.aubergine {
-    background: var(--hair-by-julie);
-}
-
-/* Gold */
-
-#julie,
-.julie {
-    background: #B79D3B !important;
-}
-
-/* Light Pink */
-
-.lightpink {
-    background: #d47da7;
-}
-
-
-.rogue-color {
-    background: var(--rogue-odyssey);
-}
-
-#yellow {
-    background: #BC8022;
-}
-
-/* More purple lavender */
-
-#dreamless,
-.purple {
-    background: #847391;
-}
-
-.dreamless-color,
-#lavender,
-#dreamless-test1,
-#dreamless-test2,
-#dreamless-test3 {
+.dreamless-color {
     background: var(--dreamless-roads);
 }
 
-#lightpurple {
-    background: #8264a3;
+.dreamless-color2 {
+    background: var(--dreamless-roads2);
 }
 
-#lilac {
-    background: #a578b3;
-}
-
-/* Medium blue */
-
-.mediumblue {
-    background: #058dad !important;
-}
-
-/* Deep medium blue */
-
-.dragon,
-.dragon-color,
-#dragon-test1,
-#dragon-test2,
-#dragon-test3 {
+.dragon-color {
     background: var(--dragon-tempest);
 }
 
-/* Light blue */
-
-#cyrenians,
-#cyrenians-test1,
-#cyrenians-test2,
-#cyrenians-test3 {
-    background: #0876BD;
+.bbc-color {
+    background: var(--bbc);
 }
 
-/* Very light blue */
-
-#lightblue {
-    background: #05c1ed;
-}
+/* Flexbox */
 
 .flexcontainer {
     display: flex;
@@ -344,6 +223,8 @@ cite {
 .testimonial .flex-item {
     width: 80%;
 }
+
+/* Image */
 
 .testimonial img {
     width: 60%;
@@ -382,7 +263,7 @@ footer {
     display: block;
     height: auto;
     overflow: auto;
-    background-color: #ffaa00;
+    background-color: var(--main-color);
 }
 
 footer h2 {

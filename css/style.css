@@ -1,17 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Colour CSS Variables */
+
 :root {
-    --dragon-tempest: #04637A;
-    --dreamless-roads: #6A5087;
-    --rogue-odyssey: #908135;
-    --hair-by-julie: #482e3b;
-    --srp: #2C5F3D;
+    --main-color: #ffaa00;
+
+    --about: #C79C79;
+    --lf-design: #EA6001;
+    --books: #7C808B;
+    --nescol: #4D3B6B;
+
     --arteriale: #000000;
     --surface: #666666;
     --silvernote: #101010;
-    --nescol: #4D3B6B;
+
+    --dragon-tempest: #04637A;
+    --dreamless-roads: #6A5087;
+    --rogue-odyssey: #908135;
+
+    --hair-by-julie: #482e3b;
+    --srp: #2C5F3D;
 }
+
+/* Element styling */
 
 body {
     height: auto;
@@ -103,26 +115,28 @@ cite {
     margin-left: 5%;
 }
 
-.orange {
-    color: #ffaa00;
-}
-
 .left p,
 .left blockquote {
     margin-left: 0;
     margin-right: 25%;
 }
 
+/* Colour Classes */
+
+.orange {
+    color: var(--main-color);
+}
+
 #about {
-    background: #C79C79;
+    background: var(--about);
 }
 
 #lfdesign {
-    background: #EA6001;
+    background: var(--lf-design);
 }
 
 #books {
-    background: #7C808B;
+    background: var(--books);
 }
 
 /* Light Green */

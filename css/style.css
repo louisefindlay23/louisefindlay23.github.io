@@ -3,6 +3,14 @@
 
 :root {
     --dragon-tempest: #04637A;
+    --dreamless-roads: #6A5087;
+    --rogue-odyssey: #908135;
+    --hair-by-julie: #482e3b;
+    --srp: #2C5F3D;
+    --arteriale: #000000;
+    --surface: #666666;
+    --silvernote: #101010;
+    --nescol: #4D3B6B;
 }
 
 body {
@@ -125,23 +133,25 @@ cite {
 
 /* Forest Green */
 
-#forestgreen {
+.forestgreen {
     background: #228B22;
 }
 
 /* Green */
 
 .srp,
+.srp-color,
 #srp-test1,
 #srp-test2,
 #srp-test3 {
-    background: #2C5F3D;
+    background: var(--srp);
 }
 
 /* Purple */
 
-.nescol {
-    background: #4D3B6B;
+.nescol,
+.nescol-color {
+    background: var(--nescol);
 }
 
 #worldskills {
@@ -155,8 +165,9 @@ cite {
 /* Pure Black */
 
 #arteriale,
+.arteriale-color,
 .arteriale {
-    background: #000000;
+    background: var(--arteriale);
 }
 
 .pureblack {
@@ -172,7 +183,8 @@ cite {
 #bbc-test1,
 #bbc-test2,
 #bbc-test3,
-#bbcbck2 {
+#bbcbck2,
+.silvernote-color {
     background: #101010;
 }
 
@@ -189,8 +201,9 @@ cite {
 #lightgrey,
 #surface-test1,
 #surface-test2,
-#surface-test3 {
-    background: #666666;
+#surface-test3,
+.surface-color {
+    background: var(--surface);
 }
 
 #lightgrey2 {
@@ -215,8 +228,9 @@ cite {
 
 /* Aubergine Pink */
 
+.julie-color,
 .aubergine {
-    background: #482e3b !important;
+    background: var(--hair-by-julie);
 }
 
 /* Gold */
@@ -233,8 +247,8 @@ cite {
 }
 
 
-#gold {
-    background: #908135;
+.rogue-color {
+    background: var(--rogue-odyssey);
 }
 
 #yellow {
@@ -248,11 +262,12 @@ cite {
     background: #847391;
 }
 
+.dreamless-color,
 #lavender,
 #dreamless-test1,
 #dreamless-test2,
 #dreamless-test3 {
-    background: #6A5087;
+    background: var(--dreamless-roads);
 }
 
 #lightpurple {

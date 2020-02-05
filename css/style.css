@@ -99,6 +99,10 @@
     background: var(--dragon-tempest);
 }
 
+.rogue-color {
+    background: var(--rogue-odyssey);
+}
+
 .bbc-color {
     background: var(--bbc);
 }

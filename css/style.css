@@ -5,6 +5,7 @@
 
 :root {
     --main-color: #ffaa00;
+    --secondary-color: #ffffff;
 
     --about: #C79C79;
     --lf-design: #EA6001;
@@ -26,6 +27,80 @@
     --hair-by-julie2: #B79D3B;
     --srp: #2C5F3D;
     --srp2: #489963;
+}
+
+/* Colour Classes */
+
+.orange {
+    color: var(--main-color);
+}
+
+#about {
+    background: var(--about);
+}
+
+#lfdesign {
+    background: var(--lf-design);
+}
+
+#books {
+    background: var(--books);
+}
+
+.julie-color {
+    background: var(--hair-by-julie);
+}
+
+.julie-color2 {
+    background: var(--hair-by-julie2);
+}
+
+.srp-color {
+    background: var(--srp);
+}
+
+.srp-color2 {
+    background: var(--srp2);
+}
+
+.nescol-color {
+    background: var(--nescol);
+}
+
+.worldskills-color {
+    background: var(--worldskills);
+}
+
+#worldskillsimg {
+    border: 10px solid #ffffff;
+}
+
+.arteriale-color {
+    background: var(--arteriale);
+}
+
+.silvernote-color {
+    background: #101010;
+}
+
+.surface-color {
+    background: var(--surface);
+}
+
+.dreamless-color {
+    background: var(--dreamless-roads);
+}
+
+.dreamless-color2 {
+    background: var(--dreamless-roads2);
+}
+
+.dragon-color {
+    background: var(--dragon-tempest);
+}
+
+.bbc-color {
+    background: var(--bbc);
 }
 
 /* Element styling */
@@ -120,84 +195,84 @@ cite {
     margin-left: 5%;
 }
 
+i {
+    font-size: 50pt;
+    color: #ffffff;
+}
+
+iframe {
+    width: 60%;
+    height: 500px;
+}
+
+footer {
+    width: 100%;
+    display: block;
+    height: auto;
+    overflow: auto;
+    background-color: var(--main-color);
+}
+
+footer h2 {
+    color: var(--secondary-color);
+}
+
+/* Class Styling */
+
 .left p,
 .left blockquote {
     margin-left: 0;
     margin-right: 25%;
 }
 
-/* Colour Classes */
-
-.orange {
-    color: var(--main-color);
+.container {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2% 0;
 }
 
-#about {
-    background: var(--about);
+.container i {
+    margin: 2% 10%;
+    max-width: 90%;
 }
 
-#lfdesign {
-    background: var(--lf-design);
+.small {
+    display: none;
 }
 
-#books {
-    background: var(--books);
+.no-top {
+    padding-top: 0 !important;
 }
 
-.julie-color {
-    background: var(--hair-by-julie);
+.no-bottom {
+    padding-bottom: 0 !important;
 }
 
-.julie-color2 {
-    background: var(--hair-by-julie2);
+.no-margin {
+    margin: 0;
 }
 
-.srp-color {
-    background: var(--srp);
+.subpage p {
+    margin-left: 10%;
 }
 
-.srp-color2 {
-    background: var(--srp2);
+.projectimg {
+    width: 60%;
+    padding-top: 10%;
 }
 
-.nescol-color {
-    background: var(--nescol);
+.top {
+    padding-top: 10%;
 }
 
-.worldskills-color {
-    background: var(--worldskills);
+.hidemultiple {
+    display: none;
 }
 
-#worldskillsimg {
-    border: 10px solid #ffffff;
-}
-
-.arteriale-color {
-    background: var(--arteriale);
-}
-
-.silvernote-color {
-    background: #101010;
-}
-
-.surface-color {
-    background: var(--surface);
-}
-
-.dreamless-color {
-    background: var(--dreamless-roads);
-}
-
-.dreamless-color2 {
-    background: var(--dreamless-roads2);
-}
-
-.dragon-color {
-    background: var(--dragon-tempest);
-}
-
-.bbc-color {
-    background: var(--bbc);
+footer.phone {
+    display: none;
 }
 
 /* Flexbox */
@@ -230,17 +305,6 @@ cite {
     width: 60%;
 }
 
-#cyrenians-test1 img,
-#cyrenians-test2 img,
-#srp-test3 img {
-    width: 40%;
-}
-
-#srp-test1 img,
-#srp-test2 img {
-    width: 35%;
-}
-
 .arrow.flex-item {
     width: 10% !important;
 }
@@ -258,77 +322,7 @@ cite {
     color: #ffaa00;
 }
 
-footer {
-    width: 100%;
-    display: block;
-    height: auto;
-    overflow: auto;
-    background-color: var(--main-color);
-}
-
-footer h2 {
-    color: #ffffff;
-}
-
-.container {
-    width: 50%;
-    float: left;
-    text-align: center;
-    margin: 0 auto;
-    padding: 2% 0;
-}
-
-.container i {
-    margin: 2% 10%;
-    max-width: 90%;
-}
-
-i {
-    font-size: 50pt;
-    color: #ffffff;
-}
-
-.small {
-    display: none;
-}
-
-.no-top {
-    padding-top: 0 !important;
-}
-
-.no-bottom {
-    padding-bottom: 0 !important;
-}
-
-.no-margin {
-    margin: 0;
-}
-
-.subpage p {
-    margin-left: 10%;
-}
-
-.projectimg {
-    width: 60%;
-    padding-top: 10%;
-}
-
-.top {
-    padding-top: 10%;
-}
-
-iframe {
-    width: 60%;
-    height: 500px;
-}
-
-.hidemultiple {
-    display: none;
-}
-
-footer.phone {
-    display: none;
-}
+/* Media Queries */
 
 @media only screen and (max-width: 1300px) {
 

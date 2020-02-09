@@ -84,5 +84,8 @@ $(document).ready(function () {
         if (isOnScreen('.worldskills-color')) {
             $(".worldskills-color .flexcontainer").addClass("animated slower bounceInRight");
         }
+        if (isOnScreen('.silvernote-color')) {
+            $(".silvernote-color .flexcontainer").addClass("animated slower bounceInLeft");
+        }
     });
 });

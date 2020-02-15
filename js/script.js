@@ -68,7 +68,7 @@ $(document).ready(function () {
 
     // Animation when element is in view
 
-    $(window).scroll(function () {
+    window.addEventListener('scroll', function (e) {
         if (isOnScreen("#lfdesign")) {
             $("#lfdesign .flexcontainer").addClass("animated slower bounceInRight");
         }
@@ -84,18 +84,17 @@ $(document).ready(function () {
         if (isOnScreen(".worldskills-color")) {
             $(".worldskills-color .flexcontainer").addClass("animated slower bounceInRight");
         }
+        if (isOnScreen(".silvernote-color")) {
+            $(".silvernote-color .flexcontainer").addClass("animated slower bounceInRight");
+        }
+        if (isOnScreen(".bbc-color")) {
+            $(".bbc-color .flexcontainer").addClass("animated slower bounceInRight");
+        }
+        if (isOnScreen(".surface-color")) {
+            $(".surface-color .flexcontainer").addClass("animated slower bounceInRight");
+        }
+        if (isOnScreen(".arteriale-color")) {
+            $(".arteriale-color .flexcontainer").addClass("animated slower bounceInRight");
+        }
     });
-
-    if (isOnScreen(".silvernote-color")) {
-        $(".silvernote-color .flexcontainer").addClass("animated slower bounceInRight");
-    }
-    if (isOnScreen(".bbc-color")) {
-        $(".bbc-color .flexcontainer").addClass("animated slower bounceInRight");
-    }
-    if (isOnScreen(".surface-color")) {
-        $(".surface-color .flexcontainer").addClass("animated slower bounceInRight");
-    }
-    if (isOnScreen(".arteriale-color")) {
-        $(".arteriale-color .flexcontainer").addClass("animated slower bounceInRight");
-    }
 });

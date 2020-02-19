@@ -51,41 +51,50 @@ $(document).ready(function () {
 
     function isOnScreen(elem) {
         // if the element doesn't exist, abort
-        if (elem.length == 0) {
+        if (elem.length === 0) {
             return;
         }
-        var $window = jQuery(window)
-        var viewport_top = $window.scrollTop()
-        var viewport_height = $window.height()
-        var viewport_bottom = viewport_top + viewport_height
-        var $elem = jQuery(elem)
-        var top = $elem.offset().top
-        var height = $elem.height()
-        var bottom = top + height
+        var $window = jQuery(window);
+        var viewport_top = $window.scrollTop();
+        var viewport_height = $window.height();
+        var viewport_bottom = viewport_top + viewport_height;
+        var $elem = jQuery(elem);
+        var top = $elem.offset().top;
+        var height = $elem.height();
+        var bottom = top + height;
 
-        return (bottom > viewport_top) && (top < viewport_bottom)
+        return (bottom > viewport_top) && (top < viewport_bottom);
     }
 
     // Animation when element is in view
 
     window.addEventListener('scroll', function (e) {
-        if (isOnScreen('#lfdesign')) {
+        if (isOnScreen("#lfdesign")) {
             $("#lfdesign .flexcontainer").addClass("animated slower bounceInRight");
         }
-        if (isOnScreen('#books')) {
+        if (isOnScreen("#books")) {
             $("#books .flexcontainer").addClass("animated slower bounceInLeft");
         }
-        if (isOnScreen('.srp-color')) {
+        if (isOnScreen(".srp-color")) {
             $(".srp-color .flexcontainer").addClass("animated slower bounceInRight");
         }
-        if (isOnScreen('.nescol-color')) {
+        if (isOnScreen(".nescol-color")) {
             $(".nescol-color .flexcontainer").addClass("animated slower bounceInLeft");
         }
-        if (isOnScreen('.worldskills-color')) {
+        if (isOnScreen(".worldskills-color")) {
             $(".worldskills-color .flexcontainer").addClass("animated slower bounceInRight");
         }
-        if (isOnScreen('.silvernote-color')) {
-            $(".silvernote-color .flexcontainer").addClass("animated slower bounceInLeft");
+        if (isOnScreen(".silvernote-color")) {
+            $(".silvernote-color .flexcontainer").addClass("animated slower bounceInRight");
+        }
+        if (isOnScreen(".bbc-color")) {
+            $(".bbc-color .flexcontainer").addClass("animated slower bounceInRight");
+        }
+        if (isOnScreen(".surface-color")) {
+            $(".surface-color .flexcontainer").addClass("animated slower bounceInRight");
+        }
+        if (isOnScreen(".arteriale-color")) {
+            $(".arteriale-color .flexcontainer").addClass("animated slower bounceInRight");
         }
     });
 });

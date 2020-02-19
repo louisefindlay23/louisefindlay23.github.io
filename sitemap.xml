@@ -9,58 +9,118 @@
 
 <url>
   <loc>https://louisefindlay.com/</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://louisefindlay.com/webdesign</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://louisefindlay.com/author</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://louisefindlay.com/branding</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://louisefindlay.com/webdesign/silvernote</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://louisefindlay.com/webdesign/bbc-iplayer</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://louisefindlay.com/webdesign/microsoft-surface</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/webdesign/arteriale</loc>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://louisefindlay.com/author/dreamless-roads</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://louisefindlay.com/author/dragon-tempest</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://louisefindlay.com/branding/aberdeen-cyrenians</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://louisefindlay.com/branding/srp</loc>
-  <lastmod>2019-08-01T15:31:46+00:00</lastmod>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/branding/hairbyjulie</loc>
+  <lastmod>2020-02-15T16:53:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/BBC-iPlayer/</loc>
+  <lastmod>2020-01-24T14:41:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/microsoftsurface/</loc>
+  <lastmod>2020-01-25T15:01:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/km-sc</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/jb-spotify</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/jb-apple</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/jb-deezer</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/rk-sc</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/microsoftsurface/beginners</loc>
+  <lastmod>2020-01-25T15:01:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/microsoftsurface/students</loc>
+  <lastmod>2020-01-25T15:01:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/microsoftsurface/travellers</loc>
+  <lastmod>2020-01-25T15:01:38+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 
 

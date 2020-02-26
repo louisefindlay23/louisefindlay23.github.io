@@ -51,73 +51,73 @@ $(document).ready(function () {
 
     $('#lfdesign').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#lfdesign .flexcontainer").addClass("animated slower bounceInRight");
+            $("#lfdesign .flexcontainer").addClass("bounceInRight");
         }
     });
 
     $('#books').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#books .flexcontainer").addClass("animated slower bounceInLeft");
+            $("#books .flexcontainer").addClass("bounceInLeft");
         }
     });
 
     $('#srp-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#srp-slide .flexcontainer").addClass("animated slower bounceInRight");
+            $("#srp-slide .flexcontainer").addClass("bounceInRight");
         }
     });
 
     $('#nescol-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $(".nescol-color .flexcontainer").addClass("animated slower bounceInLeft");
+            $(".nescol-color .flexcontainer").addClass("bounceInLeft");
         }
     });
 
     $('#worldskills-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $(".worldskills-color .flexcontainer").addClass("animated slower bounceInRight");
+            $(".worldskills-color .flexcontainer").addClass("bounceInRight");
         }
     });
 
     $('.silvernote-color').on('inview', function (event, isInView) {
         if (isInView) {
-            $(".silvernote-color .flexcontainer").addClass("animated slower bounceInRight");
+            $(".silvernote-color .flexcontainer").addClass(" slower bounceInRight");
         }
     });
 
     $('#bbc-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#bbc-slide .flexcontainer").addClass("animated slower bounceInLeft");
+            $("#bbc-slide .flexcontainer").addClass(" slower bounceInLeft");
         }
     });
 
     $('#surface-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#surface-slide .flexcontainer").addClass("animated slower bounceInRight");
+            $("#surface-slide .flexcontainer").addClass(" slower bounceInRight");
         }
     });
 
     $('#arteriale-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#arteriale-slide .flexcontainer").addClass("animated slower bounceInLeft");
+            $("#arteriale-slide .flexcontainer").addClass(" slower bounceInLeft");
         }
     });
 
     $('#dreamless-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#dreamless-slide .flexcontainer").addClass("animated slower bounceInRight");
+            $("#dreamless-slide .flexcontainer").addClass(" slower bounceInRight");
         }
     });
 
     $('#dragon-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#dragon-slide .flexcontainer").addClass("animated slower bounceInLeft");
+            $("#dragon-slide .flexcontainer").addClass(" slower bounceInLeft");
         }
     });
 
     $('#julie-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#julie-slide .flexcontainer").addClass("animated slower bounceInLeft");
+            $("#julie-slide .flexcontainer").addClass(" slower bounceInLeft");
         }
     });
 });

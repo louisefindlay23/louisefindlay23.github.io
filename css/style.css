@@ -21,7 +21,8 @@ section {
     background: var(--red);
 }
 
-.left {
+.left,
+#project {
     background: var(--blue);
 }
 

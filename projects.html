@@ -12,14 +12,14 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="../css/animation.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico?">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="../js/jquery.inview.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -37,6 +37,7 @@
         </nav>
     </header>
 
+    <!-- Testimonials -->
     <section id="test1" class="testimonial">
         <div class="flexcontainer">
             <div class="arrow flex-item">
@@ -155,24 +156,74 @@
         </div>
     </section>
 
-    <section id="silvernote-slide" class="left">
+    <!-- Projects -->
+    <section id="aurora" class="left">
+        <div class="skewed skewed-left"></div>
+        <div class="flexcontainer">
+            <div class="flex-item">
+                <a href="webdesign/bbc-iplayer">
+                    <img class="normal" src="../img/aurora-logo.png" alt="The logo for Aurora, a web application I developed the front-end and photo-upload feature for">
+                </a>
+            </div>
+            <div class="flex-item">
+                <p>Aurora is a web application that helps to find the best locations for observing the Aurora Borealis in Great Britain. In a team with a designer and two software developers, I consulted with the designer and developed most of the front-end in HTML and CSS without any frameworks.</p>
+                <p>Having never done any back-end development or database work before, in two weeks I implemented a photo-uploading system (using Node, Express, EJS, MongoDB, Multer and Sharp.)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="needs-offers">
+        <div class="skewed"></div>
+        <div class="flexcontainer">
+            <div class="flex-item">
+                <p>Needs and Offers is a demand side marketplace where users tell the market exactly what they are looking for, and the market then replies with people who are willing to deliver goods and services. </p>
+                <p>My project for Hack Quarantine (a COVID-19 themed virtual hackathon) was to create a landing page for Needs & Offers, a web app from San Francisco startup, Drag Labs. I designed the landing page using Adobe XD, taking inspiration from the web app and developed it using HTML, CSS and JS.</p>
+                <p>I was also one of the top three most active participants out of 5,323 hackers.</p>
+            </div>
+            <div class="flex-item">
+                <a href="webdesign/bbc-iplayer">
+                    <img class="normal" src="../img/needandoffer-logo.png" alt="The logo for Needs & Offers, a web application I developed a landing page for">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="stitchfairie" class="left">
         <div class="skewed skewed-left"></div>
         <div class="flexcontainer">
             <div class="flex-item">
                 <a href="webdesign/silvernote">
-                    <img class="normal" src="../img/silvernote-logo.png" alt="The logo for SilverNote, a music enterprise hub in Aberdeen who I helped to create a responsive site for by adding artist profiles with a team of developers">
+                    <img class="normal" src="../img/stitchfairie-logo.png" alt="The logo for The Stitch Fairie, who runs sewing classes in Aberdeen">
                 </a>
             </div>
             <div class="flex-item">
-                <p>SilverNote Music is a music enterprise hub in Aberdeen that want to promote new music. They tasked me and three others to work as a team to create a responsive site that catered to those viewing on computers as well as a younger, mobile audience.</p>
-                <p>My main responsibilities were communicating with our client and developing the artist page. I pitched the prototype to the wider organisation and gathered feedback from the band members. This feedback informed the music players I created on the artist profiles.</p>
+                <p>One of my freelance clients, Jane Clark required a website where participants could book a space in her classes and pay using PayPal. It needed to be usable for her less tech-savvy audience and to clearly differentiate events that take place at both venues.</p>
+                <p>I set up Tribe Commerce integration with the Events Calendar and Events Ticket plugins and made changes to the UX based on user feedback.</p>
+                <p>Jane ongoing support to manage and maintain her website so she could continue sewing so I created a bespoke care plan for her.</p>
             </div>
         </div>
     </section>
-    <section id="bbc-slide">
+
+    <section id="julie-slide">
+        <div class="skewed skewed-left"></div>
+        <div class="flexcontainer">
+            <div class="flex-item">
+                <p>I approached the local Dufftown hairdresser, Hair by Julie to develop a website because they had none. <span class="hidemedium">My goal was to emphasise their USPs, their history as the oldest hairdresser in the town and their customer centric friendly behaviour.</span></p>
+                <p>Utilising their existing colour scheme and shop signage, I created a logo and typography for their branding. I designed a website with carousels for client and employee testimonials that would give users a taste of the Hair by Julie experience.</p>
+                <p>They also wanted my assistance in updating their Google business listing and revitalising their Facebook page.</p>
+            </div>
+            <div class="flex-item">
+                <a href="branding/hairbyjulie">
+                    <img class="normal" src="../img/hairbyjulie.png" alt="Hair by Julie logo">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="bbc-slide" class="left">
         <div class="skewed"></div>
         <div class="flexcontainer">
-            <div class="flex-item hidemultiple">
+            <div class="flex-item">
                 <a href="webdesign/bbc-iplayer">
                     <img class="normal" src="../img/bbc-iplayer.png" alt="The logo for BBC iPlayer where I helped to develop a mobile web app, creating a search function that integrated with TVDB metadata with a team of developers">
                 </a>
@@ -181,72 +232,19 @@
                 <p>Following on from the SilverNote project, we were assigned to create a mobile web app prototype for BBC iPlayer. We divided the site into eight sections and took two each. Once the skeleton was created, I worked on the carousel and search areas.</p>
                 <p>As it was a mobile app, the carousel had to be touch-friendly so I used the plugin, Flickity which was easy to use and very customisable. When the TV Show section was complete, it was integrated together so clicking on a cell showed metadata from the TVDB.</p>
             </div>
-            <div class="flex-item hidesingle">
-                <a href="webdesign/bbc-iplayer">
-                    <img class="normal" src="../img/bbc-iplayer.png" alt="The logo for BBC iPlayer where I helped to develop a mobile web app, creating a search function that integrated with TVDB metadata with a team of developers">
-                </a>
-            </div>
         </div>
     </section>
 
-    <section id="julie-slide" class="left">
+    <section id="silvernote-slide">
         <div class="skewed skewed-left"></div>
         <div class="flexcontainer">
             <div class="flex-item">
-                <a href="branding/hairbyjulie">
-                    <img class="normal" src="../img/hairbyjulie.png" alt="Hair by Julie logo">
-                </a>
-            </div>
-            <div class="flex-item">
-                <p>I approached the local Dufftown hairdresser, Hair by Julie to develop a website because they had none. <span class="hidemedium">My goal was to emphasise their USPs, their history as the oldest hairdresser in the town and their customer centric friendly behaviour.</span></p>
-                <p>Utilising their existing colour scheme and shop signage, I created a logo and typography for their branding. I designed a website with carousels for client and employee testimonials that would give users a taste of the Hair by Julie experience.</p>
-                <p>They also wanted my assistance in updating their Google business listing and revitalising their Facebook page.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="stitchfairie">
-        <div class="skewed skewed-left"></div>
-        <div class="flexcontainer">
-            <div class="flex-item">
-                <p>One of my freelance clients, Jane Clark required a website where participants could book a space in her classes and pay using PayPal. It needed to be usable for her less tech-savvy audience and to clearly differentiate events that take place at both venues.</p>
-                <p>I set up Tribe Commerce integration with the Events Calendar and Events Ticket plugins and made changes to the UX based on user feedback.</p>
-                <p>Jane ongoing support to manage and maintain her website so she could continue sewing so I created a bespoke care plan for her.</p>
+                <p>SilverNote Music is a music enterprise hub in Aberdeen that want to promote new music. They tasked me and three others to work as a team to create a responsive site that catered to those viewing on computers as well as a younger, mobile audience.</p>
+                <p>My main responsibilities were communicating with our client and developing the artist page. I pitched the prototype to the wider organisation and gathered feedback from the band members. This feedback informed the music players I created on the artist profiles.</p>
             </div>
             <div class="flex-item">
                 <a href="webdesign/silvernote">
-                    <img class="normal" src="../img/stitchfairie-logo.png" alt="The logo for The Stitch Fairie, who runs sewing classes in Aberdeen">
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="needs-offers" class="left">
-        <div class="skewed"></div>
-        <div class="flexcontainer">
-            <div class="flex-item">
-                <a href="webdesign/bbc-iplayer">
-                    <img class="normal" src="../img/needandoffer-logo.png" alt="The logo for Needs & Offers, a web application I developed a landing page for">
-                </a>
-            </div>
-            <div class="flex-item">
-                <p>Needs and Offers is a demand side marketplace where users tell the market exactly what they are looking for, and the market then replies with people who are willing to deliver goods and services. </p>
-                <p>My project for Hack Quarantine (a COVID-19 themed virtual hackathon) was to create a landing page for Needs & Offers, a web app from San Francisco startup, Drag Labs. I designed the landing page using Adobe XD, taking inspiration from the web app and developed it using HTML, CSS and JS.</p>
-                <p>I was also one of the top three most active participants out of 5,323 hackers.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="aurora">
-        <div class="skewed skewed-left"></div>
-        <div class="flexcontainer">
-            <div class="flex-item">
-                <p>Aurora is a web application that helps to find the best locations for observing the Aurora Borealis in Great Britain. In a team with a designer and two software developers, I consulted with the designer and developed most of the front-end in HTML and CSS without any frameworks.</p>
-                <p>Having never done any back-end development or database work before, in two weeks I implemented a photo-uploading system (using Node, Express, EJS, MongoDB, Multer and Sharp.)</p>
-            </div>
-            <div class="flex-item">
-                <a href="webdesign/bbc-iplayer">
-                    <img class="normal" src="../img/aurora-logo.png" alt="The logo for Aurora, a web application I developed the front-end and photo-upload feature for">
+                    <img class="normal" src="../img/silvernote-logo.png" alt="The logo for SilverNote, a music enterprise hub in Aberdeen who I helped to create a responsive site for by adding artist profiles with a team of developers">
                 </a>
             </div>
         </div>

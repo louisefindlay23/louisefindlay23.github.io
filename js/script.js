@@ -66,9 +66,9 @@ $(document).ready(function () {
         }
     });
 
-    $('.silvernote-color').on('inview', function (event, isInView) {
+    $('#silvernote-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $(".silvernote-color .flexcontainer").addClass(" slower bounceInRight");
+            $("#silvernote-slide .flexcontainer").addClass(" slower bounceInRight");
         }
     });
 
@@ -83,4 +83,17 @@ $(document).ready(function () {
             $("#julie-slide .flexcontainer").addClass(" slower bounceInLeft");
         }
     });
+
+    $('#stitchfairie').on('inview', function (event, isInView) {
+        if (isInView) {
+            $("#stitchfairie .flexcontainer").addClass(" slower bounceInLeft");
+        }
+    });
+
+    $('#aurora').on('inview', function (event, isInView) {
+        if (isInView) {
+            $("#aurora .flexcontainer").addClass(" slower bounceInLeft");
+        }
+    });
+
 });

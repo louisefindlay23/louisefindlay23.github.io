@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Louise Findlay">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Louise Findlay designed and developed an events booking website for The Stitch Fairie's sewing classes.">
+    <meta name="keywords" content="Louise Findlay, ejs, front-end web developer, back-end developer, web application, dynamic website, express, MongoDB">
+    <title>Louise Findlay - Aurora Web App</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../css/animation.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico?">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="../js/jquery.inview.min.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="/">
+            <h1>Louise Findlay</h1>
+        </a>
+        <h2>Front-End Developer & UX Designer</h2>
+        <nav role="navigation">
+            <div class="flexcontainer">
+                <a href="../projects">
+                    <h3>Projects</h3>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="test1" class="testimonial">
+            <div class="flexcontainer">
+                <div class="arrow flex-item">
+                    <i class="slide2 fas fa-chevron-left"></i>
+                </div>
+                <div class="flex-item">
+                    <img class="normal testimonial" src="../img/bbc-mockup.png" alt="The homepage of the BBC iPlayer mobile web app showcased on a phone">
+                </div>
+
+                <div class="arrow flex-item">
+                    <i class="slide2 fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="flexcontainer">
+                <div class="dots flexcontainer">
+                    <i class="slide1 orange fas fa-circle"></i>
+                    <i class="slide2 fas fa-circle"></i>
+                    <i class="slide3 fas fa-circle"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="test2" class="testimonial">
+            <div class="flexcontainer">
+                <div class="arrow flex-item">
+                    <i class="slide1 fas fa-chevron-left"></i>
+                </div>
+                <div class="flex-item">
+                    <img class="normal testimonial" src="../img/bbc-mockup-2.png" alt="The profile page on the BBC iPlayer mobile web app showcased on a phone">
+                </div>
+                <div class="arrow flex-item">
+                    <i class="slide3 fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="flexcontainer">
+                <div class="dots flexcontainer">
+                    <i class="slide1 orange fas fa-circle"></i>
+                    <i class="slide2 fas fa-circle"></i>
+                    <i class="slide3 fas fa-circle"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="test3" class="testimonial">
+            <div class="flexcontainer">
+                <div class="arrow flex-item">
+                    <i class="slide2 fas fa-chevron-left"></i>
+                </div>
+                <div class="flex-item">
+                    <img class="normal" src="../img/bbc-iplayer-search-demo.gif" alt="A demonstration of the search functionality I developed on the BBC iPlayer mobile web app">
+                </div>
+                <div class="arrow flex-item">
+                </div>
+            </div>
+            <div class="flexcontainer">
+                <div class="dots flexcontainer">
+                    <i class="slide1 orange fas fa-circle"></i>
+                    <i class="slide2 fas fa-circle"></i>
+                    <i class="slide3 fas fa-circle"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project -->
+        <section id="project">
+            <div class="skewed skewed-left"></div>
+            <div class="flexcontainer no-bottom">
+                <div class="flex-item">
+                    <h3>Details of Development</h3>
+                </div>
+                <div class="flex-item hidesingle">
+                    <h3>Languages & Libraries Used</h3>
+                </div>
+            </div>
+            <div class="flexcontainer no-top">
+                <div class="flex-item subpage">
+                    <p>For this project, I was teamed up with a designer and two software developers. At the start of the project, my main tasks were consulting with the designer and developing most of the front-end in HTML and CSS.</p>
+                    <p>In my first time working with database and doing back-end development, I implemented a photo-uploading system (using Node, Express, EJS, MongoDB, Multer and Sharp) in two weeks.</p>
+                    <p>When users register, they can upload a profile photo (which is stored on the server via Multer and resizes using Sharp.) Their photo is then displayed on their profile by storing the filepath in a MongoDB database and templating using EJS.</p>
+                    <p>When recording observations, users can upload a photo of the aurora which is shown on the observation map popup and in their observation profile. If they didn't upload a photo, a default one is provided.</p>
+                </div>
+                <div class="flex-item hidemultiple">
+                    <h3>Languages & Libraries Used</h3>
+                </div>
+                <div class="flex-item">
+                    <div class="flexcontainer iconrow">
+                        <i class="fab fa-node-js"></i>
+                        <i class="fab fa-npm"></i>
+                        <i class="fas fa-database"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="left">
+            <div class="flexcontainer">
+                <div class="flex-item linkrow">
+                    <h3>Github Repository</h3>
+                    <div class="flexcontainer">
+                        <a href="https://github.com/CM2104-DynamicWebDevelopment/aurora" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex-item linkrow">
+                    <h3>Website</h3>
+                    <div class="flexcontainer">
+                        <a href="https://auroraspotter.space" target="_blank">
+                            <i class="fas fa-globe-europe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="hidephone">
+        <div class="container">
+            <h2>Connect With Me</h2>
+        </div>
+        <div class="container">
+            <a href="https://github.com/louisefindlay23" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/louisefindlay23" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/louise-findlay23" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </footer>
+
+    <footer class="phone">
+        <div class="flexcontainer">
+            <div class="flex-item">
+                <h2>Connect With Me</h2>
+            </div>
+        </div>
+        <div id="social" class="flexcontainer">
+            <div class="social flex-item">
+                <a href="https://github.com/louisefindlay23" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="social flex-item">
+                <a href="https://twitter.com/louisefindlay23" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="social flex-item">
+                <a href="https://www.linkedin.com/in/louise-findlay23" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body></html>

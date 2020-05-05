@@ -106,6 +106,12 @@ $(document).ready(function () {
         }
     });
 
+    $('#needs-offers').on('inview', function (event, isInView) {
+        if (isInView) {
+            $("#needs-offers .flexcontainer").addClass(" slower bounceInLeft");
+        }
+    });
+
     $('#aurora').on('inview', function (event, isInView) {
         if (isInView) {
             $("#aurora .flexcontainer").addClass(" slower bounceInLeft");

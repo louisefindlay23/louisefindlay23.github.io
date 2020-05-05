@@ -44,7 +44,7 @@ $(document).ready(function () {
     // Animation when element is in view
     $('#development').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#development .flexcontainer").addClass("bounceInRight");
+            $("#development .flexcontainer").addClass("bounceInLeft");
         }
     });
 
@@ -56,13 +56,13 @@ $(document).ready(function () {
 
     $('#nescol-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $(".nescol-color .flexcontainer").addClass("bounceInLeft");
+            $("#nescol-slide .flexcontainer").addClass("bounceInLeft");
         }
     });
 
     $('#worldskills-slide').on('inview', function (event, isInView) {
         if (isInView) {
-            $(".worldskills-color .flexcontainer").addClass("bounceInRight");
+            $("#worldskills-slide .flexcontainer").addClass("bounceInRight");
         }
     });
 

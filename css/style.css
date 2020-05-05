@@ -7,18 +7,8 @@
     --main-color: #ffaa00;
     --secondary-color: #ffffff;
 
-    --about: #C79C79;
-    --lf-design: #EA6001;
-    --nescol: #4D3B6B;
-    --worldskills: #2B2627;
-
-    --silvernote: #272727;
-    --bbc: #A60253;
-
-    --hair-by-julie: #482e3b;
-    --hair-by-julie2: #B79D3B;
-    --srp: #2C5F3D;
-    --srp2: #489963;
+    --red: #EA6001;
+    --blue: #65a4cc;
 }
 
 /* Colour Classes */
@@ -27,48 +17,12 @@
     color: var(--main-color);
 }
 
-#about {
-    background: var(--about);
+section {
+    background: var(--red);
 }
 
-#lfdesign {
-    background: var(--lf-design);
-}
-
-.julie-color {
-    background: var(--hair-by-julie);
-}
-
-.julie-color2 {
-    background: var(--hair-by-julie2);
-}
-
-.srp-color {
-    background: var(--srp);
-}
-
-.srp-color2 {
-    background: var(--srp2);
-}
-
-.nescol-color {
-    background: var(--nescol);
-}
-
-.worldskills-color {
-    background: var(--worldskills);
-}
-
-#worldskillsimg {
-    border: 10px solid #ffffff;
-}
-
-.silvernote-color {
-    background: #101010;
-}
-
-.bbc-color {
-    background: var(--bbc);
+.left {
+    background: var(--blue);
 }
 
 /* Element styling */
@@ -207,6 +161,21 @@ footer h2 {
     max-width: 90%;
 }
 
+.skewed {
+    width: 100%;
+    height: 30px;
+    background: var(--blue);
+    z-index: 0;
+    transform: skewY(1deg);
+    transform-origin: top right;
+}
+
+.skewed-left {
+    transform: skewY(-1deg);
+    transform-origin: top left;
+    background: var(--red)
+}
+
 .small {
     display: none;
 }
@@ -289,4 +258,8 @@ footer.phone {
 .fa-chevron-left:hover,
 .fa-chevron-right:hover {
     color: #ffaa00;
+}
+
+#worldskillsimg {
+    border-bottom: 5px solid var(--secondary-color);
 }

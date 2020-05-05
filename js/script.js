@@ -4,13 +4,10 @@
 $(document).ready(function () {
 
     $("#test2, #test3, #test4").hide();
-
     $(".fa-chevron-left").addClass("hidden");
 
     // Testimonial Controls
-
     $(".slide1").click(function () {
-
         $("#test2, #test3, #test4").hide();
         $("#test1").show();
         $(".dots .slide2, .dots .slide3, .dots .slide4").removeClass("orange");
@@ -20,7 +17,6 @@ $(document).ready(function () {
     });
 
     $(".slide2").click(function () {
-
         $("#test1, #test3, #test4").hide();
         $("#test2").show();
         $(".dots .slide1, .dots .slide3, .dots .slide4").removeClass("orange");
@@ -29,7 +25,6 @@ $(document).ready(function () {
     });
 
     $(".slide3").click(function () {
-
         $("#test1, #test2, #test4").hide();
         $("#test3").show();
         $(".dots .slide1, .dots .slide2, .dots .slide4").removeClass("orange");
@@ -38,7 +33,6 @@ $(document).ready(function () {
     });
 
     $(".slide4").click(function () {
-
         $("#test1, #test2, #test3").hide();
         $("#test4").show();
         $(".dots .slide1, .dots .slide2, .dots .slide3").removeClass("orange");
@@ -48,22 +42,15 @@ $(document).ready(function () {
     });
 
     // Animation when element is in view
-
-    $('#lfdesign').on('inview', function (event, isInView) {
+    $('#development').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#lfdesign .flexcontainer").addClass("bounceInRight");
+            $("#development .flexcontainer").addClass("bounceInRight");
         }
     });
 
-    $('#books').on('inview', function (event, isInView) {
+    $('#design').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#books .flexcontainer").addClass("bounceInLeft");
-        }
-    });
-
-    $('#srp-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#srp-slide .flexcontainer").addClass("bounceInRight");
+            $("#design .flexcontainer").addClass("bounceInRight");
         }
     });
 
@@ -88,30 +75,6 @@ $(document).ready(function () {
     $('#bbc-slide').on('inview', function (event, isInView) {
         if (isInView) {
             $("#bbc-slide .flexcontainer").addClass(" slower bounceInLeft");
-        }
-    });
-
-    $('#surface-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#surface-slide .flexcontainer").addClass(" slower bounceInRight");
-        }
-    });
-
-    $('#arteriale-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#arteriale-slide .flexcontainer").addClass(" slower bounceInLeft");
-        }
-    });
-
-    $('#dreamless-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#dreamless-slide .flexcontainer").addClass(" slower bounceInRight");
-        }
-    });
-
-    $('#dragon-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#dragon-slide .flexcontainer").addClass(" slower bounceInLeft");
         }
     });
 

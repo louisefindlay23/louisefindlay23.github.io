@@ -103,6 +103,13 @@ a:hover {
     text-decoration-color: var(--secondary-color);
 }
 
+#project-details i:hover,
+footer a:hover {
+    text-decoration: none;
+    border: none;
+    opacity: 0.75;
+}
+
 a img:hover,
 section a i:hover {
     border: 5px solid var(--secondary-color);

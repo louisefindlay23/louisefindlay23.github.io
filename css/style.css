@@ -74,6 +74,10 @@ footer a:hover {
     opacity: 0.75;
 }
 
+#project p {
+    margin-left: 15%;
+}
+
 a img:hover,
 section a i:hover {
     border: 5px solid var(--secondary-color);
@@ -301,4 +305,14 @@ footer h2 {
 
 #worldskillsimg {
     border-bottom: 5px solid var(--secondary-color);
+}
+
+/* Mobile */
+
+#single {
+    display: none;
+}
+
+#column {
+    display: block;
 }

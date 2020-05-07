@@ -1,1 +1,134 @@
 /* Media Queries */
+
+/* iPad Pro (Landscape) */
+@media only screen and (max-width: 1366px) {
+    .flex-item {
+        width: 100%;
+    }
+
+    section p,
+    .left p {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    section p:first-of-type {
+        margin-top: 5%;
+    }
+
+    section p:last-of-type {
+        margin-bottom: 5%;
+    }
+
+    .first {
+        order: 2;
+    }
+
+    .second {
+        order: 1;
+    }
+
+    #about img {
+        margin-top: 5%;
+    }
+
+    .project .dots.flexcontainer {
+        padding-bottom: 10%;
+    }
+
+    .quote .dots.flexcontainer {
+        padding-top: 5%;
+    }
+
+    #project-details .flex-item {
+        width: 50%;
+    }
+
+    #single {
+        display: block;
+    }
+
+    #column {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .quote {
+        height: 425px;
+    }
+
+    .quote .dots.flexcontainer {
+        padding-top: 10%;
+    }
+
+    .project {
+        height: 500px;
+    }
+
+    footer .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .testimonial .flex-item {
+        width: 80%;
+    }
+
+    .quote {
+        height: 400px;
+    }
+
+    .project .dots.flexcontainer {
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    html {
+        font-size: 14pt;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .testimonial .flex-item {
+        width: 90%;
+    }
+
+    .testimonial img {
+        width: 80%;
+    }
+
+    .project .dots.flexcontainer {
+        padding-bottom: 0;
+    }
+
+    .quote .dots.flexcontainer {
+        width: 70%;
+        padding-top: 15%;
+    }
+
+    .fa-circle {
+        padding: 0 4%;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .quote .dots.flexcontainer {
+        padding-top: 20%;
+    }
+
+    #project-details {
+        padding-bottom: 5%;
+    }
+
+    #project p,
+    .testimonial blockquote,
+    .testimonial cite {
+        margin-left: 10%;
+    }
+}

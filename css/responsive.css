@@ -179,4 +179,11 @@
     .testimonial img {
         width: 100%;
     }
+
+    section p,
+    .left p {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }

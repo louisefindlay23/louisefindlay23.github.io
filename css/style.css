@@ -29,6 +29,7 @@ section {
 /* Element styling */
 
 html {
+    background: #ffaa00;
     font-size: 15pt;
 }
 
@@ -40,9 +41,7 @@ body {
     width: 100%;
 }
 
-html {
-    background: #ffaa00;
-}
+/* Text Styling */
 
 h1,
 h2,
@@ -59,45 +58,6 @@ h2 {
 
 h3 {
     font-size: 1.333rem;
-}
-
-p,
-blockquote,
-cite {
-    font-family: "Lato", sans-serif;
-    font-size: 1rem;
-    color: #ffffff;
-    line-height: 140%;
-}
-
-blockquote {
-    font-style: italic;
-}
-
-cite {
-    font-style: normal;
-}
-
-.fa-circle {
-    font-size: 50px;
-    padding: 0 2%;
-}
-
-a,
-.fa-chevron-left:hover,
-.fa-chevron-right:hover,
-.fa-circle {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-img {
-    border-radius: 50%;
-    max-width: 90%;
-}
-
-.normal {
-    border-radius: 0;
 }
 
 h1:hover,
@@ -119,6 +79,47 @@ section a i:hover {
     border: 5px solid var(--secondary-color);
 }
 
+p,
+blockquote,
+cite {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 140%;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+cite {
+    font-style: normal;
+}
+
+a,
+.fa-chevron-left:hover,
+.fa-chevron-right:hover,
+.fa-circle {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fa-circle {
+    font-size: 50px;
+    padding: 0 2%;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 90%;
+}
+
+.normal {
+    border-radius: 0;
+}
+
+/* Section Styling */
+
 section img,
 section iframe,
 section i {
@@ -131,6 +132,8 @@ section p,
 section blockquote {
     margin-left: 25%;
 }
+
+/* Testimonial Styling */
 
 .quote {
     height: 400px;
@@ -158,6 +161,8 @@ section blockquote {
 cite {
     margin-left: 5%;
 }
+
+/* Media Styling */
 
 i {
     font-size: 3.333rem;

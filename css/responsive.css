@@ -147,7 +147,11 @@
     }
 
     .quote {
-        height: 350px;
+        height: 400px;
+    }
+
+    .quote .dots.flexcontainer {
+        padding-top: 40%;
     }
 
     .project {
@@ -164,8 +168,7 @@
 
     .testimonial blockquote,
     .testimonial cite {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 10% 5% 5% 5%;
     }
 
     .fa-circle {

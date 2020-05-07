@@ -155,11 +155,12 @@
     }
 
     .project {
-        height: 300px;
+        height: 250px;
     }
 
     .project .dots.flexcontainer {
         padding-top: 0;
+        padding-bottom: 2.5%;
     }
 
     .testimonial .flex-item {
@@ -186,6 +187,11 @@
     section p,
     .left p {
         width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #project p {
         margin-left: 5%;
         margin-right: 5%;
     }

@@ -132,3 +132,51 @@
         margin-left: 10%;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 12pt;
+    }
+
+    .fa-10x {
+        font-size: 8em;
+    }
+
+    img {
+        max-width: 50%;
+    }
+
+    .quote {
+        height: 350px;
+    }
+
+    .project {
+        height: 300px;
+    }
+
+    .project .dots.flexcontainer {
+        padding-top: 0;
+    }
+
+    .testimonial .flex-item {
+        width: 95%;
+    }
+
+    .testimonial blockquote,
+    .testimonial cite {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .fa-circle {
+        font-size: 30pt;
+    }
+
+    .skewed {
+        margin-bottom: 5%;
+    }
+
+    .testimonial img {
+        width: 100%;
+    }
+}

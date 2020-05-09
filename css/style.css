@@ -71,6 +71,11 @@ a:hover {
     text-decoration-color: var(--secondary-color);
 }
 
+p a {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
 #project-details i:hover,
 footer a:hover {
     text-decoration: none;

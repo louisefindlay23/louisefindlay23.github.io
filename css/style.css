@@ -64,7 +64,8 @@ h3 {
 }
 
 h1:hover,
-nav a,
+h3 a:hover,
+.active,
 a:hover {
     text-decoration: underline;
     text-decoration-color: var(--secondary-color);

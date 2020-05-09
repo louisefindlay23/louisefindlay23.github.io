@@ -3,6 +3,7 @@
 
 $(document).ready(function () {
 
+    // Hide Elements
     $("#test2, #test3, #test4, #test5").hide();
     $(".fa-chevron-left").addClass("hidden");
 
@@ -110,7 +111,6 @@ $(document).ready(function () {
     });
 
     // Lightbox
-
     var pictures = document.querySelectorAll('picture');
 
     pictures.forEach(function (pic) {
@@ -119,4 +119,11 @@ $(document).ready(function () {
         });
     });
 
+    // Underline
+
+    $("nav [href]").each(function () {
+        if (this.href == window.location.href) {
+            $(this).addClass("active");
+        }
+    });
 });

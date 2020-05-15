@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://louisefindlay.com/</loc>
+  <lastmod>2020-05-09T15:13:24+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/about</loc>
+  <lastmod>2020-05-09T15:13:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/projects/aurora</loc>
+  <lastmod>2020-05-09T15:13:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/projects/needs-and-offers</loc>
+  <lastmod>2020-05-09T15:13:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/projects/stitchfairie</loc>
+  <lastmod>2020-05-09T15:13:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/projects/hairbyjulie</loc>
+  <lastmod>2020-05-09T15:13:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/projects/bbc-iplayer</loc>
+  <lastmod>2020-05-09T15:13:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/projects/silvernote</loc>
+  <lastmod>2020-05-09T15:13:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/BBC-iPlayer/</loc>
+  <lastmod>2020-05-10T20:00:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/km-sc</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/jb-spotify</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/jb-apple</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/jb-deezer</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://louisefindlay.com/silvernote/rk-sc</loc>
+  <lastmod>2020-02-09T16:55:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

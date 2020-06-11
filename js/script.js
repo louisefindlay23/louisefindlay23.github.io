@@ -74,39 +74,27 @@ $(document).ready(function () {
         }
     });
 
-    $('#silvernote-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#silvernote-slide .flexcontainer").addClass(" slower bounceInRight");
-        }
-    });
-
-    $('#bbc-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#bbc-slide .flexcontainer").addClass(" slower bounceInLeft");
-        }
-    });
-
-    $('#julie-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#julie-slide .flexcontainer").addClass(" slower bounceInLeft");
-        }
-    });
-
-    $('#stitchfairie').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#stitchfairie .flexcontainer").addClass(" slower bounceInLeft");
-        }
-    });
-
     $('#needs-offers').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#needs-offers .flexcontainer").addClass(" slower bounceInLeft");
+            $("#needs-offers .flexcontainer").addClass("slower bounceInLeft");
         }
     });
 
     $('#aurora').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#aurora .flexcontainer").addClass(" slower bounceInLeft");
+            $("#aurora .flexcontainer").addClass("slower bounceInLeft");
+        }
+    });
+
+    $('#attendr').on('inview', function (event, isInView) {
+        if (isInView) {
+            $("#attendr .flexcontainer").addClass("slower bounceInRight");
+        }
+    });
+
+    $('#aberdeenconcertband').on('inview', function (event, isInView) {
+        if (isInView) {
+            $("#aberdeenconcertband .flexcontainer").addClass("slower bounceInRight");
         }
     });
 
@@ -116,6 +104,7 @@ $(document).ready(function () {
     pictures.forEach(function (pic) {
         pic.addEventListener('click', function (e) {
             this.classList.toggle('lightbox');
+            $(".skewed").toggle();
         });
     });
 

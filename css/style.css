@@ -295,6 +295,10 @@ footer h2 {
     width: 60%;
 }
 
+.mobile-test img {
+    width: 20%;
+}
+
 .arrow.flex-item {
     width: 10% !important;
 }

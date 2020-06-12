@@ -55,6 +55,10 @@
         width: 80%;
     }
 
+    .mobile-test img {
+    width: 25% !important;
+}
+
     .project {
         height: 28.5rem;
     }
@@ -64,6 +68,10 @@
     .project {
         height: 27rem;
     }
+
+    .mobile-test img {
+    width: 27.5% !important;
+}
 }
 
 @media only screen and (max-width: 1100px) {
@@ -73,6 +81,10 @@
 
     .testimonial .flex-item {
         width: 90%;
+    }
+
+    .mobile-test img {
+    width: 17.5% !important;
     }
 
     .arrow.flex-item {
@@ -99,6 +111,10 @@
 
     .testimonial img {
         width: 90%;
+    }
+
+    .mobile-test img {
+    width: 20% !important;
     }
 }
 
@@ -145,6 +161,10 @@
         width: 100%;
     }
 
+    .mobile-test img {
+    width: 13% !important;
+    }
+
     section p,
     .left p {
         width: 90%;
@@ -177,6 +197,10 @@
 
     .project {
         height: 12rem;
+    }
+
+    .mobile-test img {
+    width: 17% !important;
     }
 
     i {

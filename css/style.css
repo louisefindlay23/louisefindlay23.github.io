@@ -289,7 +289,7 @@ footer h2 {
 }
 
 .mobile-test img {
-    width: 20%;
+    width: 20% !important;
 }
 
 .arrow.flex-item {

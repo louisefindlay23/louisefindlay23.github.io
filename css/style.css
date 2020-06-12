@@ -164,7 +164,7 @@ section blockquote p {
 
 .testimonial blockquote,
 cite {
-    margin-left: 5%;
+    margin: 0;
 }
 
 /* Media Styling */

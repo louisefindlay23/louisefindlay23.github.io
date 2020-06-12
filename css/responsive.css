@@ -33,14 +33,6 @@
         margin-top: 5%;
     }
 
-    .project .dots.flexcontainer {
-        padding-bottom: 10%;
-    }
-
-    .quote .dots.flexcontainer {
-        padding-top: 5%;
-    }
-
     #project-details .flex-item {
         width: 50%;
     }
@@ -61,34 +53,24 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    .quote {
-        height: 425px;
+    .testimonial .flex-item {
+        width: 90%;
     }
 
-    .quote .dots.flexcontainer {
-        padding-top: 10%;
+    .testimonial img {
+        width: 80%;
     }
 
-    .project {
-        height: 500px;
+    .arrow.flex-item {
+        width: 5% !important;
+    }
+
+    .dots.flexcontainer {
+        width: 75%;
     }
 
     footer .container {
         width: 100%;
-    }
-}
-
-@media only screen and (max-width: 950px) {
-    .testimonial .flex-item {
-        width: 80%;
-    }
-
-    .quote {
-        height: 400px;
-    }
-
-    .project .dots.flexcontainer {
-        padding-top: 5%;
     }
 }
 
@@ -101,41 +83,8 @@
         display: none;
     }
 
-    .testimonial .flex-item {
-        width: 90%;
-    }
-
-    .testimonial img {
-        width: 80%;
-    }
-
-    .project .dots.flexcontainer {
-        padding-bottom: 0;
-    }
-
-    .quote .dots.flexcontainer {
-        width: 70%;
-        padding-top: 15%;
-    }
-
     .fa-circle {
         padding: 0 4%;
-    }
-}
-
-@media only screen and (max-width: 615px) {
-    .quote .dots.flexcontainer {
-        padding-top: 20%;
-    }
-
-    #project-details {
-        padding-bottom: 5%;
-    }
-
-    #project p,
-    .testimonial blockquote,
-    .testimonial cite {
-        margin-left: 10%;
     }
 }
 
@@ -150,32 +99,6 @@
 
     img {
         max-width: 50%;
-    }
-
-    .quote {
-        height: 400px;
-    }
-
-    .quote .dots.flexcontainer {
-        padding-top: 40%;
-    }
-
-    .project {
-        height: 250px;
-    }
-
-    .project .dots.flexcontainer {
-        padding-top: 0;
-        padding-bottom: 2.5%;
-    }
-
-    .testimonial .flex-item {
-        width: 95%;
-    }
-
-    .testimonial blockquote,
-    .testimonial cite {
-        margin: 10% 5% 5% 5%;
     }
 
     .fa-circle {

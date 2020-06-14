@@ -37,25 +37,25 @@ $(document).ready(function () {
     // Animation when element is in view
     $('#development').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#development .flexcontainer").addClass("bounceInLeft");
+            $("#development .flexcontainer").addClass("bounceInRight");
         }
     });
 
-    $('#design').on('inview', function (event, isInView) {
+    $('#rgu').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#design .flexcontainer").addClass("bounceInRight");
-        }
-    });
-
-    $('#nescol-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#nescol-slide .flexcontainer").addClass("bounceInLeft");
+            $("#rgu .flexcontainer").addClass("bounceInLeft");
         }
     });
 
     $('#worldskills-slide').on('inview', function (event, isInView) {
         if (isInView) {
             $("#worldskills-slide .flexcontainer").addClass("bounceInRight");
+        }
+    });
+
+    $('#nescol-slide').on('inview', function (event, isInView) {
+        if (isInView) {
+            $("#nescol-slide .flexcontainer").addClass("bounceInLeft");
         }
     });
 

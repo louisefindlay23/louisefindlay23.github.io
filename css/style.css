@@ -6,7 +6,6 @@
 :root {
     --main-color: #ffaa00;
     --secondary-color: #ffffff;
-
     --red: #EA6001;
     --blue: #65a4cc;
 }
@@ -19,6 +18,7 @@
 
 section {
     background: var(--red);
+    overflow: hidden;
 }
 
 .left,

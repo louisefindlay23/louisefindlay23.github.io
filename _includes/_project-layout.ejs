@@ -70,3 +70,29 @@ layout: _base-layout.ejs
         </div>
     </div>
 </section>
+
+<!-- Project -->
+<section id="project">
+    <div class="skewed skewed-left"></div>
+    <div class="flexcontainer no-bottom">
+        <div class="flex-item">
+            <h3><%- project_heading1 %></h3>
+        </div>
+        <div id="column" class="flex-item">
+            <h3><%- project_heading2 %></h3>
+        </div>
+    </div>
+    <div class="flexcontainer no-top">
+        <div class="flex-item">
+            <%- project_description %>
+        </div>
+        <div id="single" class="flex-item">
+            <h3><%- project_heading2 %></h3>
+        </div>
+        <div class="flex-item">
+            <div class="flexcontainer">
+                <%- project_icons %>
+            </div>
+        </div>
+    </div>
+</section>

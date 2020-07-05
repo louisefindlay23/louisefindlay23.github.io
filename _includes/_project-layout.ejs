@@ -1,0 +1,123 @@
+---
+layout: _base-layout.ejs
+---
+
+<section id="test1" class="project testimonial">
+    <div class="flexcontainer">
+        <div class="arrow flex-item">
+            <i class="slide2 fas fa-chevron-left"></i>
+        </div>
+        <div class="flex-item">
+            <picture>
+                <%- test_image1 %>
+            </picture>
+        </div>
+
+        <div class="arrow flex-item">
+            <i class="slide2 fas fa-chevron-right"></i>
+        </div>
+    </div>
+    <div class="flexcontainer">
+        <div class="dots flexcontainer">
+            <i class="slide1 orange fas fa-circle"></i>
+            <i class="slide2 fas fa-circle"></i>
+            <i class="slide3 fas fa-circle"></i>
+        </div>
+    </div>
+</section>
+
+<section id="test2" class="project testimonial">
+    <div class="flexcontainer">
+        <div class="arrow flex-item">
+            <i class="slide1 fas fa-chevron-left"></i>
+        </div>
+        <div class="flex-item">
+            <picture>
+                <%- test_image2 %>
+            </picture>
+        </div>
+        <div class="arrow flex-item">
+            <i class="slide3 fas fa-chevron-right"></i>
+        </div>
+    </div>
+    <div class="flexcontainer">
+        <div class="dots flexcontainer">
+            <i class="slide1 orange fas fa-circle"></i>
+            <i class="slide2 fas fa-circle"></i>
+            <i class="slide3 fas fa-circle"></i>
+        </div>
+    </div>
+</section>
+
+<section id="test3" class="project testimonial">
+    <div class="flexcontainer">
+        <div class="arrow flex-item">
+            <i class="slide2 fas fa-chevron-left"></i>
+        </div>
+        <div class="flex-item">
+            <picture>
+                <%- test_image3 %>
+            </picture>
+        </div>
+        <div class="arrow flex-item">
+        </div>
+    </div>
+    <div class="flexcontainer">
+        <div class="dots flexcontainer">
+            <i class="slide1 orange fas fa-circle"></i>
+            <i class="slide2 fas fa-circle"></i>
+            <i class="slide3 fas fa-circle"></i>
+        </div>
+    </div>
+</section>
+
+<!-- Project -->
+<section id="project">
+    <div class="skewed skewed-left"></div>
+    <div class="flexcontainer no-bottom">
+        <div class="flex-item">
+            <h3><%- project_heading1 %></h3>
+        </div>
+        <div id="column" class="flex-item">
+            <h3><%- project_heading2 %></h3>
+        </div>
+    </div>
+    <div class="flexcontainer no-top">
+        <div class="flex-item">
+            <p><%- project_description %></p>
+        </div>
+        <div id="single" class="flex-item">
+            <h3><%- project_heading2 %></h3>
+        </div>
+        <div class="flex-item">
+            <div class="flexcontainer">
+                <i class="<%- project_icon1 %>"></i>
+                <i class="<%- project_icon2 %>"></i>
+                <%- project_icon3 %>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Details -->
+        <section id="project-details" class="left">
+            <div class="flexcontainer">
+                <div class="flex-item">
+                    <h3><%- project_subheading1 %></h3>
+                    <div class="flexcontainer">
+                        <a href="<%- project_link1 %>" target="_blank">
+                            <i class="<%- project_subicon1 %>"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex-item">
+                    <h3><%- project_subheading2 %></h3>
+                    <div class="flexcontainer">
+                        <a href="<%- project_link2 %>" target="_blank">
+                            <i class="<%- project_subicon2 %>"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>

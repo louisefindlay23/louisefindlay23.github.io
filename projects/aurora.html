@@ -1,11 +1,39 @@
 ---
-layout: _base-layout.ejs
+layout: _project-layout.ejs
 eleventyExcludeFromCollections: true
+tags: project
 title: Aurora Web App - Louise Findlay
 description: Louise Findlay contributed 70% of the code for her first NodeJS web app, Aurora. She learned EJS templating and created her first database using MongoDB.
 short_description: Louise Findlay contributed 70% of the code for her first NodeJS web app, Aurora.
 keywords: Louise Findlay, ejs, front-end web developer, back-end developer, web application, dynamic website, express, MongoDB
-hero_image: aurora-logo.png
+
+hero_image: needandoffer-logo.png
+
+test_image1: <img class="normal testimonial" src="../../img/aurora-mockup-1.png" alt="The homepage of the Aurora web application showcased on a screen">
+test_image2: <img class="normal testimonial" src="../../img/aurora-mockup-2.png" alt="The observation diary of a user on the Aurora web application showcased on a screen">
+test_image3: <img class="normal" src="../../img/aurora-mockup-3.png" alt="The weather forecast and aurora status features of the Aurora web application showcased on a screen">
+
+project_heading1: Details of Development
+project_heading2: Languages & Libraries Used
+
+project_description: |
+    For this project, I was teamed up with a designer and two software developers and I taught them how to use source control which resulted in a 50% reduction in merge conflicts. I also supported the designer who was learning how to code by screensharing with him using Teamviewer. My help allowed him to contribute code to the project.<br></br>
+    In my first time working with databases and doing back-end development, I implemented a photo-uploading system (using Node, Express, EJS, MongoDB, Multer and Sharp) in just two weeks.<br></br>
+    An example of the feature is when users register, they can upload a profile photo (which is stored on the server via Multer and resized using Sharp.) Their photo is then displayed on their profile by storing the filepath in a MongoDB database and then displayed on the front-end using EJS templating.<br></br>
+    Overall, I contributed 70% of the code for the web app.
+
+project_icon1: fab fa-node-js
+project_icon2: fab fa-npm
+project_icon3: <i class="fas fa-database"></i>
+
+project_subheading1: Github Repository
+project_subheading2: Website
+
+project_link1: https://github.com/louisefindlay23/auroraspotter
+project_link2: https://auroraspotter.space
+
+project_subicon1: fab fa-github
+project_subicon2: fas fa-globe-europe
 ---
 
 <!doctype html>
@@ -13,128 +41,6 @@ hero_image: aurora-logo.png
 
 <body>
     <main>
-        <section id="test1" class="project testimonial">
-            <div class="flexcontainer">
-                <div class="arrow flex-item">
-                    <i class="slide2 fas fa-chevron-left"></i>
-                </div>
-                <div class="flex-item">
-                    <picture>
-                        <img class="normal testimonial" src="../../img/aurora-mockup-1.png" alt="The homepage of the Aurora web application showcased on a screen">
-                    </picture>
-                </div>
-
-                <div class="arrow flex-item">
-                    <i class="slide2 fas fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="flexcontainer">
-                <div class="dots flexcontainer">
-                    <i class="slide1 orange fas fa-circle"></i>
-                    <i class="slide2 fas fa-circle"></i>
-                    <i class="slide3 fas fa-circle"></i>
-                </div>
-            </div>
-        </section>
-
-        <section id="test2" class="project testimonial">
-            <div class="flexcontainer">
-                <div class="arrow flex-item">
-                    <i class="slide1 fas fa-chevron-left"></i>
-                </div>
-                <div class="flex-item">
-                    <picture>
-                        <img class="normal testimonial" src="../../img/aurora-mockup-2.png" alt="The observation diary of a user on the Aurora web application showcased on a screen">
-                    </picture>
-                </div>
-                <div class="arrow flex-item">
-                    <i class="slide3 fas fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="flexcontainer">
-                <div class="dots flexcontainer">
-                    <i class="slide1 orange fas fa-circle"></i>
-                    <i class="slide2 fas fa-circle"></i>
-                    <i class="slide3 fas fa-circle"></i>
-                </div>
-            </div>
-        </section>
-
-        <section id="test3" class="project testimonial">
-            <div class="flexcontainer">
-                <div class="arrow flex-item">
-                    <i class="slide2 fas fa-chevron-left"></i>
-                </div>
-                <div class="flex-item">
-                    <picture>
-                        <img class="normal" src="../../img/aurora-mockup-3.png" alt="The weather forecast and aurora status features of the Aurora web application showcased on a screen">
-                    </picture>
-                </div>
-                <div class="arrow flex-item">
-                </div>
-            </div>
-            <div class="flexcontainer">
-                <div class="dots flexcontainer">
-                    <i class="slide1 orange fas fa-circle"></i>
-                    <i class="slide2 fas fa-circle"></i>
-                    <i class="slide3 fas fa-circle"></i>
-                </div>
-            </div>
-        </section>
-
-        <!-- Project -->
-        <section id="project">
-            <div class="skewed skewed-left"></div>
-            <div class="flexcontainer no-bottom">
-                <div class="flex-item">
-                    <h3>Details of Development</h3>
-                </div>
-                <div id="column" class="flex-item">
-                    <h3>Languages & Libraries Used</h3>
-                </div>
-            </div>
-            <div class="flexcontainer no-top">
-                <div class="flex-item">
-                    <p>For this project, I was teamed up with a designer and two software developers and I taught them how to use source control which resulted in a 50% reduction in merge conflicts. I also supported the designer who was learning how to code by screensharing with him using Teamviewer. My help allowed him to contribute code to the project.</p>
-                    <p>In my first time working with databases and doing back-end development, I implemented a photo-uploading system (using Node, Express, EJS, MongoDB, Multer and Sharp) in just two weeks.</p>
-                    <p>An example of the feature is when users register, they can upload a profile photo (which is stored on the server via Multer and resized using Sharp.) Their photo is then displayed on their profile by storing the filepath in a MongoDB database and then displayed on the front-end using EJS templating.</p>
-                    <p>Overall, I contributed 70% of the code for the web app.</p>
-                </div>
-                <div id="single" class="flex-item">
-                    <h3>Languages & Libraries Used</h3>
-                </div>
-                <div class="flex-item">
-                    <div class="flexcontainer">
-                        <i class="fab fa-node-js"></i>
-                        <i class="fab fa-npm"></i>
-                        <i class="fas fa-database"></i>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Details -->
-        <section id="project-details" class="left">
-            <div class="flexcontainer">
-                <div class="flex-item">
-                    <h3>Github Repository</h3>
-                    <div class="flexcontainer">
-                        <a href="https://github.com/louisefindlay23/auroraspotter" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="flex-item">
-                    <h3>Website</h3>
-                    <div class="flexcontainer">
-                        <a href="https://auroraspotter.space" target="_blank">
-                            <i class="fas fa-globe-europe"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
 </body>

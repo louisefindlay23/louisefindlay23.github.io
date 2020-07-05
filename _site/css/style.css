@@ -131,6 +131,10 @@ img {
     border-radius: 0;
 }
 
+#error-text {
+    width: 100%;
+}
+
 /* Section Styling */
 
 section img,

@@ -18,6 +18,12 @@ pagination:
     <h3>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h3>
-    {{ post.date }}
+    
+    <date>{{ post.date }}</date>
+    
+    <p>{{ post.data.excerpt }}</p>
+
+    <a href="{{ post.url | url }}"
+   aria-label="Read more on {{ post.data.title }}">Read more</a>
   </article>
 {% endfor %}

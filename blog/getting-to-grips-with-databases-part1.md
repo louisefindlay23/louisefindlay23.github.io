@@ -4,10 +4,10 @@ title: Getting to Grips with Databases - Part 1
 tags: ['post']
 description: Louise Findlay has designed and developed over 20 static websites, WordPress websites and mobile web apps. Find out more about her work.
 short_description: Louise Findlay has designed and developed over 20 static websites, WordPress websites and mobile web apps.
+excerpt: For the uninitiated, databases can seem a complicated, mythical thing that only back-end developers, computer scientists, and programmers can work with. This article is here to dispel that myth and prove that all you need to work with a database is some basic knowledge about the command line and JSON.
 keywords: Louise Findlay, web designer, web developer, front-end web developer, WordPress designer
 hero_image: bio-pic.jpg
 ---
-
 For the uninitiated, databases can seem a complicated, mythical thing that only back-end developers, computer scientists, and programmers can work with. This article is here to dispel that myth and prove that all you need to work with a database is some basic knowledge about the command line and JSON.
 
 ### MongoDB Installation

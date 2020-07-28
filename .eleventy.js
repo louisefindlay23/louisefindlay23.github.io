@@ -3,17 +3,13 @@ module.exports = function (eleventyConfig) {
         DateTime
     } = require("luxon");
 
-    eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-        return DateTime.fromJSDate(dateObj, {
-            zone: 'utc'
-        }).toFormat('yy/MM/dd');
-    });
-
     eleventyConfig.addFilter("readableDate", dateObj => {
         return DateTime.fromJSDate(dateObj, {
             zone: 'utc'
         }).toFormat("dd/MM/yy");
     });
+
+    eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
 
     eleventyConfig.addPassthroughCopy('img');
     eleventyConfig.addPassthroughCopy('css');
@@ -21,7 +17,6 @@ module.exports = function (eleventyConfig) {
     return {
         passthroughFileCopy: true
     };
-    eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
 };
 
 function extractExcerpt(article) {

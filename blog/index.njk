@@ -21,7 +21,7 @@ pagination:
     
     <p><span class="bold">Date: </span>{{ page.date | readableDate }}</p>
     
-    <p>{{ post.data.excerpt }}</p>
+    {% excerpt post %}
 
     <a href="{{ post.url | url }}"
    aria-label="Read more on {{ post.data.title }}">Read more</a>

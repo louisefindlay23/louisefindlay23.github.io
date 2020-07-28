@@ -19,9 +19,9 @@ pagination:
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h3>
     
-    <p><span class="bold">Date: </span>{{ page.date | readableDate }}</p>
-    
     <img src="{{ post.data.hero_image }}" alt="{{ post.data.title }}">
+    
+    <p><time datetime><span class="bold">Date: </span>{{ page.date | readableDate }}</time></p>
     
     {% excerpt post %}
 

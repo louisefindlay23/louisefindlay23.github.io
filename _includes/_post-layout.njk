@@ -5,4 +5,16 @@ layout: _base-layout.ejs
   <h2>{{ title }}</h2> 
   <img id="blog-hero" src="{{ hero_image }}" alt="{{ title }}">
   {{ content | safe }}
+  <h3>Share {{ title }}</h3>
+  <div class="flexcontainer">
+    <a target="_blank" href="{{ fb_link }}">
+        <i class="fab fa-facebook-square"></i>
+    </a>
+    <a target="_blank" href="{{ ctt_link }}">
+        <i class="fab fa-twitter-square"></i>
+    </a>
+    <a target="_blank" href="{{ linkedin_link }}">
+        <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
 </article>

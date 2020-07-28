@@ -19,7 +19,7 @@ pagination:
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h3>
     
-    <date>{{ post.date }}</date>
+    <p><span class="bold">Date: </span>{{ page.date | readableDate }}</p>
     
     <p>{{ post.data.excerpt }}</p>
 

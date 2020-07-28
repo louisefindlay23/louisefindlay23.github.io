@@ -96,7 +96,7 @@ section a i:hover {
     border: 5px solid var(--secondary-color);
 }
 
-a:visited {
+article a, a:visited {
     color: #ffffff;
 }
 

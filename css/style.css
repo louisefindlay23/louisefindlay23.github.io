@@ -71,6 +71,10 @@ a:hover {
     text-decoration-color: var(--secondary-color);
 }
 
+a {
+    font-family: "Lato";
+}
+
 p a {
     color: var(--secondary-color);
     text-decoration: underline;
@@ -90,6 +94,10 @@ footer a:hover {
 a img:hover,
 section a i:hover {
     border: 5px solid var(--secondary-color);
+}
+
+a:visited {
+    color: #ffffff;
 }
 
 p,
@@ -196,6 +204,10 @@ footer h2 {
 }
 
 /* Class Styling */
+
+.bold {
+    font-weight: bold;
+}
 
 .left p,
 .left blockquote {

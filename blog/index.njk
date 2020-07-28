@@ -1,0 +1,31 @@
+---
+layout: _base-layout.ejs
+title: Louise Findlay's Blog
+eleventyExcludeFromCollections: true
+description: Louise Findlay has designed and developed over 20 static websites, WordPress websites and mobile web apps. Find out more about her work.
+short_description: Louise Findlay has designed and developed over 20 static websites, WordPress websites and mobile web apps.
+keywords: Louise Findlay, web designer, web developer, front-end web developer, WordPress designer
+hero_image: bio-pic.jpg
+pagination:
+  data: collections.post
+  size: 10
+  reverse: true
+  alias: posts
+---
+
+{% for post in posts %}
+  <article>
+    <h3>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </h3>
+    
+    <img src="{{ post.data.hero_image }}" alt="{{ post.data.title }}">
+    
+    <p><time datetime><span class="bold">Date: </span>{{ post.data.date | readableDate }}</time></p>
+    
+    {% excerpt post %}
+
+    <a href="{{ post.url | url }}"
+   aria-label="Read more on {{ post.data.title }}">Read more</a>
+  </article>
+{% endfor %}

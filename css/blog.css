@@ -1,0 +1,27 @@
+article {
+    width: 80%;
+    padding: 2.5% 10%;
+    background: var(--blue);
+}
+
+article h2 {
+    margin: 2.5% 5%;
+}
+
+article h3 {
+    margin: 5%;
+}
+
+article img {
+    display: block;
+    border-radius: 0;
+    margin: 0 auto;
+}
+
+article hr {
+    color: var(--red);
+}
+
+#blog-hero {
+    margin: 2.5% 0;
+}

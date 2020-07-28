@@ -9,6 +9,9 @@ module.exports = function (eleventyConfig) {
         }).toFormat("dd/MM/yy");
     });
 
+    const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+    eleventyConfig.addPlugin(syntaxHighlight);
+
     eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
 
     eleventyConfig.addPassthroughCopy('img');

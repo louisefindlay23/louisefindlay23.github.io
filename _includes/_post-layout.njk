@@ -3,6 +3,7 @@ layout: _base-layout.ejs
 ---
 <article>
   <h2>{{ title }}</h2> 
+  <p><time datetime><span class="bold">Date: </span>{{ page.date | readableDate }}</time></p>
   <img id="blog-hero" src="{{ hero_image }}" alt="{{ title }}">
   {{ content | safe }}
   <h3>Share {{ title }}</h3>

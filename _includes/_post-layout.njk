@@ -1,6 +1,9 @@
 ---
 layout: _base-layout.ejs
 ---
+<head>
+    <link rel="canonical" href="{{ canonical_url }}">
+</head>
 <article>
   <h2>{{ title }}</h2> 
   <p><time datetime><span class="bold">Date: </span>{{ page.date | readableDate }}</time></p>

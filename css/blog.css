@@ -22,6 +22,11 @@ article hr {
     color: var(--red);
 }
 
+li {
+    color: #fff;
+    font-family: "Lato";
+}
+
 #blog-hero {
     margin: 2.5% 0;
 }

@@ -7,18 +7,20 @@ keywords: Louise Findlay, web designer, web developer, front-end web developer, 
 hero_image: bio-pic.jpg
 pagination:
   data: collections.post
-  size: 10
+  size: 5
   reverse: true
   alias: posts
 ---
 
 {% for post in posts %}
-  <article>
+  <article class="post-list">
     <h3>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h3>
     
-    <img src="{{ post.data.hero_image }}" alt="{{ post.data.title }}">
+    <a href="{{ post.url | url }}">
+        <img src="{{ post.data.hero_image }}" alt="{{ post.data.title }}">
+    </a>
     
     <p><time datetime><span class="bold">Date: </span>{{ post.data.date | readableDate }}</time></p>
     

@@ -6,6 +6,7 @@ description: For the uninitiated, databases can seem a complicated, mythical thi
 short_description: Dispelling the myth that databases are so complicated that only back-end developers, computer scientists, and programmers can work with them.
 keywords: databases, MongoDB, first database, how to create a database, creating your first database
 date: 2020-06-17
+canonical_url: https://www.section.io/engineering-education/working-with-databases-part1
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/getting-to-grips-with-databases-part1
 ctt_link: https://ctt.ac/c8a2U
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/getting-to-grips-with-databases-part1

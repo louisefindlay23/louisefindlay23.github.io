@@ -7,26 +7,41 @@ keywords: Louise Findlay, web designer, web developer, front-end web developer, 
 hero_image: bio-pic.jpg
 pagination:
   data: collections.post
-  size: 5
+  size: 3
   reverse: true
   alias: posts
+permalink: /blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}index.html
 ---
 
-{% for post in posts %}
-  <article class="post-list">
-    <h3>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h3>
-    
-    <a href="{{ post.url | url }}">
-        <img src="{{ post.data.hero_image }}" alt="{{ post.data.title }}">
-    </a>
-    
-    <p><time datetime><span class="bold">Date: </span>{{ post.data.date | readableDate }}</time></p>
-    
-    {% excerpt post %}
+<main class="post-list">
+    {% for post in posts %}
+      <article>
+        <h3>
+          <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        </h3>
 
-    <a href="{{ post.url | url }}"
-   aria-label="Read more on {{ post.data.title }}">Read more</a>
-  </article>
-{% endfor %}
+        <a href="{{ post.url | url }}">
+            <img src="{{ post.data.hero_image }}" alt="{{ post.data.title }}">
+        </a>
+
+        <p><time datetime><span class="bold">Date: </span>{{ post.data.date | readableDate }}</time></p>
+
+        {% excerpt post %}
+
+        <a href="{{ post.url | url }}"
+       aria-label="Read more on {{ post.data.title }}">Read more</a>
+      </article>
+    {% endfor %}
+    {% if pagination.previousPageHref %}
+        <div class="flexcontainer flex-start">
+            <a class="pagination-item prev" rel="prev" href="{{ pagination.previousPageHref }}">← Newer</a>
+        </div>
+    {% endif %}
+
+      {% if pagination.nextPageHref %}
+        <div class="flexcontainer flex-end">
+            <a class="pagination-item next" rel="next" href="{{ pagination.nextPageHref }}">Older →</a>
+        </div>
+      {% endif %}
+    </div>
+</main>

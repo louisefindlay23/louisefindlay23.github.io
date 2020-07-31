@@ -1,4 +1,4 @@
-article {
+.post-list {
     width: 80%;
     padding: 2.5% 10%;
     background: var(--blue);
@@ -35,4 +35,8 @@ li {
 .post-list {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
+}
+
+a.pagination-item.next {
+    align-self: flex-start;
 }

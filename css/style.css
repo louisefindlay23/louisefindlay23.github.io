@@ -288,6 +288,14 @@ footer h2 {
     align-items: center;
 }
 
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
 .dots.flexcontainer {
     width: 50%;
     justify-content: center;

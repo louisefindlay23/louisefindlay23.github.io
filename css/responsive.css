@@ -208,7 +208,7 @@
     }
 
     .post-list {
-    width: 90%;
-    padding: 2.5% 5%;
+    width: 90% !important;
+    padding: 2.5% 5% !important;
     }
 }

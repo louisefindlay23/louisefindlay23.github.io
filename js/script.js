@@ -77,9 +77,9 @@ $(document).ready(function () {
         }
     });
 
-    $('#aberdeenconcertband').on('inview', function (event, isInView) {
+    $('#nkyconsulting').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#aberdeenconcertband .flexcontainer").addClass("slower bounceInRight");
+            $("#nkyconsulting .flexcontainer").addClass("slower bounceInRight");
         }
     });
 

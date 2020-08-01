@@ -101,3 +101,20 @@ $(document).ready(function () {
         }
     });
 });
+
+// Blog Search
+window.onload = function () {
+    var input = window.document.getElementById("search");
+    var inputText = input.value;
+
+    input.addEventListener("click", function(){
+        // Get search.json
+       var searchIndex = null;
+        fetch('/js/search.json').then(function(response) {
+            return response.json();
+        }).then(function(response) {
+            searchIndex = response;
+            console.log(searchIndex);
+        });
+    });
+};

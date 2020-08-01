@@ -12,7 +12,6 @@ pagination:
   alias: posts
 permalink: /blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}index.html
 ---
-<input type="search" name="search" id="search" placeholder="Search blog posts">
 
 <main class="post-list">
     {% for post in posts %}

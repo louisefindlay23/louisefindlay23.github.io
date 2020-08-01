@@ -18,10 +18,6 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
 
-    eleventyConfig.setTemplateFormats([
-        "ico"
-    ]);
-
     eleventyConfig.addPassthroughCopy('img');
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('js');

@@ -10,7 +10,7 @@ canonical_url: https://www.section.io/engineering-education/google-search-consol
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/creating-a-professional-email
 ctt_link: https://ctt.ac/996B1
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/creating-a-professional-email
-hero_image: /img/gsuite-hero.png
+hero_image: /img/blog/gsuite-hero.png
 ---
 <!-- Excerpt Start -->
 With the popularity of Office 365 and GSuite, it can seem that creating a business email is as simple as signing up for an account and paying the annual or monthly fee.

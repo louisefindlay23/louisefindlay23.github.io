@@ -10,7 +10,7 @@ canonical_url: https://www.section.io/engineering-education/static-site-dynamic-
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/static-site-to-nodejs-web-app
 ctt_link: https://ctt.ac/7dK8u
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/static-site-to-nodejs-web-app
-hero_image: /img/converting-static-site-hero.png
+hero_image: /img/blog/converting-static-site-hero.png
 ---
 <!-- Excerpt Start -->
 This tutorial will guide you on how to convert a static website that uses HTML, CSS and JavaScript (JS) to a dynamic one using MongoDB, Express, Static HTML, CSS, JS, and NodeJS. Similar to the popular MEAN/MERN stack (MongoDB, Express, Angular or React, and NodeJS), but instead of using Angular or React, we will use a templating engine called [EJS](https://ejs.co) (Embedded JavaScript.) Other popular templating engines include Handlebars, Pug, and Nunjucks.

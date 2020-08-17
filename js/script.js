@@ -4,7 +4,7 @@
 $(document).ready(function () {
 
     // Hide Elements
-    $("#test2, #test3").hide();
+    $("#test2, #test3, #test4").hide();
     $(".fa-chevron-left").addClass("hidden");
 
     // Testimonial Controls
@@ -30,6 +30,14 @@ $(document).ready(function () {
         $("#test3").show();
         $(".dots .slide1, .dots .slide2, .dots .slide4, .dots .slide5").removeClass("orange");
         $(".dots .slide3").addClass("orange");
+        $(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
+    });
+
+    $(".slide4").click(function () {
+        $("#test1, #test2, #test3, #test5").hide();
+        $("#test4").show();
+        $(".dots .slide1, .dots .slide2, .dots .slide3, .dots .slide5").removeClass("orange");
+        $(".dots .slide4").addClass("orange");
         $(".fa-chevron-left").removeClass("hidden");
         $(".fa-chevron-right").addClass("hidden");
     });

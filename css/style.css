@@ -2,7 +2,6 @@
 /* CSS Document */
 
 /* Colour CSS Variables */
-
 :root {
     --main-color: #ffaa00;
     --secondary-color: #ffffff;
@@ -11,7 +10,6 @@
 }
 
 /* Colour Classes */
-
 .orange {
     color: var(--main-color);
 }
@@ -27,7 +25,6 @@ section {
 }
 
 /* Element styling */
-
 html {
     background: #ffaa00;
     font-size: 15pt;
@@ -42,7 +39,6 @@ body {
 }
 
 /* Text Styling */
-
 h1,
 h2,
 h3, h4 {
@@ -135,12 +131,11 @@ a,
 }
 
 img {
-    border-radius: 50%;
     max-width: 90%;
 }
 
-.normal {
-    border-radius: 0;
+.circleimg {
+    border-radius: 50%;
 }
 
 #error-text {
@@ -148,7 +143,6 @@ img {
 }
 
 /* Section Styling */
-
 section img,
 section iframe,
 section i {
@@ -281,7 +275,6 @@ footer h2 {
 }
 
 /* Flexbox */
-
 .flexcontainer {
     display: flex;
     width: 100%;
@@ -315,7 +308,6 @@ footer h2 {
 }
 
 /* Image */
-
 .testimonial img {
     width: 60%;
 }
@@ -385,7 +377,6 @@ picture img:hover {
 }
 
 /* Pricing Table */
-
 .planContainer {
     display: flex;
     flex-flow: row wrap;
@@ -482,7 +473,6 @@ picture img:hover {
 }
 
 /* Mobile */
-
 #single {
     display: none;
 }

@@ -3,10 +3,6 @@
 
 $(document).ready(function () {
 
-    // Hide Elements
-    $("#test2, #test3, #test4").hide();
-    $(".fa-chevron-left").addClass("hidden");
-
     // Testimonial Controls
     $(".slide1").click(function () {
         $("#test2, #test3, #test4, #test5").hide();
@@ -101,11 +97,10 @@ $(document).ready(function () {
         });
     });
 
-    // Underline
-
+    // Underline active links
     $("nav [href]").each(function () {
         if (this.href == window.location.href) {
-            $(this).addClass("active");
+            this.classList.add("active");
         }
     });
 });

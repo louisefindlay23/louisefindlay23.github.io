@@ -97,11 +97,10 @@ $(document).ready(function () {
         });
     });
 
-    // Underline
-
+    // Underline active links
     $("nav [href]").each(function () {
         if (this.href == window.location.href) {
-            $(this).addClass("active");
+            this.classList.add("active");
         }
     });
 });

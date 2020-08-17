@@ -3,10 +3,6 @@
 
 $(document).ready(function () {
 
-    // Hide Elements
-    $("#test2, #test3, #test4").hide();
-    $(".fa-chevron-left").addClass("hidden");
-
     // Testimonial Controls
     $(".slide1").click(function () {
         $("#test2, #test3, #test4, #test5").hide();

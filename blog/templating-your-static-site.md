@@ -1,6 +1,6 @@
 ---
 layout: _post-layout.njk
-title: Templating Your Static Site: Converting a Static Site to a Static Site Generator
+title: Templating Your Static Site - Converting a Static Site to a Static Site Generator
 tags: ['post']
 description: For more complex multi-page websites, a static site may not be suitable. That’s where static site generators come in. They bring the power of templating to static sites.
 short_description: This guide will walk you through how to convert a static site to the static site generator, Eleventy
@@ -21,27 +21,31 @@ There are many static site generators (SSGs), including [Hugo](https://gohugo.io
 
 Eleventy uses vanilla JavaScript and allows multiple template languages to be mixed and matched so you don’t have to learn a new language or templating system. Static site generators work by taking the layout templates you’ve created and building the pages using the template and data you’ve provided.
 
-Templating (see [Converting a Static Site to a Dynamic NodeJS Web App](/blog/static-site-dynamic-nodejs-web-app/) for more info) lets you reuse code by inserting it into multiple places and add dynamic data. There are a variety of templating languages such as [Nunchucks](https://mozilla.github.io/nunjucks), [Liquid](https://shopify.github.io/liquid), [Pug](https://pugjs.org/api/getting-started.html) and [Handlebars](https://handlebarsjs.com), but the one we’ll be using in this example is [EJS](https://ejs.co).
+Templating (see [Converting a Static Site to a Dynamic NodeJS Web App](/blog/static-site-to-nodejs-web-app) for more info) lets you reuse code by inserting it into multiple places and add dynamic data. There are a variety of templating languages such as [Nunchucks](https://mozilla.github.io/nunjucks), [Liquid](https://shopify.github.io/liquid), [Pug](https://pugjs.org/api/getting-started.html) and [Handlebars](https://handlebarsjs.com), but the one we’ll be using in this example is [EJS](https://ejs.co).
 
 ### Installing Eleventy
 
-The first step is to install Eleventy which will be done through the package manager, NPM. New to NPM? Check out my [installation guide](/engineering-education/static-site-dynamic-nodejs-web-app/).
+The first step is to install Eleventy which will be done through the package manager, NPM. New to NPM? Check out my [installation guide](/blog/static-site-to-nodejs-web-app).
 
 Create a package.json:
-```
+
+```bash
 npm init -y
 ```
 
 Then install Eleventy:
-```
+
+```bash
 npm install --save-dev @11ty/eleventy
 ```
 
 To test the install, run:
-```
+
+```bash
 npx @11ty/eleventy
 ```
 which should return:
+
 ```bash
 Processed X files in number of seconds (version number)
 ```
@@ -67,13 +71,13 @@ module.exports = function (eleventyConfig) {
 This will tell Eleventy when it builds your website to copy the img, CSS and js folders across (which is called passthrough copy) so you can link to them in your code.
 
 Now run:
-```
+```bash
 npx @11ty/eleventy
 ```
 
 This should result in a build of your website and output the result to the `_site` folder. Congratulations, you've just finished the first Eleventy build of your website.
 
-**Tip:** If you're using the version control software [Git](/engineering-education/beginner-guide-to-git/) to manage your code, then it would be a good idea to add the `_site` folder to your .gitignore file. This will stop you from committing your `_site` folder to Git, which prevents the constant uncommitted changes warning.
+**Tip:** If you're using the version control software [Git](https://section.io/engineering-education/beginner-guide-to-git) to manage your code, then it would be a good idea to add the `_site` folder to your .gitignore file. This will stop you from committing your `_site` folder to Git, which prevents the constant uncommitted changes warning.
 
 ### Creating Your First EJS Partial
 
@@ -103,7 +107,7 @@ In your `_includes` folder, add a file called `_head.ejs`, and copy and paste th
 
 Add new partial files for other repeated elements such as the header and footer. Your `_includes` folder should look similar to the image below.
 
-![_includes folder structure](includes-folder.png)
+![_includes folder structure](https://www.section.io/engineering-education/templating-your-static-site/includes-folder.png)
 
 ### Creating Your First Layout (Template) File
 
@@ -154,7 +158,7 @@ layout: _base-layout.ejs
 The three dashes define the start and the end of the front-matter.
 
 In your terminal, run:
-```
+```bash
 npx @11ty/eleventy --serve
 ```
 This command tells Eleventy to build your site and to start a local web-server using [Browsersync](https://www.browsersync.io) which will trigger a build when changes have been made and automatically refresh the current page.
@@ -193,7 +197,7 @@ Layout chaining is how you can combine multiple layout files. You create a secon
 
 Create a file called `_(layoutname)-layout.ejs` in the `_includes` folder and add the layout front-matter to link it to your base layout (in the exact same way you did for your HTML file.) The entire folder structure of your site should resemble the below.
 
-![Eleventy Folder Structure](eleventy-folder-structure.png)
+![Eleventy Folder Structure](https://www.section.io/engineering-education/templating-your-static-site/eleventy-folder-structure.png)
 
 Then add all the code that is identical throughout all your template pages. For example, if every product page had a section with three images, then add the section and div tags but remove the image tags since each image is unique.  In its place, add an EJS variable tag such as `<%- product_image1 %>`. See the example below:
 
@@ -237,10 +241,10 @@ There are many hosts for static sites but we will use [Netlify](https://www.netl
 
 If you're using Git for source control and using a provider like Github (which is highly recommended), then once you've created a Netlify account, click Sites and then New Site from Git. In basic build settings, change the build command to eleventy and the publish directory to `_site`. This instructs Netlify how to build your site after every change you've pushed to Github.
 
-![Netlify Basic Build Settings](netlify-basic-build-settings.png)
+![Netlify Basic Build Settings](https://www.section.io/engineering-education/templating-your-static-site/netlify-basic-build-settings.png)
 
 Otherwise, just drag and drop the `_site` folder into the space instructed on the Sites page on Netlify. This will deploy your website but won't automatically update once you've made changes. You'll have to update your website's files manually every time.
 
-![Netlify New Site From Folder](netlify-new-site-from-folder.png)
+![Netlify New Site From Folder](https://www.section.io/engineering-education/templating-your-static-site/netlify-new-site-from-folder.png)
 
 Congratulations, you've finished converting your first static site to a static site generator and deployed it to the web. Think of it as a great middle ground between a static site and a full-blown CMS (content management system) or full-stack web app.

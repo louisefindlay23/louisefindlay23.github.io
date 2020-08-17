@@ -59,9 +59,9 @@ $(document).ready(function () {
         }
     });
 
-    $('#needs-offers').on('inview', function (event, isInView) {
+    $('#camperceilidh').on('inview', function (event, isInView) {
         if (isInView) {
-            $("#needs-offers .flexcontainer").addClass("slower bounceInLeft");
+            $("#camperceilidh .flexcontainer").addClass("slower bounceInLeft");
         }
     });
 

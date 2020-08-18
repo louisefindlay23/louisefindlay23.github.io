@@ -30,6 +30,9 @@ $(document).ready(function () {
             test3.style.display="block";
             slide2.classList.remove("orange");
             slide3.classList.add("orange");
+            if (document.getElementsByClassName("project")[0].style.display === "block") {
+            document.getElementsByClassName("fa-chevron-right")[0].classList.add("hidden");
+        }
         } else if (test3.style.display === "block") {
             test3.style.display="none";
             test4.style.display="block";
@@ -91,6 +94,9 @@ $(document).ready(function () {
             test.style.display = "none";
             test3.style.display = "block";
         });
+        if (document.getElementsByClassName("project")[0].style.display === "block") {
+            document.getElementsByClassName("fa-chevron-right")[0].classList.add("hidden");
+        }
     });
     document.getElementById("slide4").addEventListener('click', function (e) {
         document.querySelectorAll('.fa-circle').forEach(function (dots) {

@@ -1,72 +1,40 @@
 ---
 layout: _base-layout.ejs
 ---
-
-<section id="test1" class="project testimonial">
+<!-- Testimonial Section -->
+<section class="project testimonial" style="display: block">
     <div class="flexcontainer">
+        <!-- Left Arrow -->
         <div class="arrow flex-item">
             <i class="slide2 fas fa-chevron-left hidden"></i>
         </div>
-        <div class="flex-item">
+        <!-- Testimonials -->
+        <div id="test1" class="test-content flex-item" style="display: block">
             <picture>
                 <%- test_image1 %>
             </picture>
         </div>
-
-        <div class="arrow flex-item">
-            <i class="slide2 fas fa-chevron-right"></i>
-        </div>
-    </div>
-    <div class="flexcontainer">
-        <div class="dots flexcontainer">
-            <i class="slide1 orange fas fa-circle"></i>
-            <i class="slide2 fas fa-circle"></i>
-            <i class="slide3 fas fa-circle"></i>
-        </div>
-    </div>
-</section>
-
-<section id="test2" class="project testimonial">
-    <div class="flexcontainer">
-        <div class="arrow flex-item">
-            <i class="slide1 fas fa-chevron-left"></i>
-        </div>
-        <div class="flex-item">
+        <div id="test2" class="test-content flex-item">
             <picture>
                 <%- test_image2 %>
             </picture>
         </div>
-        <div class="arrow flex-item">
-            <i class="slide3 fas fa-chevron-right"></i>
-        </div>
-    </div>
-    <div class="flexcontainer">
-        <div class="dots flexcontainer">
-            <i class="slide1 orange fas fa-circle"></i>
-            <i class="slide2 fas fa-circle"></i>
-            <i class="slide3 fas fa-circle"></i>
-        </div>
-    </div>
-</section>
-
-<section id="test3" class="project testimonial">
-    <div class="flexcontainer">
-        <div class="arrow flex-item">
-            <i class="slide2 fas fa-chevron-left"></i>
-        </div>
-        <div class="flex-item">
+        <div id="test3" class="test-content flex-item">
             <picture>
                 <%- test_image3 %>
             </picture>
         </div>
+        <!-- Right Arrow -->
         <div class="arrow flex-item">
+            <i class="slide2 fas fa-chevron-right"></i>
         </div>
     </div>
+    <!-- Dots -->
     <div class="flexcontainer">
         <div class="dots flexcontainer">
-            <i class="slide1 orange fas fa-circle"></i>
-            <i class="slide2 fas fa-circle"></i>
-            <i class="slide3 fas fa-circle"></i>
+            <i id="slide1" class="orange fas fa-circle"></i>
+            <i id="slide2" class=" fas fa-circle"></i>
+            <i id="slide3" class=" fas fa-circle"></i>
         </div>
     </div>
 </section>

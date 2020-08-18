@@ -3,40 +3,128 @@
 
 $(document).ready(function () {
 
-    // Testimonial Controls
-    $(".slide1").click(function () {
-        $("#test2, #test3, #test4, #test5").hide();
-        $("#test1").show();
-        $(".dots .slide2, .dots .slide3, .dots .slide4, .dots .slide5").removeClass("orange");
-        $(".dots .slide1").addClass("orange");
-        $(".fa-chevron-left").addClass("hidden");
-        $(".fa-chevron-right").removeClass("hidden");
+    // Lightbox
+    var pictures = document.querySelectorAll('picture');
+    pictures.forEach(function (pic) {
+        pic.addEventListener('click', function (e) {
+            this.classList.toggle('lightbox');
+            $(".skewed").toggle();
+        });
     });
 
-    $(".slide2").click(function () {
-        $("#test1, #test3, #test4, #test5").hide();
-        $("#test2").show();
-        $(".dots .slide1, .dots .slide3, .dots .slide4, .dots .slide5").removeClass("orange");
-        $(".dots .slide2").addClass("orange");
-        $(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
+    // Underline active links
+    $("nav [href]").each(function () {
+        if (this.href == window.location.href) {
+            this.classList.add("active");
+        }
     });
 
-    $(".slide3").click(function () {
-        $("#test1, #test2, #test4, #test5").hide();
-        $("#test3").show();
-        $(".dots .slide1, .dots .slide2, .dots .slide4, .dots .slide5").removeClass("orange");
-        $(".dots .slide3").addClass("orange");
-        $(".fa-chevron-left, .fa-chevron-right").removeClass("hidden");
+    // Testimonial Content
+    const test1 = document.getElementById("test1");
+    const test2 = document.getElementById("test2");
+    const test3 = document.getElementById("test3");
+    const test4 = document.getElementById("test4");
+
+    // Testimonial Dots
+    const slide1 = document.getElementById("slide1");
+    const slide2 = document.getElementById("slide2");
+    const slide3 = document.getElementById("slide3");
+    const slide4 = document.getElementById("slide4");
+
+    // Right Arrow
+    document.getElementsByClassName("fa-chevron-right")[0].addEventListener('click', function (e) {
+        if (test1.style.display === "block") {
+            test1.style.display="none";
+            test2.style.display="block";
+            document.getElementsByClassName("fa-chevron-left")[0].classList.remove("hidden");
+            slide1.classList.remove("orange");
+            slide2.classList.add("orange");
+        } else if (test2.style.display === "block") {
+            test2.style.display="none";
+            test3.style.display="block";
+            slide2.classList.remove("orange");
+            slide3.classList.add("orange");
+            if (document.getElementsByClassName("project")[0]) {
+            document.getElementsByClassName("fa-chevron-right")[0].classList.add("hidden");
+        }
+        } else if (test3.style.display === "block") {
+            test3.style.display="none";
+            test4.style.display="block";
+            slide3.classList.remove("orange");
+            slide4.classList.add("orange");
+            document.getElementsByClassName("fa-chevron-right")[0].classList.add("hidden");
+        }
     });
 
-    $(".slide4").click(function () {
-        $("#test1, #test2, #test3, #test5").hide();
-        $("#test4").show();
-        $(".dots .slide1, .dots .slide2, .dots .slide3, .dots .slide5").removeClass("orange");
-        $(".dots .slide4").addClass("orange");
-        $(".fa-chevron-left").removeClass("hidden");
-        $(".fa-chevron-right").addClass("hidden");
+    // Left Arrow
+    document.getElementsByClassName("fa-chevron-left")[0].addEventListener('click', function (e) {
+        if (test2.style.display === "block") {
+            test2.style.display="none";
+            test1.style.display="block";
+            document.getElementsByClassName("fa-chevron-left")[0].classList.add("hidden");
+            slide2.classList.remove("orange");
+            slide1.classList.add("orange");
+        } else if (test3.style.display === "block") {
+            test3.style.display="none";
+            test2.style.display="block";
+            slide3.classList.remove("orange");
+            slide2.classList.add("orange");
+        } else if (test4.style.display === "block") {
+            test4.style.display="none";
+            test3.style.display="block";
+            slide4.classList.remove("orange");
+            slide3.classList.add("orange");
+            document.getElementsByClassName("fa-chevron-right")[0].classList.remove("hidden");
+        }
     });
+
+    // Dots
+    document.getElementById("slide1").addEventListener('click', function (e) {
+        document.querySelectorAll('.fa-circle').forEach(function (dots) {
+            dots.classList.remove("orange");
+        });
+        this.classList.add("orange");
+        document.querySelectorAll('.test-content').forEach(function (test) {
+            test.style.display = "none";
+            test1.style.display = "block";
+        });
+    });
+    document.getElementById("slide2").addEventListener('click', function (e) {
+        document.querySelectorAll('.fa-circle').forEach(function (dots) {
+            dots.classList.remove("orange");
+        });
+        this.classList.add("orange");
+        document.querySelectorAll('.test-content').forEach(function (test) {
+            test.style.display = "none";
+            test2.style.display = "block";
+        });
+    });
+    document.getElementById("slide3").addEventListener('click', function (e) {
+        document.querySelectorAll('.fa-circle').forEach(function (dots) {
+            dots.classList.remove("orange");
+        });
+        this.classList.add("orange");
+        document.querySelectorAll('.test-content').forEach(function (test) {
+            test.style.display = "none";
+            test3.style.display = "block";
+        });
+        if (document.getElementsByClassName("project")[0]) {
+            document.getElementsByClassName("fa-chevron-right")[0].classList.add("hidden");
+        }
+    });
+
+    if (document.getElementById("slide4")) {
+        document.getElementById("slide4").addEventListener('click', function (e) {
+        document.querySelectorAll('.fa-circle').forEach(function (dots) {
+            dots.classList.remove("orange");
+        });
+        this.classList.add("orange");
+        document.querySelectorAll('.test-content').forEach(function (test) {
+            test.style.display = "none";
+            test4.style.display = "block";
+        });
+    });
+    }
 
     // Animation when element is in view
     $('#development').on('inview', function (event, isInView) {
@@ -84,23 +172,6 @@ $(document).ready(function () {
     $('#nkyconsulting').on('inview', function (event, isInView) {
         if (isInView) {
             $("#nkyconsulting .flexcontainer").addClass("slower bounceInRight");
-        }
-    });
-
-    // Lightbox
-    var pictures = document.querySelectorAll('picture');
-
-    pictures.forEach(function (pic) {
-        pic.addEventListener('click', function (e) {
-            this.classList.toggle('lightbox');
-            $(".skewed").toggle();
-        });
-    });
-
-    // Underline active links
-    $("nav [href]").each(function () {
-        if (this.href == window.location.href) {
-            this.classList.add("active");
         }
     });
 });

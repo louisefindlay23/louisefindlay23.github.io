@@ -72,6 +72,16 @@ $(document).ready(function () {
             test1.style.display = "block";
         });
     });
+    document.getElementById("slide2").addEventListener('click', function (e) {
+        document.querySelectorAll('.fa-circle').forEach(function (dots) {
+            dots.classList.remove("orange");
+        });
+        this.classList.add("orange");
+        document.querySelectorAll('.test-content').forEach(function (test) {
+            test.style.display = "none";
+            test2.style.display = "block";
+        });
+    });
 
     // Animation when element is in view
     $('#development').on('inview', function (event, isInView) {

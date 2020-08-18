@@ -3,7 +3,21 @@
 
 $(document).ready(function () {
 
-    // Testimonials
+    // Lightbox
+    var pictures = document.querySelectorAll('picture');
+    pictures.forEach(function (pic) {
+        pic.addEventListener('click', function (e) {
+            this.classList.toggle('lightbox');
+            $(".skewed").toggle();
+        });
+    });
+
+    // Underline active links
+    $("nav [href]").each(function () {
+        if (this.href == window.location.href) {
+            this.classList.add("active");
+        }
+    });
 
     // Testimonial Content
     const test1 = document.getElementById("test1");
@@ -155,23 +169,6 @@ $(document).ready(function () {
     $('#nkyconsulting').on('inview', function (event, isInView) {
         if (isInView) {
             $("#nkyconsulting .flexcontainer").addClass("slower bounceInRight");
-        }
-    });
-
-    // Lightbox
-    var pictures = document.querySelectorAll('picture');
-
-    pictures.forEach(function (pic) {
-        pic.addEventListener('click', function (e) {
-            this.classList.toggle('lightbox');
-            $(".skewed").toggle();
-        });
-    });
-
-    // Underline active links
-    $("nav [href]").each(function () {
-        if (this.href == window.location.href) {
-            this.classList.add("active");
         }
     });
 });

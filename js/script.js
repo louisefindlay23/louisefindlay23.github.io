@@ -39,6 +39,28 @@ $(document).ready(function () {
         }
     });
 
+    // Left Arrow
+    document.getElementsByClassName("fa-chevron-left")[0].addEventListener('click', function (e) {
+        if (test2.style.display === "block") {
+            test2.style.display="none";
+            test1.style.display="block";
+            document.getElementsByClassName("fa-chevron-left")[0].classList.add("hidden");
+            slide2.classList.remove("orange");
+            slide1.classList.add("orange");
+        } else if (test3.style.display === "block") {
+            test3.style.display="none";
+            test2.style.display="block";
+            slide3.classList.remove("orange");
+            slide2.classList.add("orange");
+        } else if (test4.style.display === "block") {
+            test4.style.display="none";
+            test3.style.display="block";
+            slide4.classList.remove("orange");
+            slide3.classList.add("orange");
+            document.getElementsByClassName("fa-chevron-right")[0].classList.remove("hidden");
+        }
+    });
+
         // Dots
        // document.getElementById("slide1").addEventListener('click', function (e) {
         //    document.querySelectorAll('.dots ').forEach(function (test) {

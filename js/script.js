@@ -19,11 +19,24 @@ $(document).ready(function () {
 
     // Right Arrow
     document.getElementsByClassName("fa-chevron-right")[0].addEventListener('click', function (e) {
-        if (test1.style.display="block"){
+        if (test1.style.display === "block") {
             test1.style.display="none";
             test2.style.display="block";
+            document.getElementsByClassName("fa-chevron-left")[0].classList.remove("hidden");
             slide1.classList.remove("orange");
             slide2.classList.add("orange");
+        } else if (test2.style.display === "block") {
+            test2.style.display="none";
+            test3.style.display="block";
+            slide2.classList.remove("orange");
+            slide3.classList.add("orange");
+        } else if (test3.style.display === "block") {
+            test3.style.display="none";
+            test4.style.display="block";
+            slide3.classList.remove("orange");
+            slide4.classList.add("orange");
+            document.getElementsByClassName("fa-chevron-right")[0].classList.add("hidden");
+        }
     });
 
         // Dots

@@ -44,7 +44,7 @@ $(document).ready(function () {
             test3.style.display="block";
             slide2.classList.remove("orange");
             slide3.classList.add("orange");
-            if (document.getElementsByClassName("project")[0].style.display === "block") {
+            if (document.getElementsByClassName("project")[0]) {
             document.getElementsByClassName("fa-chevron-right")[0].classList.add("hidden");
         }
         } else if (test3.style.display === "block") {
@@ -108,11 +108,13 @@ $(document).ready(function () {
             test.style.display = "none";
             test3.style.display = "block";
         });
-        if (document.getElementsByClassName("project")[0].style.display === "block") {
+        if (document.getElementsByClassName("project")[0]) {
             document.getElementsByClassName("fa-chevron-right")[0].classList.add("hidden");
         }
     });
-    document.getElementById("slide4").addEventListener('click', function (e) {
+
+    if (document.getElementById("slide4")) {
+        document.getElementById("slide4").addEventListener('click', function (e) {
         document.querySelectorAll('.fa-circle').forEach(function (dots) {
             dots.classList.remove("orange");
         });
@@ -122,6 +124,7 @@ $(document).ready(function () {
             test4.style.display = "block";
         });
     });
+    }
 
     // Animation when element is in view
     $('#development').on('inview', function (event, isInView) {

@@ -3,8 +3,45 @@
 
 $(document).ready(function () {
 
-    // Testimonial Controls
-    if ()
+    // Testimonials
+
+    // Testimonial Content
+    const test1 = document.getElementById("test1");
+    const test2 = document.getElementById("test2");
+    const test3 = document.getElementById("test3");
+    const test4 = document.getElementById("test4");
+
+    // Testimonial Dots
+    const slide1 = document.getElementById("slide1");
+    const slide2 = document.getElementById("slide2");
+    const slide3 = document.getElementById("slide3");
+    const slide4 = document.getElementById("slide4");
+
+    // Right Arrow
+    document.getElementsByClassName("fa-chevron-right")[0].addEventListener('click', function (e) {
+        if (test1.style.display="block"){
+            test1.style.display="none";
+            test2.style.display="block";
+            slide1.classList.remove("orange");
+            slide2.classList.add("orange");
+    });
+
+        // Dots
+       // document.getElementById("slide1").addEventListener('click', function (e) {
+        //    document.querySelectorAll('.dots ').forEach(function (test) {
+        //test.addEventListener('click', function (e) {
+         //   this.classList.toggle('lightbox');
+          //  $(".skewed").toggle();
+       // });
+    //});
+          //  this.classlist.add("orange");
+    //    });
+    //document.querySelectorAll('.testimonal #[test]').forEach(function //(test) {
+     //   test.addEventListener('click', function (e) {
+         //   this.classList.toggle('lightbox');
+           // $(".skewed").toggle();
+       // });
+   // });
 
     // Animation when element is in view
     $('#development').on('inview', function (event, isInView) {

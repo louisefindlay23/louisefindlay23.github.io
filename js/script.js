@@ -61,22 +61,17 @@ $(document).ready(function () {
         }
     });
 
-        // Dots
-       // document.getElementById("slide1").addEventListener('click', function (e) {
-        //    document.querySelectorAll('.dots ').forEach(function (test) {
-        //test.addEventListener('click', function (e) {
-         //   this.classList.toggle('lightbox');
-          //  $(".skewed").toggle();
-       // });
-    //});
-          //  this.classlist.add("orange");
-    //    });
-    //document.querySelectorAll('.testimonal #[test]').forEach(function //(test) {
-     //   test.addEventListener('click', function (e) {
-         //   this.classList.toggle('lightbox');
-           // $(".skewed").toggle();
-       // });
-   // });
+    // Dots
+    document.getElementById("slide1").addEventListener('click', function (e) {
+        document.querySelectorAll('.fa-circle').forEach(function (dots) {
+            dots.classList.remove("orange");
+        });
+        this.classList.add("orange");
+        document.querySelectorAll('.test-content').forEach(function (test) {
+            test.style.display = "none";
+            test1.style.display = "block";
+        });
+    });
 
     // Animation when element is in view
     $('#development').on('inview', function (event, isInView) {

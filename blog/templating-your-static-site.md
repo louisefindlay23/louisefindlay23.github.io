@@ -13,7 +13,7 @@ linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louis
 hero_image: /img/blog/templating-static-site-hero.png
 ---
 <!-- Excerpt Start -->
-Static sites are typically much easier to develop and deploy than full-stack dynamic web apps. You can take advantage of free hosting services from providers like [Netlify](https://www.netlify.co). Plus, if you use a CSS framework like [Bootstrap](https://getbootstrap.com) or [Materialize](https://materializecss.com), it only takes a basic knowledge of HTML and CSS to code a simple website.
+Static sites are typically much easier to develop and deploy than full-stack dynamic web apps. You can take advantage of free hosting services from providers like [Netlify](https://www.netlify.com). Plus, if you use a CSS framework like [Bootstrap](https://getbootstrap.com) or [Materialize](https://materializecss.com), it only takes a basic knowledge of HTML and CSS to code a simple website.
 <!-- Excerpt End -->
 However, for more complex multi-page websites, a static site may not be suitable. Every time you want to add content, a new page has to be created and coded. If you change something that appears on multiple pages then you’d have to change it everywhere. That’s where static site generators come in. They bring the power of templating to static sites.
 

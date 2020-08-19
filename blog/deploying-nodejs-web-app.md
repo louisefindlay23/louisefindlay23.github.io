@@ -13,7 +13,7 @@ linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louis
 hero_image: /img/blog/deploying-nodejs-hero.png
 ---
 <!-- Excerpt Start -->
-You’ve finished developing your first Node.js web app and now you want to publish it on the web. This guide will walk you through how to get a basic Express server running to serve static web files. *Note: If you’re still in the development process, then you may find my [Node.js guide](../blog/static-site-to-nodejs-web-app) helpful.*
+You’ve finished developing your first Node.js web app and now you want to publish it on the web. This guide will walk you through how to get a basic Express server running to serve static web files. *Note: If you’re still in the development process, then you may find my [Node.js guide](/blog/static-site-to-nodejs-web-app) helpful.*
 <!-- Excerpt End -->
 ### Deploying Your First Node.js Web App
 
@@ -73,7 +73,7 @@ You typed in an IP Address and port number to view your web app but, wouldn't yo
 
 Assuming you’ve already bought a domain, the first step is to add a DNS record so your domain name will resolve to the IP address of your DigitalOcean droplet. A DNS record tells your browser what to do when they load your domain. In this case, it should go to the IP address of your droplet. 
 
-If you’ve not bought a domain, domain registrars like [Namecheap](https://www.namecheap.com) sell domain names and often other services such as email and static/CMS hosting, though there are benefits to going with a dedicated hosting and email provider. [Netlify](https://www.netlify.com) offers hosting for static sites and [SiteGround](https://www.siteground.co.uk) for CMS websites. Office365 and GSuite are the kings of custom email providers. See my guide for [Setting Up a Professional Email](../blog/creating-a-professional-email) to read a comparison of Office365 and GSuite.
+If you’ve not bought a domain, domain registrars like [Namecheap](https://www.namecheap.com) sell domain names and often other services such as email and static/CMS hosting, though there are benefits to going with a dedicated hosting and email provider. [Netlify](https://www.netlify.com) offers hosting for static sites and [SiteGround](https://www.siteground.co.uk) for CMS websites. Office365 and GSuite are the kings of custom email providers. See my guide for [Setting Up a Professional Email](/blog/creating-a-professional-email) to read a comparison of Office365 and GSuite.
 
 ![Advanced DNS](https://section.io/engineering-education/deploying-nodejs-web-app/advanced-dns.png)
 
@@ -85,7 +85,7 @@ You want to add a new record as follows: the type should be set to A, the host s
 
 ![DNS Check](https://section.io/engineering-education/deploying-nodejs-web-app/dns-check.png)
 
-It can take up to 24-48hrs for the changes to process, but it’s usually between 15 minutes to an hour. A quick way to check when it’s done is to go to [DNSChecker](dnschecker.org). Type in your domain name and make sure the type is set to A. When the result comes back as the IP Address of your droplet, then you’ve connected your domain successfully.
+It can take up to 24-48hrs for the changes to process, but it’s usually between 15 minutes to an hour. A quick way to check when it’s done is to go to [DNSChecker](https://dnschecker.org). Type in your domain name and make sure the type is set to A. When the result comes back as the IP Address of your droplet, then you’ve connected your domain successfully.
 
 The final test is to type your domain name followed by a colon and then the port number (e.g. `yourdomain.com:8080`). You should now see your web app loading.
 

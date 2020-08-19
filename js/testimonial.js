@@ -48,6 +48,7 @@ ready(() => {
             test2.style.display="none";
             test1.style.display="block";
             document.getElementsByClassName("fa-chevron-left")[0].classList.add("hidden");
+            document.getElementsByClassName("fa-chevron-right")[0].classList.remove("hidden");
             slide2.classList.remove("orange");
             slide1.classList.add("orange");
         } else if (test3.style.display === "block") {

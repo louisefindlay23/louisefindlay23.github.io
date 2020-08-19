@@ -12,7 +12,9 @@ pagination:
   alias: posts
 permalink: /blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}index.html
 ---
-
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/blog.css">
+</head>
 <main class="post-list">
     {% for post in posts %}
       <article>

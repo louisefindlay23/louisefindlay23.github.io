@@ -8,7 +8,9 @@ $(document).ready(function () {
     pictures.forEach(function (pic) {
         pic.addEventListener('click', function (e) {
             this.classList.toggle('lightbox');
-            $(".skewed").toggle();
+            document.querySelectorAll('.skewed').forEach(function (skew) {
+                skew.classList.toggle("skewed");
+            });
         });
     });
 

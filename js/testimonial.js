@@ -1,3 +1,10 @@
+var ready = (callback) => {
+  if (document.readyState != "loading") callback();
+  else document.addEventListener("DOMContentLoaded", callback);
+};
+
+ready(() => {
+
 // Testimonial Content
     const test1 = document.getElementById("test1");
     const test2 = document.getElementById("test2");
@@ -104,3 +111,4 @@
         });
     });
     }
+});

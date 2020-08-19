@@ -1,7 +1,12 @@
 // JavaScript Document
 "use strict";
 
-$(document).ready(function () {
+var ready = (callback) => {
+  if (document.readyState != "loading") callback();
+  else document.addEventListener("DOMContentLoaded", callback);
+};
+
+ready(() => {
 
     // Lightbox
     var pictures = document.querySelectorAll('picture');

@@ -89,3 +89,16 @@ layout: _base-layout.ejs
                 </div>
             </div>
         </section>
+<script src="/js/testimonial.js"></script>
+<script>
+// Lightbox
+var pictures = document.querySelectorAll('picture');
+    pictures.forEach(function (pic) {
+        pic.addEventListener('click', function (e) {
+            this.classList.toggle('lightbox');
+            document.querySelectorAll('.skewed').forEach(function (skew) {
+                skew.classList.toggle("skewed");
+            });
+        });
+    });
+</script>

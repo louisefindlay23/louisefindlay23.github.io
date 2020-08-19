@@ -1,25 +1,11 @@
-// JavaScript Document
-"use strict";
+var ready = (callback) => {
+  if (document.readyState != "loading") callback();
+  else document.addEventListener("DOMContentLoaded", callback);
+};
 
-$(document).ready(function () {
+ready(() => {
 
-    // Lightbox
-    var pictures = document.querySelectorAll('picture');
-    pictures.forEach(function (pic) {
-        pic.addEventListener('click', function (e) {
-            this.classList.toggle('lightbox');
-            $(".skewed").toggle();
-        });
-    });
-
-    // Underline active links
-    $("nav [href]").each(function () {
-        if (this.href == window.location.href) {
-            this.classList.add("active");
-        }
-    });
-
-    // Testimonial Content
+// Testimonial Content
     const test1 = document.getElementById("test1");
     const test2 = document.getElementById("test2");
     const test3 = document.getElementById("test3");
@@ -62,6 +48,7 @@ $(document).ready(function () {
             test2.style.display="none";
             test1.style.display="block";
             document.getElementsByClassName("fa-chevron-left")[0].classList.add("hidden");
+            document.getElementsByClassName("fa-chevron-right")[0].classList.remove("hidden");
             slide2.classList.remove("orange");
             slide1.classList.add("orange");
         } else if (test3.style.display === "block") {
@@ -125,53 +112,4 @@ $(document).ready(function () {
         });
     });
     }
-
-    // Animation when element is in view
-    $('#development').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#development .flexcontainer").addClass("bounceInRight");
-        }
-    });
-
-    $('#rgu').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#rgu .flexcontainer").addClass("bounceInLeft");
-        }
-    });
-
-    $('#worldskills-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#worldskills-slide .flexcontainer").addClass("bounceInRight");
-        }
-    });
-
-    $('#nescol-slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#nescol-slide .flexcontainer").addClass("bounceInLeft");
-        }
-    });
-
-    $('#camperceilidh').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#camperceilidh .flexcontainer").addClass("slower bounceInLeft");
-        }
-    });
-
-    $('#aurora').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#aurora .flexcontainer").addClass("slower bounceInLeft");
-        }
-    });
-
-    $('#attendr').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#attendr .flexcontainer").addClass("slower bounceInRight");
-        }
-    });
-
-    $('#nkyconsulting').on('inview', function (event, isInView) {
-        if (isInView) {
-            $("#nkyconsulting .flexcontainer").addClass("slower bounceInRight");
-        }
-    });
 });

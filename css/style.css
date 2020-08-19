@@ -65,19 +65,16 @@ h4 {
 
 h1:hover,
 h3 a:hover,
-.active,
-a:hover {
+a:hover,
+p a,
+.active
+{
     text-decoration: underline;
     text-decoration-color: var(--secondary-color);
 }
 
 a {
     font-family: "Lato";
-}
-
-p a {
-    color: var(--secondary-color);
-    text-decoration: underline;
 }
 
 #project-details i:hover,

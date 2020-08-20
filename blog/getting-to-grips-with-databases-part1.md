@@ -10,7 +10,7 @@ canonical_url: https://www.section.io/engineering-education/working-with-databas
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/getting-to-grips-with-databases-part1
 ctt_link: https://ctt.ac/c8a2U
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/getting-to-grips-with-databases-part1
-hero_image: https://res.cloudinary.com/practicaldev/image/fetch/s--ZWdn7o2F--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--mzT7jA-_--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/eoz84f7qrpalp5nl67bw.png
+hero_image: /img/blog/databases-part1-hero.png
 ---
 <!-- Excerpt Start -->
 For the uninitiated, databases can seem a complicated, mythical thing that only back-end developers, computer scientists, and programmers can work with. This article is here to dispel that myth and prove that all you need to work with a database is some basic knowledge about the command line and JSON.

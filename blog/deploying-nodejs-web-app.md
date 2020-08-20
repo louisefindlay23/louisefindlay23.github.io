@@ -13,7 +13,7 @@ linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louis
 hero_image: /img/blog/deploying-nodejs-hero.png
 ---
 <!-- Excerpt Start -->
-You’ve finished developing your first Node.js web app and now you want to publish it on the web. This guide will walk you through how to get a basic Express server running to serve static web files. *Note: If you’re still in the development process, then you may find my [Node.js guide](/blog/static-site-to-nodejs-web-app) helpful.*
+You’ve finished developing your first Node.js web app and now you want to publish it on the web. This guide will walk you through how to deploy a Node.js web app to DigitalOcean. *Note: If you’re still in the development process, then you may find my [Node.js guide](/blog/static-site-to-nodejs-web-app) helpful.*
 <!-- Excerpt End -->
 ### Deploying Your First Node.js Web App
 

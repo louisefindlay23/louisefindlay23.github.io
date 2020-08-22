@@ -10,7 +10,7 @@ canonical_url: https://www.section.io/engineering-education/simple-guide-to-usin
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/simple-guide-to-using-apis
 ctt_link: https://ctt.ac/1F817
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/simple-guide-to-using-apis
-hero_image: /img/blog/templating-static-site-hero.png
+hero_image: /img/blog/simple-guide-apis-hero.png
 ---
 <!-- Excerpt Start -->
 Have you always wanted to use data from an API (Application Programming Interface) but never knew how? This tutorial will guide you through how to work with your first API using [Node.js](https://nodejs.org) and [EJS](https://ejs.co) templating to create a dynamic web app. Don't worry if you've never used JSON before or know very little JavaScript, the guide is aimed at you.

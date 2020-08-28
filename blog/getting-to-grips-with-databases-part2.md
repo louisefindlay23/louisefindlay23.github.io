@@ -15,7 +15,7 @@ hero_image: /img/blog/database-part2-hero.jpg
 <!-- Excerpt Start -->
 You've created your first MongoDB database and now you want to use it on a website. How do you display its data on the web? How can users add, modify and delete data? The solution is to create a dynamic Node.js web app using the MongoDB node module.
 
-**Note:** First time developing a Node.js web app or don't already have a database? Get started with [Node.js](/blog/static-site-to-nodejs-web-app/) and [databases](/engineering-education/working-with-databases-part1/).
+**Note:** First time developing a Node.js web app or don't already have a database? Get started with [Node.js](/blog/static-site-to-nodejs-web-app/) and [databases](/blog/getting-to-grips-with-databases-part1/).
 <!-- Excerpt End -->
 ### Connecting MongoDB Database to the Web App
 First, we need to install the MongoDB node module so we can connect the local database we created in [part 1](/blog/getting-to-grips-with-databases-part1/) to our web app.

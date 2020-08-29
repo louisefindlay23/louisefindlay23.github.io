@@ -1,11 +1,38 @@
 ---
-layout: _base-layout.ejs
+layout: _project-layout.ejs
 tags: project
 title: Attendr Mobile Web App - Louise Findlay
 description: Louise Findlay designed and developed an interactive mobile web app for Attendr in 24 hours when particpating in RGUHack2020.
 short_description: Louise Findlay designed and developed an interactive mobile web app for Attendr in 24 hours.
 keywords: Louise Findlay, web designer, front-end web developer, RGUHack2020, interactive mobile demo, Attendr
+
 hero_image: logos/attendr-logo.png
+
+test_image1: <img class="testimonial" src="../../img/mockups/attendr-mockup-1.png" alt="The login page of the Attendr mobile demo">
+test_image2: <img class="testimonial" src="../../img/mockups/attendr-mockup-2.png" alt="The Student Profile and Lecture screens of the Attendr mobile demo">
+test_image3: <img class="testimonial" src="../../img/mockups/attendr-mockup-3.png" alt="The Attendance Marking screens of the Attendr mobile demo">
+
+project_heading1: Details of Development
+project_heading2: Languages & Libraries Used
+
+project_description: |
+    In 24 hours, I created an interactive web element to include on the Attendr website (an attendence app for university students) for the hackathon, RGUHack2020.<br></br>
+    Their existing website contained a slider of screenshots of the mobile app so I decided the interactivity could be improved by creating a mobile web app where users could interact with the app to act as a demo.<br></br>
+    Attendr were so impressed with what was accomplished in just 24 hours that we won the Attendr Design challenge and asked to continue development in a freelance capacity.<br></br>
+    The screenshots displayed are from the final version developed after the hackathon but you can view the hackathon prototype via the Github Repo link below.<br></br>
+
+project_icon1: fab fa-html5
+project_icon2: fab fa-css3-alt
+project_icon3: <img src="../../img/logos/js-logo.png" alt="The logo for vanilla JavaScript, a language that I used on the Attendr interactive web element">
+
+project_subheading1: Final Web App
+project_subheading2: Hackathon Github Repo
+
+project_link1: https://attendr.app/demo/index.html
+project_link2: https://github.com/louisefindlay23/rguhack2020-attendr
+
+project_subicon1: fas fa-globe-europe
+project_subicon2: fab fa-github
 ---
 
 <!doctype html>
@@ -13,108 +40,7 @@ hero_image: logos/attendr-logo.png
 
 <body>
     <main>
-        <!-- Testimonial Section -->
-        <section class="project mobile-test testimonial" style="display: block">
-            <div class="flexcontainer">
-                <!-- Left Arrow -->
-                <div class="arrow flex-item">
-                    <i class="slide2 fas fa-chevron-left hidden"></i>
-                </div>
-                <!-- Testimonials -->
-                <div id="test1" class="test-content flex-item" style="display: block">
-                    <picture>
-                        <img class="testimonial" src="../../img/mockups/attendr-mockup-1.png" alt="The login page of the Attendr mobile demo">
-                    </picture>
-                </div>
-                <div id="test2" class="test-content flex-item">
-                    <picture>
-                        <img class="testimonial" src="../../img/mockups/attendr-mockup-2.png" alt="The Student Profile page of the Attendr mobile demo">
-                    </picture>
-                </div>
-                <div id="test3" class="test-content flex-item">
-                    <picture>
-                        <img class="testimonial" src="../../img/mockups/attendr-mockup-3.png" alt="The About page of the Attendr mobile demo">
-                    </picture>
-                </div>
-                <!-- Right Arrow -->
-                <div class="arrow flex-item">
-                    <i class="slide2 fas fa-chevron-right"></i>
-                </div>
-            </div>
-            <!-- Dots -->
-            <div class="flexcontainer">
-                <div class="dots flexcontainer">
-                    <i id="slide1" class="orange fas fa-circle"></i>
-                    <i id="slide2" class=" fas fa-circle"></i>
-                    <i id="slide3" class=" fas fa-circle"></i>
-                </div>
-            </div>
-        </section>
-
-        <!-- Project -->
-        <section id="project">
-            <div class="skewed skewed-left"></div>
-            <div class="flexcontainer no-bottom">
-                <div class="flex-item">
-                    <h3>Details of Development</h3>
-                </div>
-                <div id="column" class="flex-item">
-                    <h3>Tools & Technologies Used</h3>
-                </div>
-            </div>
-            <div class="flexcontainer no-top">
-                <div class="flex-item">
-                    <p>In 24 hours, I created an interactive web element to include on the Attendr website (an attendence app for university students) for the hackathon, RGUHack2020.</p>
-                    <p>Their existing website contained a slider of screenshots of the mobile app so I decided the interactivity could be improved by creating a mobile web app where users could interact with the app to act as a demo.</p>
-                    <p>Attendr were so impressed with what was accomplished in just 24 hours that we won the Attendr Design challenge and asked to continue development in a freelance capacity.</p>
-                </div>
-                <div id="single" class="flex-item">
-                    <h3>Tools & Technologies Used</h3>
-                </div>
-                <div class="flex-item">
-                    <div class="flexcontainer">
-                        <i class="fab fa-html5"></i>
-                        <i class="fab fa-css3-alt"></i>
-                        <img src="../../img/logos/js-logo.png" alt="The logo for vanilla JavaScript, a language that I used on the Attendr interactive web element">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Details -->
-        <section id="project-details" class="left">
-            <div class="flexcontainer">
-                <div class="flex-item">
-                    <h3>Github Repository</h3>
-                    <div class="flexcontainer">
-                        <a href="https://github.com/louisefindlay23/rguhack2020-attendr" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="flex-item">
-                    <h3>Website</h3>
-                    <div class="flexcontainer">
-                        <a href="https://projects.louisefindlay.com/rguhack2020-attendr" target="_blank">
-                            <i class="fas fa-globe-europe"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
-<script src="/js/testimonial.js"></script>
-<script>
-// Lightbox
-var pictures = document.querySelectorAll('picture');
-    pictures.forEach(function (pic) {
-        pic.addEventListener('click', function (e) {
-            this.classList.toggle('lightbox');
-            document.querySelectorAll('.skewed').forEach(function (skew) {
-                skew.classList.toggle("skewed");
-            });
-        });
-    });
-</script>
+
 </body>
 </html>

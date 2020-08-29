@@ -1,11 +1,38 @@
 ---
-layout: _base-layout.ejs
+layout: _project-layout.ejs
 tags: project
 title: NKY Consulting Website - Louise Findlay
 description: Louise Findlay transformed NKY Consulting's website by adding infographics and images to liven up the previous text-heavy site.
 short_description: Louise Findlay transformed NKY Consulting's website by adding infographics and images to liven up the previous text-heavy site.
 keywords: Louise Findlay, web designer, front-end web developer, NKY Consulting, website redesign, WordPress design
+
 hero_image: https://www.nkyconsulting.co.uk/wp-content/uploads/2019/03/NKY-Gold.svg
+
+test_image1: <img class="testimonial" src="../../img/mockups/nkyconsulting-mockup-1.png" alt="The Our Services section of the NKY Consulting website showcased on a tablet">
+test_image2: <img class="testimonial" src="../../img/mockups/nkyconsulting-mockup-2.png" alt="The Contact Us section of the NKY Consulting website showcased on a screen">
+test_image3: <img src="../../img/mockups/nkyconsulting-mockup-3.png" alt="The Our Values section of the NKY Consulting website showcased on a screen">
+
+project_heading1: Details of Development
+project_heading2: Languages & Libraries Used
+
+project_description: |
+    NKY Consulting wanted to refresh their website and make it more attractive by including images and infographics. By modifying the site's PHP templates, I overhauled the layout by adding full-width images to explain NKY Consulting's services.<br></br>
+    Their existing website contained a slider of screenshots of the mobile app so I decided the interactivity could be improved by creating a mobile web app where users could interact with the app to act as a demo.<br></br>
+    The navigation was simplified by adding a drop-down menu and moving the Contact Form to a section on every page.<br></br>
+    I also handled speed and image optimisation which resulted in a 50% reduction in page loading time<br></br>
+
+project_icon1: fab fa-wordpress
+project_icon2: fab fa-css3-alt
+project_icon3: <i class="fab fa-php"></i>
+
+project_subheading1: Website
+project_subheading2: LinkedIn Post
+
+project_link1: https://www.nkyconsulting.co.uk
+project_link2: https://www.linkedin.com/posts/neil-yeoman-fcca_accounting-businessgrowth-consulting-activity-6693836550200954880-emKC
+
+project_subicon1: fas fa-globe-europe
+project_subicon2: fab fa-linkedin
 ---
 
 <!doctype html>
@@ -13,100 +40,7 @@ hero_image: https://www.nkyconsulting.co.uk/wp-content/uploads/2019/03/NKY-Gold.
 
 <body>
     <main>
-        <!-- Testimonial Section -->
-        <section class="project testimonial" style="display: block">
-            <div class="flexcontainer">
-                <!-- Left Arrow -->
-                <div class="arrow flex-item">
-                    <i class="slide2 fas fa-chevron-left hidden"></i>
-                </div>
-                <!-- Testimonials -->
-                <div id="test1" class="test-content flex-item" style="display: block">
-                    <picture>
-                        <img class="testimonial" src="../../img/mockups/nkyconsulting-mockup-1.png" alt="The Our Services section of the NKY Consulting website showcased on a tablet">
-                    </picture>
-                </div>
-                <div id="test2" class="test-content flex-item">
-                    <picture>
-                        <img class="testimonial" src="../../img/mockups/nkyconsulting-mockup-2.png" alt="The Contact Us section of the NKY Consulting website showcased on a screen">
-                    </picture>
-                </div>
-                <div id="test3" class="test-content flex-item">
-                    <picture>
-                        <img src="../../img/mockups/nkyconsulting-mockup-3.png" alt="The Our Values section of the NKY Consulting website showcased on a screen">
-                    </picture>
-                </div>
-                <!-- Right Arrow -->
-                <div class="arrow flex-item">
-                    <i class="slide2 fas fa-chevron-right"></i>
-                </div>
-            </div>
-            <!-- Dots -->
-            <div class="flexcontainer">
-                <div class="dots flexcontainer">
-                    <i id="slide1" class="orange fas fa-circle"></i>
-                    <i id="slide2" class=" fas fa-circle"></i>
-                    <i id="slide3" class=" fas fa-circle"></i>
-                </div>
-            </div>
-        </section>
-
-        <!-- Project -->
-        <section id="project">
-            <div class="skewed skewed-left"></div>
-            <div class="flexcontainer no-bottom">
-                <div class="flex-item">
-                    <h3>Details of Development</h3>
-                </div>
-                <div id="column" class="flex-item">
-                    <h3>Tools & Technologies Used</h3>
-                </div>
-            </div>
-            <div class="flexcontainer no-top">
-                <div class="flex-item">
-                    <p>NKY Consulting wanted to refresh their website and make it more attractive by including images and infographics. By modifying the site's PHP templates, I overhauled the layout by adding full-width images to explain NKY Consulting's services.</p>
-                    <p>The navigation was simplified by adding a drop-down menu and moving the Contact Form to a section on every page.</p>
-                    <p>I also handled speed and image optimisation which resulted in a 50% reduction in page loading time</p>
-                </div>
-                <div id="single" class="flex-item">
-                    <h3>Languages & Libraries Used</h3>
-                </div>
-                <div class="flex-item">
-                    <div class="flexcontainer">
-                        <i class="fab fa-wordpress"></i>
-                        <i class="fab fa-css3-alt"></i>
-                        <i class="fab fa-php"></i>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Details -->
-        <section id="project-details" class="left">
-            <div class="flexcontainer">
-                <div class="flex-item">
-                    <h3>Website</h3>
-                    <div class="flexcontainer">
-                        <a href="https://www.nkyconsulting.co.uk" target="_blank">
-                            <i class="fas fa-globe-europe"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
+
 </body>
-<script src="/js/testimonial.js"></script>
-<script>
-// Lightbox
-var pictures = document.querySelectorAll('picture');
-    pictures.forEach(function (pic) {
-        pic.addEventListener('click', function (e) {
-            this.classList.toggle('lightbox');
-            document.querySelectorAll('.skewed').forEach(function (skew) {
-                skew.classList.toggle("skewed");
-            });
-        });
-    });
-</script>
 </html>

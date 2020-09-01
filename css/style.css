@@ -214,6 +214,15 @@ footer h2 {
     margin-right: 25%;
 }
 
+#project-details blockquote {
+    font-style: normal;
+    margin: 2% 7.5%;
+}
+
+#project-details cite {
+    margin: 2.5% 0;
+}
+
 .container {
     width: 50%;
     float: left;

@@ -6,7 +6,7 @@ description: How to use Node.js, EJS and the MongoDB node module to add, modify 
 short_description: How to use Node.js, EJS and the MongoDB node module to add, modify and delete data in a MongoDB collection using a book databases as an example.
 keywords: MongoDB Node.js, EJS Node.js, first MongoDB website, node.js mongodb tutorial
 date: 2020-08-04
-canonical_url: https://www.section.io/engineering-education/working-with-databases-part2
+canonical_url: /getting-to-grips-with-databases-part2
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/getting-to-grips-with-databases-part2
 ctt_link: https://ctt.ac/aC9Z8
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/getting-to-grips-with-databases-part2

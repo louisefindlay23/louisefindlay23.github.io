@@ -6,7 +6,7 @@ description: You’ve finished developing your first Node.js web app and now you
 short_description: This guide will walk you through how to deploy your Node.js web app to DigitalOcean.
 keywords: Node.js, nodejs, EJS, DigitalOcean, deploying node.js web app, hosting node.js web app on DigitalOcean
 date: 2020-07-15
-canonical_url: https://www.section.io/engineering-education/deploying-nodejs-web-app
+canonical_url: /deploying-nodejs-web-app
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/deploying-nodejs-web-app
 ctt_link: https://ctt.ac/Wk84B
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/deploying-nodejs-web-app

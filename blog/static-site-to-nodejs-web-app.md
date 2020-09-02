@@ -6,7 +6,7 @@ description: This tutorial will guide you on how to convert a static website tha
 short_description: This tutorial will guide you on how to convert a static website that uses HTML, CSS and JavaScript (JS) to a dynamic one using MongoDB, Express, Static HTML, CSS, JS, and NodeJS.
 keywords: static site, Node.js, nodejs, EJS, MongoDB, first full-stack web app, developing your first Node.js web app
 date: 2020-07-14
-canonical_url: https://www.section.io/engineering-education/static-site-dynamic-nodejs-web-app
+canonical_url: /static-site-to-nodejs-web-app
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/static-site-to-nodejs-web-app
 ctt_link: https://ctt.ac/7dK8u
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/static-site-to-nodejs-web-app

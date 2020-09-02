@@ -6,7 +6,7 @@ description: This tutorial shows how to set up GSuite with MX records and config
 short_description: This tutorial shows how to set up GSuite with MX records and configuring SPF, DKIM and DMARC to authenticate and prevent spam emails and making sure your emails are received.
 keywords: GSuite, Office365, MX Records, DMARC, DKIM, SPF, setting up GSuite, email spam protection
 date: 2020-07-12
-canonical_url: https://www.section.io/engineering-education/google-search-console-introduction
+canonical_url: /creating-a-professional-email
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/creating-a-professional-email
 ctt_link: https://ctt.ac/996B1
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/creating-a-professional-email

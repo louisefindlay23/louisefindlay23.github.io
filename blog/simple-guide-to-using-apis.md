@@ -6,7 +6,7 @@ description: Using the Goodreads API and goodreads-api-node wrapper to search fo
 short_description: Using the Goodreads API and goodreads-api-node wrapper to search for books, display the results as book titles and create book pages when a book title is clicked upon.
 keywords: Goodreads API, Goodreads API tutorial, using APIs tutorial, APIs node.js tutorial
 date: 2020-07-30
-canonical_url: https://www.section.io/engineering-education/simple-guide-to-using-apis-node.js
+canonical_url: /blog/simple-guide-to-using-apis
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/simple-guide-to-using-apis
 ctt_link: https://ctt.ac/1F817
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/simple-guide-to-using-apis

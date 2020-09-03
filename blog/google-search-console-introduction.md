@@ -6,7 +6,7 @@ description: Google Search Console is a powerful tool provided by Google which l
 short_description: Intro to Google Search Console will teach you how to add a site (called a property), submit a sitemap, and find and fix any errors that the crawlers may come across.
 keywords: Google Search Console, sitemaps, Beginners Guide to Google Search Console, SEO for beginners
 date: 2020-07-09
-canonical_url: https://www.section.io/engineering-education/google-search-console-introduction
+canonical_url: /google-search-console-introduction
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/google-search-console-introduction
 ctt_link: https://ctt.ac/NHvMa
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/google-search-console-introduction

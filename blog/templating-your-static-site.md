@@ -6,7 +6,7 @@ description: For more complex multi-page websites, a static site may not be suit
 short_description: This guide will walk you through how to convert a static site to the static site generator, Eleventy
 keywords: Tutorial on converting a simple static website to a static site generator, Eleventy and using EJS templating.
 date: 2020-07-24
-canonical_url: https://www.section.io/engineering-education/templating-your-static-site
+canonical_url: /templating-your-static-site
 fb_link: https://www.facebook.com/sharer.php?u=https://louisefindlay.com/blog/templating-your-static-site
 ctt_link: https://ctt.ac/eaaVo
 linkedin_link: https://www.linkedin.com/sharing/share-offsite/?url=https://louisefindlay.com/blog/templating-your-static-site

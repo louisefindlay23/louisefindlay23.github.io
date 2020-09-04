@@ -47,6 +47,12 @@
         margin-top: 2rem;
     }
 
+    /* ID Styling */
+
+    #no-flex {
+        display: inline;
+    }
+
     #column {
         display: none;
     }

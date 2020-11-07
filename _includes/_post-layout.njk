@@ -15,13 +15,13 @@ layout: _base-layout.ejs
       {{ content | safe }}
       <h3>Share {{ title }}</h3>
       <div class="flexcontainer">
-        <a target="_blank" href="{{ fb_link }}">
+        <a target="_blank" rel="noreferrer" href="{{ fb_link }}">
             <i class="fab fa-facebook-square"></i>
         </a>
-        <a target="_blank" href="{{ ctt_link }}">
+        <a target="_blank" rel="noreferrer" href="{{ ctt_link }}">
             <i class="fab fa-twitter-square"></i>
         </a>
-        <a target="_blank" href="{{ linkedin_link }}">
+        <a target="_blank" rel="noreferrer" href="{{ linkedin_link }}">
             <i class="fab fa-linkedin"></i>
         </a>
       </div>

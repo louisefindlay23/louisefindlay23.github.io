@@ -41,7 +41,8 @@ body {
 /* Text Styling */
 h1,
 h2,
-h3, h4 {
+h3,
+h4 {
     font-family: "Fira Sans", "Montserrat", sans-serif;
     font-size: 3.333rem;
     text-align: center;
@@ -67,8 +68,7 @@ h1:hover,
 h3 a:hover,
 a:hover,
 p a,
-.active
-{
+.active {
     text-decoration: underline;
     text-decoration-color: var(--secondary-color);
 }
@@ -93,7 +93,8 @@ section a i:hover {
     border: 5px solid var(--secondary-color);
 }
 
-article a, a:visited {
+article a,
+a:visited {
     color: #ffffff;
 }
 
@@ -174,7 +175,10 @@ cite {
     margin: 0;
 }
 
-#test2, #test3, #test4, #test5 {
+#test2,
+#test3,
+#test4,
+#test5 {
     display: none;
 }
 
@@ -188,6 +192,12 @@ i {
 iframe {
     width: 60%;
     height: 500px;
+    border: 0;
+}
+
+#about-video iframe {
+    width: 100%;
+    border-radius: 10px;
 }
 
 footer {

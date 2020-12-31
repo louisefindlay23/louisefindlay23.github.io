@@ -16,6 +16,14 @@ permalink: /blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber
     <link rel="stylesheet" type="text/css" href="/css/blog.css">
 </head>
 <main class="post-list">
+    <div class="flexcontainer">
+        <a href="https://www.section.io/engineering-education/authors/louise-findlay" target="_blank" rel="noreferrer" aria-label="Section.io author page">
+            <img src="../img/logos/section-logo.webp" alt="Section logo">
+        </a>
+        <a href="https://www.freecodecamp.org/news/author/louise-findlay" target="_blank" rel="noreferrer" aria-label="FreeCodeCamp author page">
+            <img src="../img/logos/freecodecamp-logo.jpg" alt="FreeCodeCamp logo">
+        </a>
+    </div>
     {% for post in posts %}
       <article>
         <h3>
